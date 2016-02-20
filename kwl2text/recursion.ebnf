@@ -1,0 +1,6 @@
+
+sentence = { expression } ;
+
+expression = "{" expression "}" | "{" entry "}" | entry ; 
+
+entry = "1" ;

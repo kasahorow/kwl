@@ -1,0 +1,70 @@
+
+(*
+*)
+
+text2kwl = @:{ sentence }* ;
+
+sentence =  sentence join sentence | command | question | statement | expression ; (* expression must come last because it has the shorter 'clause' *)
+
+statement = @:expression ".";
+command = @:expression "!";
+question = @:expression "?";
+
+expression = conjunction | clause | triple | tuple |  singleton | function | n_p | raw | ();
+
+
+conjunction2 = conjunction | "{" @:conjunction "}" ;
+conjunction = entry join entry | ifthen | "{" @:ifthen "}" ;
+ifthen = "if" @:entry @:"then" @:entry ;
+
+triple = determiner adjective noun;
+
+clause =  subject_verb_object | verb_object | pronoun verb n_p | verb noun ;
+
+subject_verb_object = subject:n_p verb:action object:n_p | subject:n_p verb:action object:preposition_p;
+
+subject_verb = subject:n_p verb:action ;
+verb_object = verb:action object:n_p | verb:action object:preposition_p;
+
+preposition_p = preposition n_p  ;
+n_p = tuple | plural | noun | pronoun | adjective;
+
+function = word | "{" @:word "}" ;
+word = t:function "(" v:args ")" | t:function ":" v:token ;
+args = singleton "," singleton | singleton | () ;
+
+plural = t:"plural" "(" v:noun ")" ;
+
+tuple = determiner noun | adjective noun | possessive noun | raw noun | noun raw | noun noun; (* text2kwl *)
+
+
+singleton =  entry | action;
+
+action = conjugated_verb | verb ;
+conjugated_verb = tenses "(" conjugations "(" verb "))" | tenses "(" conjugations "(" tuple_verb "))";
+tuple_verb = @:verb  @:adverb ;
+
+join = "and" | ":" | ";" | "," | "of" | "or" | "so" | "then" | "when" ;
+
+formatting = "defn" | "plural" | "quote" | "sample" | "title" ;
+
+conjugations = "je" | "tu" | "il" | "elle" | "nous" | "vous" | "ils" | "elles" ;
+tenses = "cmd" | "done_tdy" | "done_tmw" | "done_ydy" | "not_tdy" | "not_tmw" | "not_ydy" | "now_tdy" | "now_tmw" | "now_ydy" | "tdy" | "tmw" | "ydy" ;
+
+
+adjective = t:"adj" ":" v:token ;
+adverb= t:"adv" ":" v:token ;
+determiner = t:"det" ":" v:token ;
+noun = t:"nom" ":" v:token ;
+possessive = t:"pos" ":" v:token ;
+preposition = t:"pre" ":" v:token ;
+pronoun = t:"pro" ":" v:token ;
+raw = /raw\((.*?)\)/ | /date\((.*?)\)/ ;
+verb = t:"act" ":" v:token ;
+
+(* Component: entry *)
+entry = t:pos ":" v:token ;
+pos = "act" | "adj" | "adv" | "det" | "exc" | "kg" | "nom" | "pos" | "pre" | "pro" | "sci" ; 
+
+(* Component: token *)
+token = /[a-zA-Z0-9#]*/ ;
