@@ -1,5 +1,6 @@
 
 (*
+TODO: Split each component into a kwl2text version and a text2kwl version
 *)
 
 text2kwl = @:{ sentence }* ;

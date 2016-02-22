@@ -1,2 +1,3 @@
-python setup.py bdist_wheel --universal
-sudo twine upload dist/*
+sudo python setup.py clean --all
+sudo python setup.py install
+#sudo twine upload dist/*

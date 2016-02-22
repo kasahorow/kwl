@@ -42,12 +42,14 @@ GEEZ = [  # Order matters. Generally, longest sequence is replaced first
   (u'ka', u'ቀ'), (u'ku', u'ቁ'), (u'kii', u'ቂ'), (u'kaa', u'ቃ'), (u'ke', u'ቄ'), (u'ki', u'ቅ'), (u'ko', u'ቆ'), #(u'', u''), (u'', u''), (u'', u''), (u'', u''), (u'', u''),
   (u'qa', u'ቐ'), (u'qu', u'ቑ'), (u'qii', u'ቒ'), (u'qaa', u'ቓ'), (u'qe', u'ቔ'), (u'qi', u'ቕ'), (u'qo', u'ቖ'),# (u'', u''), (u'', u''), (u'', u''), (u'', u''), (u'', u''),
   (u'ba', u'በ'), (u'bu', u'ቡ'), (u'bii', u'ቢ'), (u'baa', u'ባ'), (u'be', u'ቤ'), (u'bi', u'ብ'), (u'bo', u'ቦ'),
+  (u'bwa', u'ቧ'),
   (u'va', u'ቨ'), (u'vu', u'ቩ'), (u'vii', u'ቪ'), (u'vaa', u'ቫ'), (u've', u'ቬ'), (u'vi', u'ቭ'), (u'vo', u'ቮ'),
   (u'ta', u'ተ'), (u'tu', u'ቱ'), (u'tii', u'ቲ'), (u'taa', u'ታ'), (u'te', u'ቴ'), (u'ti', u'ት'), (u'to', u'ቶ'),
   (u'cha', u'ቸ'), (u'chu', u'ቹ'), (u'chii', u'ቺ'), (u'chaa', u'ቻ'), (u'che', u'ቼ'), (u'chi', u'ች'), (u'cho', u'ቾ'),
 
   (u'hya', u'ኀ'), (u'hyu', u'ኁ'), (u'hyii', u'ኂ'), (u'hyaa', u'ኃ'), (u'hye', u'ኄ'), (u'hyi', u'ኅ'), (u'hyo', u'ኆ'), (u'hywa', u'ኈ'), (u'hywii', u'ኊ'), (u'hywaa', u'ኋ'), (u'hywe', u'ኌ'), (u'hywi', u'ኍ'),
   (u'naa', u'ነ'), (u'nu', u'ኑ'), (u'nii', u'ኒ'), (u'na', u'ና'), (u'ne', u'ኔ'), (u'ni', u'ን'), (u'no', u'ኖ'),
+  (u'nwa', u'ኗ'),
   (u'gna', u'ኘ'), (u'gnu', u'ኙ'), (u'gni', u'ኚ'), (u'gnaa', u'ኛ'), (u'gne', u'ኜ'), (u'gnii', u'ኝ'), (u'gno', u'ኞ'),
   (u'a', u'አ'), (u'u', u'ኡ'), (u'ii', u'ኢ'), (u'aa', u'ኣ'), (u'e', u'ኤ'), (u'i', u'እ'), (u'o', u'ኦ'),
 
@@ -75,6 +77,7 @@ GEEZ = [  # Order matters. Generally, longest sequence is replaced first
   (u'lwa', u'ሏ'),
   (u'qwaa', u'ቋ'),
   (u'swa', u'ሷ'),
+  (u'zhwa', u'ዧ'),
 ]
 
 SINHALA = [

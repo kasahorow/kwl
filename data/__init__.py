@@ -9,7 +9,7 @@ def load_td(lang_f, lang_t, show_errors=True):
   """
   TD = {}
   cwd = os.path.dirname(os.path.abspath(__file__))
-  lang_tsv = '%s/data/%s_%s_woaka.tsv' % (cwd, lang_f, lang_t)
+  lang_tsv = '%s/%s_%s_woaka.tsv' % (cwd, lang_f, lang_t)
   count = 0
   try:
     dictionary = open(lang_tsv, 'r').readlines()

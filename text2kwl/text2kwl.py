@@ -17,7 +17,7 @@ from grako.parsing import graken, Parser
 from grako.util import re, RE_FLAGS  # noqa
 
 
-__version__ = (2016, 2, 20, 21, 55, 35, 5)
+__version__ = (2016, 2, 22, 3, 25, 41, 0)
 
 __all__ = [
     'text2kwlParser',

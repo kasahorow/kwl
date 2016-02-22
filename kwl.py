@@ -1,13 +1,13 @@
 # coding: utf-8
 """A standalone KWL interpretor."""
 
+from kwl2text import grammar as m
 from kwl2text import kwl2text
 from kwl2text.generator import Generator
 import kwl2text.semantics as semantics
 import kasahorow as k
 import data
 import logging
-from kwl2text import grammar as m
 import re
 import sys
 import text2kwl.parse_text as t2k
@@ -51,3 +51,18 @@ def text_to_kwl(text, lexicon={}):
 def kwl_to_text(kwl_text, language):
   return localize(kwl_text, language)
 
+__all__ = ['text_to_kwl', 'kwl_to_text']
+
+if __name__ == '__main__':
+  import sys
+
+  args_len = len(sys.argv)
+  if args_len == 3:
+    print kwl_to_text(sys.argv[1], sys.argv[2])
+  elif args_len == 2:
+    print text_to_kwl(sys.argv[1])
+  else:
+    print """Usage:
+      python kwl.py <kwl2text> <language>
+      python kwl.py <text2kwl>
+      """
