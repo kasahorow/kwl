@@ -11,6 +11,8 @@ class KWLTest(unittest.TestCase):
     self.psr = kwl2text.kwl2textParser()
     self.sem = s.Semantics()
     self.maxDiff = None
+    self.adj = 'adj:red'
+    self.nom = 'nom:food'
 
   def testToken(self):
     alpha = 'abc'
@@ -63,17 +65,35 @@ class KWLTest(unittest.TestCase):
                       semantics = self.sem,
                       parseinfo=True))
 
+  def testFormatting(self):
+    defn = 'defn(%s)' % self.adj
+    sample = 'sample(%s)' % self.nom
+    quote = 'quote(raw(1 2 3))'
+    semantic_defn = {'t': u'defn', 'v': {'t': u'adj', 'v': {'t': 'alpha', 'v': u'red'}}}
+    semantic_sample = {'t': u'sample', 'v': {'t': u'nom', 'v': {'t': 'alpha', 'v': u'food'}}}
+    semantic_quote = {'t': u'quote', 'v': {'t': u'raw', 'v': u'1 2 3'}}
+    self.assertEquals(semantic_defn,
+                      self.psr.parse(defn, rule_name='sentence',
+                      semantics = self.sem,
+                      parseinfo=True))
+    self.assertEquals(semantic_sample,
+                      self.psr.parse(sample, rule_name='sentence',
+                      semantics = self.sem,
+                      parseinfo=True))
+    self.assertEquals(semantic_quote,
+                      self.psr.parse(quote, rule_name='sentence',
+                      semantics = self.sem,
+                      parseinfo=True))
+
   def testPhrase(self):
-    adj = 'adj:red'
-    nom = 'nom:food'
+    adj = self.adj
+    nom = self.nom
     pre = 'pre:for'
     act = 'act:love'
     adj_nom = 'adj:good_nom:dog;'
     pos_nom = 'pos:his_nom:country'
     det_adj_nom = 'det:the(adj:good_nom:dog)'
 
-    defn = 'defn(%s)' % adj
-    sample = 'sample(%s)' % nom
     conjugation = 'ydy(tu(act:walk))'
  
     semantic_adj = {'t': u'adj', 'v': {'t': 'alpha', 'v': u'red'}}
@@ -88,8 +108,6 @@ class KWLTest(unittest.TestCase):
                           {'t': 'adj_nom', 'v': [{'t': u'adj', 'v': {'t': 'alpha', 'v': u'good'}}, {'t': u'nom', 'v': {'t': 'alpha', 'v': u'dog'}}]}]}
 
 
-    semantic_defn = {'t': u'defn', 'v': {'t': u'adj', 'v': {'t': 'alpha', 'v': u'red'}}}
-    semantic_sample = {'t': u'sample', 'v': {'t': u'nom', 'v': {'t': 'alpha', 'v': u'food'}}}
     semantic_conjugation = {'t': u'ydy',
                             'v': {'t': u'tu',
                                   'v': {'t': u'act',
@@ -110,14 +128,6 @@ class KWLTest(unittest.TestCase):
                       parseinfo=True))
     self.assertEquals(semantic_act,
                       self.psr.parse(act, rule_name='expression',
-                      semantics = self.sem,
-                      parseinfo=True))
-    self.assertEquals(semantic_defn,
-                      self.psr.parse(defn, rule_name='expression',
-                      semantics = self.sem,
-                      parseinfo=True))
-    self.assertEquals(semantic_sample,
-                      self.psr.parse(sample, rule_name='expression',
                       semantics = self.sem,
                       parseinfo=True))
     self.assertEquals(semantic_adj_nom,
@@ -197,8 +207,6 @@ class KWLTest(unittest.TestCase):
     t = self.psr.parse(story, rule_name='kwl2text',
                       semantics = self.sem,
                       parseinfo=True)
-    #for p in t['v']:
-      #print "PARSE =", p
     self.assertEquals(len(story.split(';')), 1 + len(t['v']))  # Contains N KWL sentences
     
 
@@ -305,13 +313,12 @@ class KWLTest(unittest.TestCase):
                       self.psr.parse(ifthen_nouns, 'conjunction'))
     
 
-    # Verbs as joins
-    #self.assertEquals([{'t':'nom', 'v':'eagle'}, {'join': {'t': 'act', 'v':'be'}}, {'t':'nom', 'v':'bird'}],
-     #                 self.psr.parse('nom:eagle act:be nom:bird;', 'conjunction'))
-
-    sen = 'pre:you act:ask so adv:how(act:do_pro:you) act:become_adj:rich? ;'
-    sen = '{pro:she and pro:she} {tmw(il(act:bring))} {nom:wealth and nom:happiness}'
     sen = ' pos:his_nom:birthday tdy(elle(act:be)) date(1982-01-30)'
+    sen = 'pro:it tdy(i(act:use)) plural(adj:neural_nom:net), {inf(act:think)} like(det:a_nom:human)'
+    sen = '{inf(tu(act:think))} like(det:a_nom:human)'
+    sen = 'title({inf(tu(act:think))} like(det:a_nom:human))'
+    sen = 'quote(raw(1 2 3))'
+    sen = 'title(pro:you) act:have adj:three_plural(nom:part): nom:body and nom:mind and nom:spirit'
     #print 'TEST_PARSE =', self.psr.parse(sen, rule_name='sentence', semantics=self.sem)
     # Once semantics are turned on, all subsequent calls of the parser have semantics
     self.assertEquals(sem_and_nouns,

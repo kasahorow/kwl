@@ -10,6 +10,9 @@ class Semantics:
     return {'t': ast[0], 
             'v': {'t': ast[1], 'v': ast[2]}}
 
+  def formatted(self, ast):
+    return {'t': ast[0], 'v': ast[1]}
+
   def is_action(self, ptype):
     "Return True if this ptype is verb tense."
     parts = ptype.split('_')

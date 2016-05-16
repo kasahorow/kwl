@@ -23,8 +23,8 @@ Afrika	Africa	noun			lim Afrika	visit Africa
 agon	argon	science			agon (Ar) nigi protons 18	argon (Ar) has 18 protons
 agulu	account	noun		a description of events	agulu mar bengi	bank account
 agulu	jar	noun			agulu abiryo	seven jars
-agulu	pot	noun			agulu mar chuma	metal pot
 agulu	vase	noun			agulu mar loo	clay vase
+agulu	pot	noun			agulu mar chuma	metal pot
 aguragura	horse	noun			aguragura ma rachar	white horse
 aidha	squirrel	noun			aidha ohero jungu mar nas	a squirrel likes palm nuts
 aidrogen	hydrogen	science			aidrogen (H) nigi proton 1	hydrogen (H) has 1 proton
@@ -106,10 +106,10 @@ bengi	bank	noun			pesa na nitie e bengi	my money is at the bank
 Benin	Benin	noun		A country in Africa	dhi Benin	go to Benin
 ber	advantage	noun			gin gi ber mohingo	they have an advantage
 ber	beauty	noun			ber gi hera	beauty and love
-ber	good	adjective			mich ma ber	a good gift
 ber	good	noun			ber gi rach	good and evil
-ber	hello	exclamation			ber jaduong'	hello sir
+ber	good	adjective			mich ma ber	a good gift
 ber	beautiful	adjective			o ber	it is beautiful
+ber	hello	exclamation			ber jaduong'	hello sir
 beriliam	beryllium	science			beriliam (Be) nigi protons 4	beryllium (Be) has 4 protons
 besen	basin	noun			besen ochiko	nine basins
 bet	sit	verb			bet kaa	to sit here
@@ -224,6 +224,7 @@ chwech	creation	noun			chwech duto	all creation
 chwer	bleeding	noun			we chwer	stop the bleeding
 chwor	husband	noun			a hero chwor a	I love my husband
 coo	porcupine	noun			bur coo	porcupine hole
+cukari	sugar	noun			cukari gi pii	
 dagi	hate	verb			dagi samwoyo	to hate laziness
 dak	live	verb			wa dak ka	we live here
 dakika	minute	noun			dakika abich	five minutes
@@ -237,9 +238,9 @@ dhako	female	noun		the gender that has the egg in making offspring	ich dhako	fem
 dhako	lady	noun			dhako ma iluongo ni Danso	Lady Danso
 dhako	woman	noun			dhako ma jaber	a pretty woman
 dhano	being	noun			dhano	human being
+dhano	man	noun			dhano ma rabora	a tall man
 dhano	human	noun			wan dhano	we are humans
 dhano	humankind	noun			wan dhano	we are humankind
-dhano	man	noun			dhano ma rabora	a tall man
 dhao	battle	noun			wadhi dhao	we are going to battle
 dhao	fight	verb			Ali gi Frasa ne odhao	Ali and Frazier fought
 dhawo	quarrel	noun			dhawo mapek	a big quarrel
@@ -284,8 +285,8 @@ duto	all	determiner			gikmoko duto	all things
 dwaro	want	verb			a dwaro buk ang'wen	I want four books
 dwaro	need	verb			dwaro anyuola	to need family
 dwaro	will	noun			dwaro mar Nyasaye	God's will
-dwe	month	noun			dwe achiel	one month
 dwe	moon	noun			dwe gi sulwe	moon and stars
+dwe	month	noun			dwe achiel	one month
 Dwe mar abich	May	noun			Dwe mar abich ni kod ndalo piero adek gi achiel	May has 31 days
 Dwe mar abiriyo	July	noun			Dwe mar abiriyo ni kod ndalo piero adek gi achiel	July has 31 days
 Dwe mar aboro	August	noun			Dwe mar aboro ni kod ndalo piero adek gi achiel	August has 31 days
@@ -342,8 +343,8 @@ gero	build	verb			gero ot	build a house
 gi	and	conjunction			Kofi gi Ama	Kofi and Ama
 gi	them	pronoun			nyis gi	show them
 gi	self	noun			an gi, un gi	myself, yourself
-gi	thing	noun		a reference to an unnamed object	gi ni; gi ka	the thing; the things
 gi	point	noun			1 gi 5 (1.5) en achiel gi nus	1 point 5 (1.5) is one and a half.
+gi	thing	noun		a reference to an unnamed object	gi ni; gi ka	the thing; the things
 gi lweny	weapon	noun			wa uso gi lweny	we sell weapons
 gik machon	junk	noun			nitie gik machon kachiena	there is junk in the room
 giko	end	noun			giko ochopo	the end has come
@@ -448,8 +449,8 @@ jatelo	master	noun			jatelo miliongo kofi	Master Kofi
 jatelo	leader	noun		someone who shows the way	ma en jatelo marwa	this is our leader
 jatend wach	spokesperson	noun			jatend wach mar ker	the chieftain's spokesperson
 jathum	musician	noun			jothum	the musicians
-jatich	servant	noun			jatich mara	my servant
 jatich	maid	noun			En jatich	she is a maid
+jatich	servant	noun			jatich mara	my servant
 jela	jail	noun			dhi e jela	go to jail
 ji	group	noun			wayud ji	let us found a group
 jins	jeans	noun			jins mara mbuluu	blue jeans
@@ -466,8 +467,8 @@ jwala	plastic	adjective			okombe jwala	plastic cup
 jwok	witchcraft	noun			timo jwok	practise witchcraft
 ka	from	preposition			dhi ka ia ka	go from here
 ka	if	conjunction			ka ng'ato oheri	if someone loves you
-ka	here	adverb			diyo ka	click here
 ka	while	conjunction			ne omiel ka jadung' ne wer	he danced while the old man was singing
+ka	here	adverb			diyo ka	click here
 ka	here	noun		this place or this position	wuog gi ka	go from here
 ka ok ... to	if ... then	conjunction			ka ok A to B	if A then B
 kaachiel	together	adverb			gin gi dhi kaachiel	they went together
@@ -482,6 +483,7 @@ kadho	cross	verb			kadho aora	cross the stream
 kadi	card	noun			kadi ma rachar	a white card
 kado	soup	noun			kado mar nas	palm nut soup
 kado	stew	noun			los kado	make stew
+kado	salt	noun			cukari gi kado	
 kahawa	coffee	noun			nyoko no madho kahawa	she drinks coffee
 kaka	as	adverb			kaka en	as it is
 kaka	how	adverb			kaka i chamo	how to eat
@@ -494,6 +496,7 @@ kalsiam	calcium	science			kalsiam (Ca) nigi protons 20	calcium (Ca) has 20 proto
 kama otuo	desert	noun			pi nok kama otuo	water is scarce in the desert
 kamba	belt	noun			kamba ma rateng'	black belt
 kambi	company	noun			kambi matin	a small company
+Kamerun	Cameroon	noun		A country in Africa	dhi Kamerun	go to Cameroon
 kamlara	pepper	noun			kamlara weng'o	the pepper burns
 kamoro	somewhere	pronoun			wan wadhi kamoro	we are going somewhere
 kamoro amora	everywhere	pronoun			kamoro amora liet	everywhere is hot
@@ -541,8 +544,8 @@ kidi	stone	noun			kidi gi simiti	stones and cement
 kidienje	category	noun			kidienje abich	five categories
 kidieny	unit	noun			kidieny abich	five units
 kidieny	part	noun			buk nikod kidieny adek	the book has three parts
-kido	habit	noun			kido marach	bad habit
 kido	disposition	noun			kido mar ng'ato	a person's disposition
+kido	habit	noun			kido marach	bad habit
 kilas	class	noun		academic stage in a school	en e kilas ariyo	he is in class 2
 kilomita	kilometre	noun			kilomita apar	ten kilometres
 kinda	determination	noun			wabiro time gi kinda	we will do it with determination
@@ -570,8 +573,8 @@ komputa	computer	noun			chapa mar komputa	computer keyboard
 konde	corners	noun			konde duto mag piny ngima	all corners of the world
 kondo	feather	noun			kondo winyo	bird's feathers
 kong'o	beer	noun			wamadho kong'o	we are drinking beer
-kongo	liquor	noun			ol kongo matin	pour a little liquor
 kongo	wine	noun			wamadho kongo mamit	we are drinking sweet wine
+kongo	liquor	noun			ol kongo matin	pour a little liquor
 Kongo	Congo	noun			dhi Kongo	go to Congo
 kony	help	noun			ji dwaro kony	everyone needs help
 konyo	help	verb			i konyo ji duto	you are helping everyone
@@ -590,8 +593,8 @@ kuotho	gossip	noun			kuotho rach	gossip is not good
 kuro	protect	verb			kuro wa	protect us
 kuro	protection	noun			kura	give me protection
 kuyo	grief	noun			kuyo nega	grief is killing me
-kwach	cheetah	noun			kwach en lee	a cheetah is an animal
 kwach	leopard	noun			kwach nigi iwe	a leopard has a tail
+kwach	cheetah	noun			kwach en lee	a cheetah is an animal
 kwach	tiger	noun			kwach maduong'	a large tiger
 kwan	mathematics	noun			nyako no pwonjo kwano	she teaches mathematics
 kwan	computing	noun			computa go kwan	a computer does computing
@@ -599,12 +602,12 @@ kwan	total	adjective			kwan duto	the total amount
 kwan	number	noun			kwan abich	number 5
 kwang'o	steer	verb			kwang'o yie	to steer the boat
 kwano	count	verb			kwano pesa	count money
-kwar	red	adjective			dhok makwar	red lips
 kwar	purple	adjective			maua makwar	purple flower
+kwar	red	adjective			dhok makwar	red lips
 kwar	violet	adjective			mafua ma kwar	violet flowers
 kwaro	grandfather	noun			kwara	my grandfather
-kwayo	application	noun			kwayo tich	job application
 kwayo	request	verb			kwayo chiemo	to request food
+kwayo	application	noun			kwayo tich	job application
 kwe	peace	noun			Adwaro kwe	I want peace
 kwedo	oppose	verb			wa biro kwedo richo	we will oppose evil
 kwer	hoe	noun			kwer gi katlas	hoe and cutlass
@@ -629,8 +632,8 @@ laktar	doctor	noun			en laktar	she is a doctor
 lando	spread	verb			lande	spread it
 lando	advertise	verb			lando gik moko	to advertise a product
 lando	proclamation	noun			lando weche mar dhano	proclamation of the rights of humankind
-lando	announce	verb			lando kaka	announce that
 lando	brown	adjective			winyo ma lando	brown bird
+lando	announce	verb			lando kaka	announce that
 laro	backyard	noun			laro lum otie	the backyard is overgrown
 laro	outdoors	noun			Dhi e laro	go outdoors
 latek	pestle	noun			latek gi rayoki	pestle and mortar
@@ -643,8 +646,8 @@ lawu	dress	noun			lawu mara char	blue dress
 lee	animal	noun			guok en lee	a dog is an animal
 lek	dream	verb			leko lek mang'eny	to dream a lot
 lemo	prayer	noun			lemo ber	prayer is good
-lemo	service	noun			lemo mar erokamano	thanksgiving service
 lemo	pray	verb			lemo ne wasika	to pray for my enemies
+lemo	service	noun			lemo mar erokamano	thanksgiving service
 lendo	announcement	noun			som lendo	read the announcement
 lep	tongue	noun			lep mar guok	dog's tongue
 ler	light	noun			Ler polo	light of the sky
@@ -667,8 +670,8 @@ lit	pain	noun			lit ni kar ka	the pain is here
 lithiam	lithium	science			lithiam (Li) nigi protons 3	lithium (Li) has 3 protons
 liyo	whistle	noun			tug gi gir liyo	play the whistle
 loch	victory	noun			loch gi loyo	victory and defeat
-loch	government	noun			loch Nkrumah	Nkrumah's government
 loch	govern	verb			loch Gana	govern Ghana
+loch	government	noun			loch Nkrumah	Nkrumah's government
 logo	logo	noun			logo mar kanisa	church logo
 lojing'	lodge	noun			dak e lojing matim	stay at the lodging for a while
 loka	abroad	noun			odhi loka	she goes abroad
@@ -708,15 +711,14 @@ lwokrok	bath	verb			lwokrok okinyi ka okinyi	to bath each morning
 lwor	shyness	noun			ok o lwor	he has no shyness
 lworo	fear	noun			lworo opong'o chunye	fear has filled her heart
 lworo	surround	verb			lworo ot	to surround the house
-ma	the	determiner			ma ot	the house
 ma	this	determiner			ma buk	lend me this book
 ma	this	pronoun			ma en buk mari?	is this your book?
 ma ok ong'ere	unfamiliar	adjective			le ma ok ong'ere	unfamiliar animal
-maber	well	adverb			time maber	do it well
 maber	luxury	noun			a neno gi maber engima ndalo mabiro	I see luxury in your future
+maber	well	adverb			time maber	do it well
 maber ahinya	well done	exclamation			tich maber ahinya	job well done!
-mach	fire	noun			mok mach	light the fire
 mach	electricity	science			mach en ka muya maliet owuok kamoro odhi kama chielo	electricity is when charges go from one place to a new place
+mach	fire	noun			mok mach	light the fire
 macha	that	determiner			macha guok	that dog
 machiegni	soon	adverb			en o bii machiegni	she is coming soon
 machunga	orange	noun			machunga adek	three oranges
@@ -748,8 +750,8 @@ mar	for	preposition			mar wa	for ourselves
 mar	of	preposition		expresses possession	dhok mar Afrika	language of Africa
 mara	mine	pronoun			gini mara	this thing is mine
 mara	my	possessive			ot mara	my house
-mare	hers	pronoun			gini mare	this thing is hers
 mare	her	possessive			ot mare	her house
+mare	hers	pronoun			gini mare	this thing is hers
 mare	his	possessive			ot mare	his house
 mare	its	possessive			ot mare	its house
 margi	their	possessive			ot margi	their house
@@ -782,8 +784,8 @@ melon	melon	noun			melon ma majan	green melon
 mesa	table	noun			kom gi mesa	chair and table
 mia achiel	hundred	adjective		the number 100	chupa mia achiel	hundred bottles
 mich	compensation	noun			ise yudo mich mari?	have you received your compensation?
-mich	gift	noun			mich maber	a good gift
 mich	skill	noun			nyako nikod mich maber	she has good skills
+mich	gift	noun			mich maber	a good gift
 midusa	engineer	noun			midusa maloso gi tich	an engineer makes tools
 miel	dance	verb			miel gi mor	to dance with joy
 milambo	south	noun			dhi milambo	go south
@@ -995,8 +997,8 @@ ogwal	frog	noun			ogwal ohero pii	a frog likes water
 ogwe	lizard	noun			ogwe chamo lum	a lizard eats grass
 ohala	interest	noun			ohala mar gowi	loan interest
 ohala	profit	noun			loso ohala	make profit
-ohala	trade	noun		the exchange of products and services	ohala ma ber	a good trade
 ohala	business	noun			ohala gi siasa	business and politics
+ohala	trade	noun		the exchange of products and services	ohala ma ber	a good trade
 ohala	trade	verb		to exchange products and services	goyo ohala piyo	to trade quickly
 ohala	economy	noun			ohala mag Afrika	the economy of Africa
 ohinga	foundation	noun			Ohinga mar ot	foundation of the house
@@ -1080,8 +1082,8 @@ pany	pestle	noun			pany gi rayoki	pestle and mortar
 par	mat	noun			pedh par	spread out a mat
 paro	thought	noun			paro magi	your thoughts
 paro	remind	verb			paro ne ng'ato	to remind someone
-paro	think	verb			a paro ni....	I think that ...
 paro	idea	noun			an kod paro	I have an idea
+paro	think	verb			a paro ni....	I think that ...
 paro	remember	verb			i paro an	you remember me?
 paro	worry	noun			paro mang'eny	many worries
 pat pat	slippers	noun			iruako pat pat	you are wearing slippers
@@ -1089,8 +1091,8 @@ pata	lock	noun			pata abich	five locks
 patwang'	forehead	noun			Ne patwang'e	look at her forehead
 paw ndege	airport	noun			adhi e paw ndege	I'm going to the airport
 payo	smoothen	verb			payo bao	to smoothen the plank
-pek	mass	science			inyalo loko pek mobed teko	you can change mass into energy
 pek	heavy	adjective			o pek	it is heavy
+pek	mass	science			inyalo loko pek mobed teko	you can change mass into energy
 penj	exam	noun			penj no ne tek	the exam is easy
 penj	ask	verb			penj Kofi	to ask Kofi
 penj	test	noun			penj no tek	the test is difficult
@@ -1103,8 +1105,8 @@ picha	picture	noun			picha maber	beautiful picture
 piem	rivalry	noun			we piem ma nono	stop the rivalry
 piem	competition	noun			piem adhula	football competition
 pien	hide	noun			pien lee	animal hide
-pien	skin	noun			pien motwo	dry skin
 pien	cowhide	noun			mchele kod oganda gi pien	waache and cowhide
+pien	skin	noun			pien motwo	dry skin
 pien dhok	lip	noun			pien dhok ma kwar	red lips
 pier ariyo	twenty	adjective		The number 20	chupa piero ariyo	twenty bottles
 piero abich	fifty	adjective		the number 50	chupa piero abich	fifty bottles
@@ -1162,8 +1164,8 @@ rabet	giant	noun			rabet ang'wen	four giants
 rabolo	plantain	noun			rabolo gi mariwa	plantain and cassava
 rabolo	banana	noun			ong'er ohero rabolo	a monkey likes bananas
 rabuon mamit	sweet potato	noun		<i>Ipomoea batatas</i>	ahero rabuon mamit	I like sweet potato
-rach	ugly	adjective			o rach	it is ugly
 rach	bad	adjective			guok ma rach	bad dog
+rach	ugly	adjective			o rach	it is ugly
 rachar	white	adjective			ot ma rachar	white house
 rachungi	collander	noun			ti kod rachungi mar twoyo ochele	use the collander to drain the rice
 ragol	comb	noun			tikod ragol mondo igol wiyi	use a comb to comb your hair
@@ -1194,8 +1196,8 @@ rieko	wisdom	noun			teko gi rieko	strength and wisdom
 rieko	knowledge	noun			rieko duto ma nie piny	all knowledge in the world
 riembo	drive	verb			riembo gari	drive a car
 ring'o	meat	noun			ring'o mar diel	goat meat
-ringo	run	verb			ringo kaka apwoyo	to run like a hare
 ringo	flesh	noun			ringo gi remo	flesh and blood
+ringo	run	verb			ringo kaka apwoyo	to run like a hare
 ringruok	body	noun			ringruok kod chuny mar dhano	a person is body, soul and spirit
 ripot	report	noun			loso ripot	make a report
 rito	wait	verb			rito matin	to wait a bit
@@ -1217,9 +1219,9 @@ rwok	very	adverb			itimo maber rwok	you have done very well
 ryal	silver	noun			ryal gi mula	silver and gold
 ryal	silver	science			ryal (Ag) ni gi protons 47	silver (Ag) has 47 protons
 saa	watch	noun		a wearable device for telling the time	saa matin	a small watch
-saa	hour	noun			saa apar	ten hours
 saa	moment	noun			saa orumo	the moment is up
 saa	time	noun			saa orumo	the time is up
+saa	hour	noun			saa apar	ten hours
 saa	clock	noun		a free-standing device which tells the time	nyisa ni en saa adi e saa	tell me the time on the clock 
 sabun	soap	noun			ndoo gi sabun	pail and soap
 salfa	sulfur	science			salfa (S) ni gi protons 16	sulfur (S) has 16 protons
@@ -1238,8 +1240,8 @@ siasa	politics	noun			ihero siasa	you like politics
 sibuor	lion	noun			sibuor chamo ringo	a lion eats flesh
 siem	warning	noun			winy siem	listen to the warning
 sigana	fable	noun			ng'ato ok yie kod sigana	one does not believe fables
-sigana	history	noun			somo sigana	learn history
 sigana	story	noun			ganna sigana	tell me a story
+sigana	history	noun			somo sigana	learn history
 sigu	enmity	noun			sigu maduong'	great enmity
 silikon	silicon	science			silikon (Si) ni gi protons 14	silicon (Si) has 14 protons
 siling	coin	noun			siling ang'wen	four coins
@@ -1288,8 +1290,8 @@ tedo	bake	verb			tedo mukati	bake bread
 tedo	cook	verb			tedo michele matin	cook a little rice
 tee	each	adjective			gi tee	each thing
 tek	strength	noun			tek gi teko	strength and power
-tek	hard	adjective			o tek	it is hard
 tek	difficult	adjective			peny tek	the exam is difficult
+tek	hard	adjective			o tek	it is hard
 teknoloji	technology	noun			teknoloji manyien	new technology
 teko	effort	noun			teko maber	a good effort
 teko	energy	science			inyalo loko pek mobed teko	you can change mass into energy
@@ -1364,8 +1366,8 @@ too	doubt	noun			en gi too	she has doubts
 trafik	traffic	noun			taya mar trafik	traffic light
 tudruok	link	noun			tudruok mar mbui	Internet link
 tugo	drama	noun			ahero sinema mar tugo	I like drama films
-tugo	play	noun			ngi'yo tugo	watch a play
 tugo	game	noun			tug tugo	play a game
+tugo	play	noun			ngi'yo tugo	watch a play
 tugo	play	verb			wa tugo	we are playing
 tula	owl	noun			tula en winyo	an owl is a bird
 tung'	horn	noun		musical instrument with deep voice	tung' mar thum	horn music
@@ -1416,8 +1418,8 @@ wich kuot	shame	noun			wich kuot gi dwanyruok	shame and disgrace
 wich kuot	disgrace	noun			wich kuot	shame and disgrace
 wich wil	forgetfulness	noun			wich wilne	her forgetfulness
 wil	replace	verb			wil a	replace me
-winjo	listen	verb			winjo thum	to listen to music
 winjo	hear	verb			o winjo liyo	she heard the whistle
+winjo	listen	verb			winjo thum	to listen to music
 winjo	understand	verb			winjo gimoro maber	to understand something very well
 wino	ink	noun			wino e kalam	ink in a pen
 winyo	bird	noun			winyo fuyo	a bird flies
@@ -1441,8 +1443,8 @@ wuowi	boy	noun			wuowi ni kae	the boy is here
 wuoyo	talk	verb			wuoyo mathoth	to talk too much
 yadh lak	toothpaste	noun			maswak kod yadh lak	toothbrush and toothpaste
 yamo	wind	noun			yamo kudho	the wind is blowing
-yamo	storm	noun			yamo gi mor polo	storm with thunder
 yamo	windy	adjective			odi cheng' mar yamo	a windy day
+yamo	storm	noun			yamo gi mor polo	storm with thunder
 yamo	weather	noun			wan gi yamo maber	we have good weather
 yango	familiar	adjective			lee ma a yango	a familiar animal
 yar	extend	verb			yar badi	extend your palms
@@ -1468,8 +1470,8 @@ yiengo	shake	verb			yiengo olo oko	to shake the tiredness off
 yier	hair	noun			yier kor	chest hair
 yiero	select	verb		make a selection	yiero buk	to select a book
 yimbo	west	noun			dhi yimbo	go west
-yo	option	noun		a thing you can choose	yore abich	five options
 yo	way	noun			ma yo	the way
+yo	option	noun		a thing you can choose	yore abich	five options
 yom	soft	adjective			makate ma yom	soft bread
 yomyom	weak	adjective			A yomyom	I am weak
 yomyom	inactive	noun			wuoi no yomyom	he is inactive

@@ -40,8 +40,8 @@ artu	warn	verb			artu kenn	warn someone
 asalaam alékum	good morning	exclamation			asalaam alékum Kofi	good morning Kofi
 asamaan	sky	noun			naaw ci asamaan ci	to fly into the sky
 asot	nitrogen	science			asot (N) amna 7 feppsaal	nitrogen (N) has 7 protons
-at	year	noun			at bu bees dikk na	a new year has come
 at	age	noun			say at	your age
+at	year	noun			at bu bees dikk na	a new year has come
 ataaya	tea	noun			ataaya ji neex na	the tea is sweet
 atekat	lawyer	noun			ñeenti atekat	four lawyers
 atekat	judge	noun			juróom ñaari atekat	seven judges
@@ -313,12 +313,12 @@ fàtaliku	remember	verb			ya ngi may fàtaliku?	you remember me?
 faté	forget	verb			dama faté	I have forgotten
 fatte	forgetfulness	noun			fatteem	her forgetfulness
 fay	compensation	noun			jot nga sa fay?	have you received your compensation?
-fay	inactive	noun			dafa fay	he is inactive
 fay	pay	verb			dinaa fay	I will pay
+fay	inactive	noun			dafa fay	he is inactive
 fécc	dance	verb			fécc ak kontaan	to dance with joy
 feebar	weak	adjective			dama feebar	I am weak
-feebar	disease	noun			fàj feebar	heal disease
 feebar	sickness	noun			bàn féébar nga ame?	what sickness have you?
+feebar	disease	noun			fàj feebar	heal disease
 feeñal	this	determiner			feeñal dëgg bi	lend me this book
 feeñal	reveal	verb			feeñal dëgg bi	reveal the truth
 feeñal	revelation	noun			dafa amoon ab feeñal	he had a revelation
@@ -350,7 +350,7 @@ foos	gutter	noun			foos bi amna ndox	there is water in the gutter
 fóot	wash	verb			fóot ay yere	wash clothes
 fosfoor	phosphorus	science			fosfoor (P) amna 15 feppsaal	phosphorus (P) has 15 protons
 fukk	ten	adjective		the number 10	fukki biteel	ten bottles
-fukk ak benn	eleven	adjective			fukk ak benni biteel	eleven bottles
+fukk ak benn	eleven	adjective		the number 11	fukk ak benni biteel	eleven bottles
 fukk ak juróom	fifteen	adjective		the number 15	fukk ak juróomi biteel	fifteen bottles
 fukk ak juróom benn	sixteen	adjective		the number 16	fukk ak juróom benn biteel	sixteen bottles
 fukk ak juróom ñaar	seventeen	adjective		the number 17	fukk ak juróom ñaari biteel	seventeen bottles
@@ -549,6 +549,7 @@ kaki	khakhi	noun			ay tubey kaki	khakhi shorts
 kalaas	class	noun		academic stage in a school	kalaas 2 la nekk	he is in class 2
 kalkil	computing	noun			ab ordinaatër dafay kalkile	a computer does computing
 kalsiëm	calcium	science			kalsiëm (Ca) amna 20 feppsaal	calcium (Ca) has 20 protons
+Kamerun	Cameroon	noun		A country in Africa	dem Kamerun	go to Cameroon
 kamioŋ	van	noun			yéeg kamioŋ	board a van
 kamiyong	lorry	noun			taxawal kamiyong	lorry stop
 kan	who	pronoun			kii kan la?	who is he?
@@ -572,8 +573,8 @@ Keña	Kenya	noun		A country in Africa	Dem Keña	go to Kenya
 kenn	someone	pronoun			kenna ngi ñëw	someone is coming
 këpp	pour	verb			këpp ndox	pour water
 kër	home	noun			sa kër	your home
-ker	shade	noun			mangi toog ci ker gi	I am sitting under the shade
 kër	house	noun			kër gi	the house
+ker	shade	noun			mangi toog ci ker gi	I am sitting under the shade
 kere	chalk	noun			kere bu weex	white chalk
 kereyon	pencil	noun			kereyon ak bik	pencil and pen
 këriñ	charcoal	noun			saaku këriñ	sack of charcoal
@@ -621,8 +622,8 @@ lééb	fable	noun			geumuñu lééb	one does not believe fables
 leeb	tell	verb			mu ngi leeb	he is telling the story
 léegui	now	adverb			dem léegui	go now
 lëend	web	noun			lëendu jàrgoñ	the web of a spider
-leer	light	noun			leeru asamaan si	light of the sky
 leer	bright	adjective			neeg bu leer	bright room
+leer	light	noun			leeru asamaan si	light of the sky
 leeral	explain	verb			leeral ma	to explain to me
 lëf	womb	noun			lëf	female's womb
 lëf	vagina	noun			kenn du tudd 'lëf' ci mboolo	you don't say 'vagina' in public
@@ -669,8 +670,8 @@ maam	ancestor	noun			samay maam	my ancestors
 maas	charge	science			courang amna maas bou positif ak maas bou négatif	electricity has positive charge and negative charge
 maf	hawk	noun			maf ak genaar	a hawk and a chicken
 màg	elder	adjective			sama màg	my elder sibling
-mag	adult	noun			mag la	he is an adult
 màg	big	adjective			Adae bu màg	Big Adae
+mag	adult	noun			mag la	he is an adult
 màgg	great	adjective			tur bu màgg	a great name
 màgg	grow	verb			xale bi màgg na	the child has grown
 maggat	old lady	noun			sama maggat	my old lady
@@ -760,9 +761,9 @@ muus	cat	noun			muus amna geen	a cat has a tail
 naaj	late	adverb			naajee ñëw	to come late
 naaj	sun	noun			naaj baa ngi melax	the sun is shining
 ñaan	demand	noun			ñaan ak dund	demand and supply
-naan	drink	verb			naan ndox	to drink water
 ñaan	pray	verb			ñaanal samay noon	to pray for my enemies
 ñaan	request	verb			ñaan ñàm	to request food
+naan	drink	verb			naan ndox	to drink water
 ñaan	praise	noun			war nañ ko ñaanal	she deserves praise
 ñaan	prayer	noun			ñaan dafa baax	prayer is good
 ñaar	two	adjective			Amna ñaari biteel yu nekk ci kaw miir bi	There are two bottles on the wall
@@ -780,8 +781,8 @@ naka	how	adverb			naka lañuy lékkee	how to eat
 ñakk	poverty	noun			ñakk mbaa am-am	poverty or wealth
 ñàkk xè	dimwit	adjective			Doff! ñàkk xèl	Fool! Dimwit!
 ñàm	food	noun			lekk ñàm	eat food
-ñàm	taste	verb			ñàm lékk bi	taste the food
 ñàm	preparation	noun			togg ñàm	make preparation
+ñàm	taste	verb			ñàm lékk bi	taste the food
 ñamala	giraffe	noun			ñamala ab mala la	a giraffe is an animal
 ñambi	cassava	noun			banaana ak ñambi	plantain and cassava
 ñambi	yam	noun			togg ñambi bi	cook the yam
@@ -807,8 +808,8 @@ ndaamar	car	noun			dawal ab ndaamar	drive a car
 ndaje	meeting	noun		a gathering of a group to talk about something	bayyi ndaje bi	cancel the meeting
 ndam	victory	noun			ndam ak daan	victory and defeat
 ndàm	glory	noun			ndàmu doomu adama	glory of humankind
-ndàw	flat	adjective			taabal bu ndàw	flat table
 ndaw	young	adjective			ndaw	young person
+ndàw	flat	adjective			taabal bu ndàw	flat table
 ndaw	youth	noun			ci sama ndaw, dama poŋkalon	in my youth, I was strong
 ndaw	small	adjective			mbir bu ndaw	a small thing
 ndax	because	conjunction			ndax dama laa bëgg	because I like you
@@ -861,8 +862,8 @@ ngëm	faith	noun			ngëm ak jamm	faith and peace
 ngir	for	preposition			ngir ñùn	for ourselves
 ngir Yalla	please	adverb			wax 'ngir Yalla	to say 'please'
 ngoon	evening	noun			lékku ngoon; reer	evening meal; dinner
-ngooñ	grass	noun			nak day lekk ngooñ	a cow chews grass
 ngoon	noon	noun			ngoon jot na	noon has arrived
+ngooñ	grass	noun			nak day lekk ngooñ	a cow chews grass
 nguur	governance	noun			nguur gu jaar yoon	good governance
 nguur	government	noun			nguuru Nkrumah	Nkrumah's government
 ni	as	adverb			ni mu mel	as it is
@@ -945,8 +946,8 @@ po	game	noun			fo am po	play a game
 pokhotaan	armpit	noun			pokhotaan bu xasaw	smelly armpit
 politig	politics	noun			danga bëgg politig	you like politics
 polomb	lead	science			polomb (Pb) amna 82 feppsaal	lead (Pb) has 82 protons
-pónó	tyre	noun			dawal pónó	roll a tyre
 pono	wheel	noun			sama oto amna ñeenti pono	my car has four wheels
+pónó	tyre	noun			dawal pónó	roll a tyre
 poŋkal	strong	adjective			jeeg bu poŋkal	a strong woman
 poobar	pepper	noun			poobar bi mingi lakk	the pepper burns
 poon	cigarette	noun			tux poon	smoke a cigarette
@@ -979,7 +980,7 @@ rëdd	line	noun			bàl bi romb na rëdd bi	the ball has crossed the line
 ree	smile	verb			ree tuuti	to smile a bit
 réeral	lose	verb		to not have something	réerna ci yoonu kër ga	He lost his way home
 reetaan	laugh	verb			mu ngi reetaan	he is laughing
-reetaanlu	amusing	adjective			léeb bu reetaanlu	amusing story
+reetaanlu	funny	adjective			léeb bu reetaanlu	funny story
 réew	country	noun		a community of people living in a place with full self-government	sa réew	your country
 réew	nation	noun			sa réew	your nation
 rès	liver	noun			xàj am na rès	a dog has a liver
@@ -1105,9 +1106,9 @@ sunguf	flour	noun			sungufu mbokk	corn flour
 sunu	our	possessive			sunu kër	our house
 supome	cabbage	noun		a leafy vegetable	suppu supome	cabbage stew
 surnal	paper	noun			surnalu tay	today's paper
-suuf	floor	noun			ci suuf si	on the floor
 suuf	land	noun			jënd suuf	buy land
 suuf	earth	noun			nitu suuf si	people of the earth
+suuf	floor	noun			ci suuf si	on the floor
 suuf	sand	noun			suufu tefes	beach sand
 suuf	down	adverb			wàcc ci suuf	go down
 suux	sink	noun			génnée li suux	drain the sink
@@ -1179,8 +1180,8 @@ tógg	cook	verb			tógg tuuti ceeb	cook a little rice
 toggkat	chef	noun			toggkat bu aay	a good chef
 Togo	Togo	noun		A country in Africa	dem Togo	go to Togo
 tolluwaay	quantity	noun			tolluwaayu ñam bi	quantity of the food
-tolof-tolof	issue	noun			tolof-tolof bu bees	new issue
 tolof-tolof	hardship	noun			tolof-tolof yu rëy	great hardship
+tolof-tolof	issue	noun			tolof-tolof bu bees	new issue
 tomb	point	noun			1 tomb 5 (1.5) mooy benn ak genwàll	1 point 5 (1.5) is one and a half.
 tontu	answer	noun			tontu ma	give me an answer
 toog	sit	verb			toogal fii	to sit here
@@ -1194,8 +1195,8 @@ toqq	drop	noun			ab ganaar mongi naan ndox par toqq	drop by drop a chicken drink
 tukki	travel	verb			ñùn danuy tukki Afrig	we are travelling to Africa
 tuñ	lip	noun			tuñ yu xonk	red lips
 tund	hill	noun			kaw tund	hill top
-tur	title	noun			"Mighty One" aw tur la	"Mighty One" is a title
 tur	appellation	noun			woo ay turam	proclaim her appellations
+tur	title	noun			"Mighty One" aw tur la	"Mighty One" is a title
 tur	name	noun			sama tur	my name
 tur	heading	noun			turu téere	book headings
 tuutange	humility	noun			wone ab tuutange	you show humility
@@ -1236,8 +1237,8 @@ weer	lens	noun			weeru nataalukaay	lens of a camera
 weex	white	adjective			kër gu weex	white house
 weñ	housefly	noun			aw weñ mën na indi feebar	a housefly can carry disease
 weñ	blowfly	noun			weñ yi danuy merlo wàte	blowflies are annoying
-weñ	iron	science			weñ (Fe) amna 26 feppsaal	iron (Fe) has 26 protons
 weñ	fly	noun			weñ dafay naaw	a fly flies
+weñ	iron	science			weñ (Fe) amna 26 feppsaal	iron (Fe) has 26 protons
 wëñ	string	noun			wëñ ak pusó	string and needle
 weñ	metal	noun			mbaxana weñ	hat of metal
 wér	moon	noun			wér ak bidiw	moon and stars
@@ -1263,8 +1264,8 @@ wujju	rival	noun			sama wujju la	she is my rival
 wurus	gold	noun			tocàmikaay ak wurus	fragrance and gold
 wurus	gold	science			wurus (Au) amna 79 feppsaal	gold (Au) has 79 protons
 wuté	different	adjective			ay yëf yu wuté	different things
-xaaj	split	verb			xaajale ñaar	split in two
 xaaj	part	noun			téere bi ñett xaaj la	the book has three parts
+xaaj	split	verb			xaajale ñaar	split in two
 xaaj	divide	verb		separate into parts	xaaj mburu mi	divide the bread
 xaaj	half	noun		one out of two equal divisions	benn ak xaaj	one and half
 xaajale	division	noun			2/1 = 2; lii moy xaajale	2/1 = 2; this is division
@@ -1296,8 +1297,8 @@ xeej	spear	noun			jam nañu ko ak xeej	they pierced him with a spear
 xeeñcu	smell	verb			xeeñcu toor-toor yi	to smell the flowers
 xeer	stone	noun			xeer ak simaŋ	stones and cement
 xeet	race	noun			daw xeet	run a race
-xeex	fight	verb			Ali ak Frazier xeex nañu	Ali and Frazier fought
 xeex	battle	noun			danùy dem xeexi	we are going to battle
+xeex	fight	verb			Ali ak Frazier xeex nañu	Ali and Frazier fought
 xel	spirit	noun			amna xel mu sell	he has a strong spirit
 xel	mind	noun			xel am	her mind
 xet	fragrance	noun			xetu karité	the fragrance of sheabutter

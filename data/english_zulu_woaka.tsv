@@ -72,8 +72,8 @@ bona	them	pronoun			babonise bona	show them
 bona	they	pronoun		used to indicate people, or things, previously mentioned	bona bayadla	they eat
 bonga	thank	verb			ukubonga ubaba wakho	to thank your Father
 buhlungu	pain	noun			ubuhlungu bulapha	the pain is here
-buka	see	verb			ngibuka izipoki	to see ghosts
 buka	watch	verb			ikubuka ibhola	to watch football
+buka	see	verb			ngibuka izipoki	to see ghosts
 buka	look	verb			buka umfana	look at the boy
 bulala	kill	verb			ukubulala imbuzi	to kill a goat
 busuku	night	noun			sekugamenxe u 8 ebusuku	8 o'clock in the night
@@ -93,6 +93,7 @@ dlala	play	verb			siyadlala	we are playing
 dodi	junk	noun			kukhona udodi ekamelweni	there is junk in the room
 dolo	knee	noun			amadolo ami	my knees
 donsa	pull	verb			donsa intambo	to pull the rope
+eCameroon	Cameroon	noun		A country in Africa	iya eCameroon	go to Cameroon
 eCongo	Congo	noun			ukuya eCongo	go to Congo
 eCote d'Ivoire	Cote d'Ivoire	noun			ukuya eCote d'Ivoire	go to Cote d'Ivoire
 eGhana	Ghana	noun		a country in Africa	abantu abaphuma eGhana babizwa amaGhanaians	people from Ghana are called Ghanaians
@@ -175,6 +176,7 @@ iBurkina Faso	Burkina Faso	noun			ukuya iBurkina Faso	go to Burkina Faso
 icansi	mat	noun			ndlala phansi icansi	spread out a mat
 ichibi	lake	noun			ichibi liphuphumile	the lake has overflowed
 icilingo	bell	noun			icilingo lesikole	school bell
+iculo	song	noun			ukudlala iculo	play a song
 idada	duck	noun			idada elimhlophe	white duck
 idili	party	noun			ngiyahamba ngiya edilini	I am going to a party
 idlu yokuphumula	hall	noun			sihleli ngasendlini yokuphumula	we are sitting in the hall
@@ -289,8 +291,8 @@ indlovukazi	queen	noun			yena uyindlovukazi	she is a queen
 indlu yangasese	toilet	noun			hamba uye endlini yangasese	go to the toilet
 indlu yangasese	bathroom	noun			hamba endlini yangasese	go to the bathroom
 indlulamithi	giraffe	noun			indlulamithi yisilwane	a giraffe is an animal
-indoda	man					a tall man
 indoda	man	noun			indoda ende	a tall man
+indoda	man					a tall man
 indodakazi	daughter	noun		female child	indodakazi yami	my daughter
 indodana	son	noun		male child	indodana yami yodwa	my son
 induku	stick	noun			phula induku	break the stick
@@ -358,8 +360,8 @@ inyama	flesh	noun			inyama kanye no egazi	flesh and blood
 inyama	meat	noun			inyama ya imbuzi	goat meat
 inyama yenkukhu	goosebumps	noun			nginenyama yenkukhu	I have got goosebumps
 inyamazane	deer	noun			ibhubesi lithanda inyama yenyamazane	a lion likes deer meat
-inyanga	moon	noun			inyanga kanye nezinkanyezi	moon and stars
 inyanga	moon					moon and stars
+inyanga	moon	noun			inyanga kanye nezinkanyezi	moon and stars
 inyoka	snake	noun			inyoka ayinayo imilenze	a snake has no legs
 inyoni	bird	noun			inyoni iyandiza	a bird flies
 inyosi	bee	noun			izinyosi eziningi	many bees
@@ -380,8 +382,8 @@ ipulazi	farm	noun			ipulazi lekhokho	cocoa farm
 ipuleti	plate					wash your plate
 iqabi	leaf	noun			iqabi luluhlaza	green leaf
 iqabunga	leaf	noun			iqabunga luluhlaza	green leaf
-iqanda	egg	noun			iqanda lenkukhu	chicken egg
 iqanda	zero	adjective		A number that indicates nothingness; 0	kusuka kwiqanda kuze kufike kwisishiyagalolunye	From zero to nine
+iqanda	egg	noun			iqanda lenkukhu	chicken egg
 iqanda	egg					chicken egg
 iqembu	group	noun			masiqaleni iqembu	let us found a group
 iqhawe	warrior	noun			iqhawe lasemandulo	warrior of antiquity
@@ -405,7 +407,7 @@ ishumi	ten	adjective		the number 10	amabhodlela ayishumi	ten bottles
 ishumi nambili	twelve	adjective		the number 12	amabhodlela ayishumi nambili	twelve bottles
 ishumi nane	fourteen	adjective		the number 14	amabhodlela ayishumi nane	fourteen bottles
 ishumi nantathu	thirteen	adjective		the number 13	amabodlela ayishumi nantathu	thirteen bottles
-ishumi nanye	eleven	adjective			amabhodlela ayishumi nanye	eleven bottles
+ishumi nanye	eleven	adjective		the number 11	amabhodlela ayishumi nanye	eleven bottles
 ishumi nesihlanu	fifteen	adjective		the number 15	amabhodlela ayishumi nesihlanu	fifteen bottles
 ishumi nesikhombisa	seventeen	adjective		the number 17	amabhodlela ayishumi nesikhombisa	seventeen bottles
 ishumi nesishiyagalolunye	nineteen	adjective		the number 19	amabhodlela ayisishiyagalolunye	nineteen bottles
@@ -608,8 +610,8 @@ khilometha	kilometre	noun			amakhilomitha ayishumi	ten kilometres
 khishini	kitchen	noun			ngi ngase khishini	I am in the kitchen
 khiye	key	noun			isivalo kanye no ukhiye	door and key
 khlorin	chlorine	science			i-khlorin (Cl) inamaphrothoni ayishumi nesikhombisa	chlorine (Cl) has 17 protons
-khokhela	pay	verb			ngizo khokhela	I will pay
 khokhela	lead	verb			sikhokhele	lead us
+khokhela	pay	verb			ngizo khokhela	I will pay
 kholwa	believe	verb			kholwa uKofi	believe Kofi
 khova	plantain	noun			ukhova kanye nomdumbula	plantain and cassava
 khowe	mushroom	noun			isobho lamakhowe	mushroom soup
@@ -753,8 +755,8 @@ ngenalutho	empty	adjective			ibhakede belingenalutho	empty bucket
 ngenkathi	when	conjunction		at the time	owesilisa ufikile ngenkathi wena uhambile	he came when you went
 ngingakwazi	can	verb			mina ngingakwazi ukufunda	I can read
 ngiyabonga	thank you	exclamation			ngiyabonga kakhulu	thank you very much
-ngoba	why	adverb			ngoba?	why so?
 ngoba	because	conjunction			ngoba ngiyakuthanda	because I like you
+ngoba	why	adverb			ngoba?	why so?
 ngulube	pig	noun			ezinye izingulube zipinki	some pigs are pink
 ngwe	leopard	noun			ingwe inomsila	a leopard has a tail
 ngxabano	argument	noun			izingxabano eziningi	many arguments
@@ -805,8 +807,8 @@ omkhulu	big	adjective			uAdae omkhulu	Big Adae
 omunye umuntu	someone	pronoun			kukhona umuntu ozayo	someone is coming
 omusha	new	adjective			umndeni omusha	new family
 ophaca	slippers	noun			ugqoke ophaca	you are wearing slippers
-owesifazane	female	noun		the gender that has the egg in making offspring	isibeletho sowesifazanezinkezo eziyishumi nesithupha	female's womb
 owesifazane	her	pronoun			bonisa owesifazane	show her
+owesifazane	female	noun		the gender that has the egg in making offspring	isibeletho sowesifazanezinkezo eziyishumi nesithupha	female's womb
 owesilisa	him	pronoun			bonisa owesilisa	show him
 owesilisa	he	pronoun		used to indicate one male person previously mentioned	owesilisa uyadla	he eats
 owesilisa	his	possessive			indlu yowesilisa	his house

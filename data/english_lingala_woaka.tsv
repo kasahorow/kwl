@@ -112,6 +112,7 @@ bokasi	energy	science			o koki kobalola masse pe na bokasi	you can change mass i
 bokebi	careful	adjective			mutu bokebi	a careful person
 bokola	adopt	verb			kobokola mwana	to adopt a child
 bokolongono	health	noun			bilei epesaka bokolongono	food gives health
+bokono		noun	mpasi			
 bokono ya mpese	herpes	noun			bokono ya mpese	herpes is a disease
 bokonzi	kingdom	noun			bokonzi  bwa Nzambe	the kingdom of God
 bolamu	goodness	noun			bolamu na mawa	goodness and mercy
@@ -146,7 +147,6 @@ bonguna	enmity	noun			bonguna monene	great enmity
 boni	how	adverb			okolia boni	how to eat
 bonkoko	custom	noun			bolingo eza bonkoko malamu	love is a good custom
 bonzenga	sexy	adjective			mobali bonzenga	a sexy man
-bopemi	holiday	noun			lelo eza mokolo ya kopema	today is a holiday
 bopimi	stinginess	noun			bopimi to boboto	stinginess or generosity
 boponi	option	noun		a thing you can choose	boponi mitano	five options
 bosalisi	help	noun			bato nyoso balingi bosalisi	everyone needs help
@@ -179,6 +179,7 @@ bunda	fight	verb			Ali na Frazier babundaki	Ali and Frazier fought
 bungisa	lose	verb		to not have something	abungaki nzela	He lost his way home
 Burkina Faso	Burkina Faso	noun		A country in Africa	kende na Burkina Faso	go to Burkina Faso
 buro	office	noun			buro ya mama na ngai	the office of my mother
+burse	scholarship	noun			Naza na burse	I have a scholarship
 busoto	rubbish	noun			sopa busoto	throw away the rubbish
 busoto	trash	noun			sopa busoto	throw away the trash
 busoto	dirty	adjective			kanzo ya busoto	dirty dress
@@ -245,6 +246,7 @@ ekomba	barren	adjective			mwasi ekomba	barren woman
 ekomeli	pencil	noun			ekomeli na ekomeli	pencil and pen
 ekoti	hat	noun			alati ekoti	he is wearing a hat
 ekoti ya bokonzi	crown	noun			kolata ekoti ya bokonzi	to wear the crown
+eksperiyance	experience	noun			aza na eksperiyance	she has experience
 ekufi	dead	adjective			nzete ekufi	a dead tree
 ekulusu	cross	noun			ekulusu ya Yezu	the cross of Christ
 elaka	warning	noun			yokamela na elaka	listen to the warning
@@ -284,8 +286,8 @@ emeku	chin	noun			simbela emeku nayo	hold your chin
 engambe	giant	adjective			aza engambe	he is a giant man
 engbunduka	train	noun			engbunduka ya sika	new train
 engondo	eagle	noun			engondo mibale	two eagles
-engumba	town	noun			kende nakati ya engumba	go into town
 engumba	city	noun			engumba monene	a large city
+engumba	town	noun			kende nakati ya engumba	go into town
 engumba-mokonzi	capital	noun			Accra eza engumba-mokonzi ya Ghana	Accra is the capital of Ghana
 enkuraje	encourage	verb			enkuraje ye	encourage her
 enkurajema	encouragement	noun			enkurajema na esengo	encouragement and joy
@@ -318,7 +320,7 @@ etapi	twig	noun			mitapi boni?	how many twigs?
 etemelo	station	noun			etemelo ya engunduka	train station
 eteni	part	noun			buku eza na biteni misato	the book has three parts
 eteni	share	noun			wapi eteni na ngai	where is my share?
-eteni ya biloko	morsel	noun			biteni bya biloko	two morsels
+eteni ya biloko	morsel	noun			biteni mibale ya biloko	two morsels
 Ethiopie	Ethiopia	noun		A country in Africa	kende na Ethiopie	go to Ethiopia
 etima	lake	noun			etima ezochola	the lake has overflowed
 etireti	zip	noun			kanga etireti	to fasten a zip
@@ -332,8 +334,8 @@ eyebani te	unfamiliar	adjective			nyama eyebani te	unfamiliar animal
 eza bongo	normal	adjective			ezaleli eza bongo	normal behaviour
 ezalela	disposition	noun			ezalela ya moto	a person's disposition
 ezaleli	manner	noun			aza na ezaleli kitoko	his manner is amusing
-ezaleli	behaviour	noun			ezaleli malamu	normal behaviour
 ezaleli	character	noun			ezaleli na ye	her character
+ezaleli	behaviour	noun			ezaleli malamu	normal behaviour
 ezosua	painful	adjective			maladi ezosua	illness is painful
 falsifikasyo	falsification	noun			lokuta na falsifikasyo	lies and falsifications
 fanatike	supporter	noun			banafanatike nkama moko	hundred supporters
@@ -398,6 +400,7 @@ helikopta	helicopter	noun			helikopta mibale	two helicopters
 helimu	helium	science			helimu (He) eza protone 2	helium (He) has 2 protons
 hipocrisi	hypocrisy	noun			hipocrisi na lokuta	hypocrisy and lies
 hirondele	swallow	noun			niao na hirondele	a cat and a swallow
+homare	lobster	noun			Naliaka homare	I eat lobster
 hydrogene	hydrogen	noun			motuka ya hydrogene	hydrogen car
 hydrogene	hydrogen	science			hydrogene (H) eza na proton 1	hydrogen (H) has 1 proton
 Igbo	Igbo	noun			Monoko ya Igbo	Igbo language
@@ -436,6 +439,7 @@ kalsium	calcium	science			kalsium (Ca) eza na protone 20	calcium (Ca) has 20 pro
 kamba	lead	verb			kamba biso	lead us
 kamela	camel	noun			kamela motoba	six camels
 kamera	camera	noun			objectif ya kamera	lens of a camera
+Kamerun	Cameroon	noun		A country in Africa	kende na Kamerun	go to Cameroon
 kamiyo	van	noun			komata na kamiyo	board a van
 kamiyo	lorry	noun			arret ya kamiyo	lorry stop
 kanda	anger	noun			malembe pema kozala na kanda te	calm your anger
@@ -499,8 +503,8 @@ kiti ya bokonzi	throne	noun			kofanda na kiti ya bokonzi	to sit on a throne
 kitisa	reduce	verb			kitisa na mitano	reduce it by five
 kitoko	ostentatious	adjective			elamba kitoko	an ostentatious dress
 kitoko	beautiful	adjective			eza kitoko	it is beautiful
-kitoko	beauty	noun			kitoko na bolingo	beauty and love
 kitoko	nice	adjective			sala yango kitoko	make it nice
+kitoko	beauty	noun			kitoko na bolingo	beauty and love
 klavye	keyboard	noun			fina "k"  na klavye	press "k" on the keyboard
 klore	chlorine	science			klore (CI) eza na protone 17	chlorine (Cl) has 17 protons
 koba	continue	verb			kokoba na mosala	continue the work
@@ -520,8 +524,8 @@ kobota	childbirth	noun			kobota epesaka esengo	a childbirth brings joy
 kobra	cobra	noun			kobra moindo	black cobra
 kodu	code	noun			kokoma kodu	to write code
 koferanse	conference	noun			tozali kokende na koferanse	we are going to the conference
-kofinga	insult	noun			kofinga mingi	many insults
 kofinga	diss	noun			kofinga na te	it is not a diss
+kofinga	insult	noun			kofinga mingi	many insults
 kokabwana	divorce	noun			libala na kokabwana	marriage and divorce
 kokabwana	division	noun			2/1=2; oyo eza kokabwana	2/1 = 2; this is division
 kokalikile	computing	noun			odinatele ezali kokalikile	a computer does computing
@@ -577,6 +581,7 @@ kontina	continent	noun			kontina ya Afrik	African continent
 kopesa	supply	noun			kotuna na kopesa	demand and supply
 kopo	cup	noun			kopo ya chai	tea cup
 kopo	glass	noun			kopo ya mayi	a glass of water
+kopona	vote	verb			bopo na ngai	vote for me
 korsaje	bodice	noun			a lati korsaje	she wears a bodice
 kosakana	play	verb			tozo sakana	we are playing
 kosala	working	noun			kosala eza lisano te	working is not trivial
@@ -584,7 +589,7 @@ kosambela	prayer	noun			kosambela eza malamu	prayer is good
 kosanza	vomit	noun			kosanza ya mbwa	dog's vomit
 kosekwa	resurrection	noun			kosekwa ya yesu	the resurrection of Christ
 kosepela	happiness	noun			kosepela ekomi	happiness has arrived
-kosepelisa	amusing	adjective			lisolo ya kosepelisa	amusing story
+kosepelisa	funny	adjective			lisolo ya kosepelisa	funny story
 kosola	sneeze	verb			kukosola makasi	to sneeze loudly
 kosungama	favour	noun			kosungama na boboto	favour and kindness
 koswana	quarrel	noun			koswana monene	a big quarrel
@@ -689,8 +694,8 @@ liboso ya batu	public	noun			koloba te 'libolo' liboso ya batu	you don't say 'va
 libota	family	noun			libota ya sika	new family
 libulu	pit	noun			chimbola libulu	dig a pit
 libumu	stomach	noun			libumu monene	big stomach
-libumu	womb	noun			libumu ya mwasi	female's womb
 libumu	abdomen	noun			libumu ya mbwa	abdomen of a dog
+libumu	womb	noun			libumu ya mwasi	female's womb
 libusi	fart	noun			libusi na ye ezolumba mabe	her fart smells badly
 libwa	nine	adjective		The number 9	milangi libwa	Nine bottles
 lidesu	bean	noun			loso na madesu	rice and beans
@@ -722,8 +727,8 @@ limpulututu	tarantula	noun			limpulututu monene	a large tarantula
 lineti	spectacles	noun			alati lineti	she wears spectacles
 linga	like	verb			liboroboto elingi mayi	a frog likes water
 linga	want	verb			Nalingi buku minne	I want four books
-linga	like	verb			ligorodo elingi mayi	a frog likes water
 linga	love	verb			nalingi yo	I love you
+linga	like	verb			ligorodo elingi mayi	a frog likes water
 Lingala	Lingala	noun			nasololaka lokota ya lingala	I speak Lingala
 lingatu	crab	noun			supu ya lingatu	crab soup
 lingembo	bat	noun			mangembo misato	three bats
@@ -814,8 +819,8 @@ lota ndoto	dream	verb			kolota ndoto mingi	to dream a lot
 lotiliki	electric	adjective			moyinda ya lotiliki	electric light
 lotiliki	electricity	science			lotiliki ezali charje ezali kokende esika moko pe esika mosusu	electricity is when charges go from one place to a new place
 Luganda	Luganda	noun			monoko ya Luganda	Luganda language
-luka	search	verb		to look for something	luka na ndako naye	search his house
 luka	find	verb			koluka liloba	find the word
+luka	search	verb		to look for something	luka na ndako naye	search his house
 lumba	smell	verb			kolumba fololo	to smell the flowers
 lutu	spoon	noun			balutu zomi na motoba	sixteen spoons
 Luwo	Luwo	noun		modern written form of the Acholi and Dholuo language	nakoki kotanga Luwo	I can read Luwo
@@ -854,14 +859,14 @@ makangu	concubine	noun			Yaa aza makangu na ngai	Yaa is my concubine
 makanisi	idea	noun			naza na makanisi	I have an idea
 makanisi	thought	noun			makanisi nayo	your thoughts
 makanisi	thought	noun			makanisi na yo	your thoughts
-makasi	will	noun			makasi ya Nzambe	God's will
 makasi	stamina	noun			aza makasi	she has stamina
+makasi	will	noun			makasi ya Nzambe	God's will
 makasi	difficult	adjective			momekano eza makasi	the exam is difficult
 makasi	force	noun			azwaki na makasi	he took it by force
 makasi	strength	noun			makasi na nguya	strength and power
+makasi	fortress	noun			Nzambi azali makasi na ngai	God is my fortress
 makasi	loud	adjective			nino nino ya makasi	loud siren
 makasi	hard	adjective			eza makasi	it is hard
-makasi	fortress	noun			Nzambi azali makasi na ngai	God is my fortress
 makasi	capable	adjective			mwasi makasi	a capable woman
 makasi	strong	adjective			mwasi makasi	a strong woman
 makasi	effort	noun			makasi malamu	a good effort
@@ -881,8 +886,8 @@ malamu	good	adjective			libonza malamu	a good gift
 malamu	congenial	adjective			esika malamu	a congenial place
 malamu	good	noun			malamu na mabe	good and evil
 malamu	fine	adjective			konikisa malamu	grind it finely
-malamu	awesome	adjective			Nzambe malamu	awesome God
 malamu	clearly	adverb			omoni malamu	you see it clearly
+malamu	awesome	adjective			Nzambe malamu	awesome God
 malaria	malaria	noun			malaria eza mpasi	malaria is a disease
 malasi	perfume	noun			malasi nini wana?	what perfume is that?
 malato	hammer	noun			malato na nsete	hammer and nail
@@ -904,8 +909,8 @@ mapapu	wing	noun			ebenga aza na mapapu	a dove has wings
 mapasa	twin	noun		one of a pair of twins	aza mapasa	she is a twin
 mapasa	twins	noun			toza mapasa	we are twins
 mapasa misato	triplets	noun			baza mapasa misato	they are triplets
-mapata	sky	noun			kopumbua na mapata	to fly into the sky
 mapata	cloud	noun			mapata ya pembe	a white cloud
+mapata	sky	noun			kopumbua na mapata	to fly into the sky
 mapata	cloudy	adjective			mokolo ya mapata ya mbula	a cloudy day
 mapendu	bow-legged	adjective			mapendu moto mokolo	bow-legged man
 marriaje	wedding	noun			tokende na marriaje	we are going to a wedding
@@ -938,6 +943,7 @@ mawa	mercy	noun			malamu na mawa	goodness and mercy
 mawa	sad	adjective			elongi ya mawa	a sad face
 mawa	remorse	noun			amonisaki ye mawa te	he showed no remorse
 mayele	knowledge	noun			mayele nionso ya mokili	all knowledge in the world
+mayele	prudence	noun			mayele na bolingo	prudence and love
 mayele mabe	cunning	adjective			mwasi ya mayele mabe	a cunning woman
 mayi	liquid	adjective		flows and has constant volume	mayi	liquid water
 mayi	water	noun			ozomela mayi	you drink water
@@ -965,8 +971,8 @@ mbonda	talking drum	noun			mbonda minei	four talking drums
 mbonge	wave	noun			mbonge ezakomata ezakokita	the waves are breaking
 mbongo	rich	adjective			mboka ya mbongo	a rich country
 mbongo	cash	noun			naza na mbongo	I have cash
-mbongo	money	noun			mbongo esalisa	money helps
 mbongo	fees	noun			mbongo ya kelasi	school fees
+mbongo	money	noun			mbongo esalisa	money helps
 mbongo	wealth	noun			tozali na mbongo mingi	we have great wealth
 mbotama	birthday	noun			lelo ezali mokolo na ngai ya kobotama	today is my birthday
 mbote	greeting	noun			mbote ya sika	a new greeting
@@ -1147,16 +1153,16 @@ montele	watch	noun		a wearable device for telling the time	montele ya moke	a sma
 monyele	east	noun			kende monyele	go east
 monzoto	star	noun			minzoto mingi	plenty of stars
 moombo	slave	noun			moombo na ngai	my slave
-mopanzi	lover	noun			mopanzi na ngai asakani na ngai	my lover has tricked me
 mopanzi	sweetheart	noun			azali mopanzi na ngai	he is my sweetheart
+mopanzi	lover	noun			mopanzi na ngai asakani na ngai	my lover has tricked me
 mopanzi	partner	noun			aza mopanzi na ngai	she is my partner
 mopanzi-nsango	journalist	noun			to za bapanzi-nsango	we are journalists
+mopaya	stranger	noun			bapaya misato	three strangers
 mopaya	guest	noun			naza mopaya	I am a guest
 mopaya	foreigner	noun			bapaya bakomi	the foreigners have arrived
-mopaya	stranger	noun			bapaya misato	three strangers
 mopende	thigh	noun			mopende ya nsoso	chicken thigh
-mopepe	air	noun			mopepe ezopepa	the air is blowing
 mopepe	windy	adjective			mokolo ya mopepe	a windy day
+mopepe	air	noun			mopepe ezopepa	the air is blowing
 mopimi	selfishness	noun			mopimi eza malamu te	selfishness is not good
 mopimi	miser	noun			aza moto mopimi	he is a miser
 mopoti-mbangu	athlete	noun			azali mopoti-mbangu	she is an athlete
@@ -1192,9 +1198,9 @@ moto	person	noun			moto ya tina	important person
 moto	charge	science			lotiliki eza na moto ya positife na moto negatife	electricity has positive charge and negative charge
 moto	human	noun			to za bato	we are humans
 moto	humankind	noun			to za bato	we are humankind
-moto	head	noun			moto nayo monene	your big head
 moto	someone	pronoun			moto azoya	someone is coming
 moto	fever	noun			aza na nzoto moto	she has a fever
+moto	head	noun			moto nayo monene	your big head
 moto	hot	adjective			mai ya moto	hot water
 moto ... wa mobembo	traveller	noun			bato minei ya mibembo	four travellers
 moto akufa-makolo	cripple	noun			aza moto akufa-makolo	he is a cripple
@@ -1383,9 +1389,10 @@ nkisi	medicine	noun			nkisi ya bololo	bitter medicine
 nkoba	tortoise	noun			nkoba azotambola malembe	a tortoise walks slowly
 nkoi	leopard	noun			nkoi aza na mukondo	a leopard has a tail
 nkombekombe	hawk	noun			nkombekombe na nsoso	a hawk and a chicken
-nkombo	name	noun			nkombo na ngai	my name
 nkombo	title	noun			"Bokasi" eza nkombo	"Mighty One" is a title
+nkombo	name	noun			nkombo na ngai	my name
 nkombo	heading	noun			nkombo ya buku	book headings
+nkongoli	centipede	noun			tala nkongoli	look at the centipede
 nkosi	lion	noun			nkosi azolia nyama	a lion eats flesh
 nkoto	thousand	adjective		the number 1000	milangi nkoto	thousand bottles
 nkoto	scorpion	noun			nkoto  ya moindo	a black scorpion
@@ -1425,6 +1432,7 @@ ntuku mwambi	eighty	adjective		the number 80	milangi ntuku mwambi	80 bottles
 ntuku nsambo	seventy	adjective		the number 70	milangi ntuku nsambo	seventy bottles
 numero	number	noun			numero 5	number 5
 numero	address	noun			numero na yo	your address
+nwa	nut	noun			bango balei nwa	they eat nuts
 nwayo	nucleus	science			nwayo eza na protone na neutrone	a nucleus contains protons and neutrons
 nyama	animal	noun			mbwa aza nyama	a dog is an animal
 nyama	meat	noun			nyama ya ntaba	goat meat
@@ -1556,6 +1564,7 @@ potopoto	porridge	noun			potopoto ya mile	millet porridge
 potopoto	clay	noun			nzungu ya potopoto	clay vase
 pozisyo	position	noun			pozisyo malamu	a good position
 preservasyo	preservation	noun			preservasyo ya biloko	the preservation of food
+priyorite	priority	noun			priyorite na yo eza nini?	what is your priority?
 profete	prophet	noun			profete makasi	powerful prophet
 projet	project	noun			projet zomi	ten projects
 proklamasyo	proclamation	noun			proklamasyo ya bosembo ya moto	proclamation of the rights of humankind
@@ -1583,6 +1592,7 @@ robine	tap	noun			fungola robine	open the tap
 romplase	replace	verb			romplase ngai	replace me
 roze	dew	noun			roze ya ntongo	morning dew
 rum	rum	noun			rum to vodka?	rum or vodka?
+ryumatisme	rheumatism	noun			ryumatisme ezali maladi	rheumatism is a disease
 sabotaje	sabotage	noun			oyo ezali sabotaje	this is sabotage
 sabuni	soap	noun			katini na sabuni	pail and soap
 sakana	play	verb			tokosakana	we are playing
@@ -1597,8 +1607,8 @@ salfa	sulfur	science			salfa (S) eza na protone 16	sulfur (S) has 16 protons
 salisa	help	verb			ozasalisa bato nyoso	you are helping everyone
 salo	hall	noun			toza na salo	we are sitting in the hall
 sambela	pray	verb			kosambela po na banguna ba ngai	to pray for my enemies
-sambela	pray	verb			kosambela po na banguna na ngai	to pray for my enemies
 sambela	pray	verb			kosambela mpo na banguna na ngai	to pray for my enemies
+sambela	pray	verb			kosambela po na banguna na ngai	to pray for my enemies
 sambole	puzzle	noun			masambole na badevinete	puzzles and riddles
 sanduku	box	noun			sanduku ya A eza monene koleka sanduku ya B	box A is bigger than box B
 sangana	integrate	verb		to join together to form a whole	kosangana moto ya sika nakati ya libota	to integrate a new person into the family
@@ -1732,6 +1742,7 @@ teknoloji	technology	noun			teknoloji ya sika	new technology
 telefon	phone	noun			telefon na ye	her phone
 telefon	telephone	noun			telefone ya ndako	house telephone
 telema	stand	verb			kotelema	to stand slowly
+teleskope	telescope	noun			teleskope ya langi ya moindo	a black telescope
 televizyo	television	noun			fungola televizyo	switch on the television
 temwe	witness	noun			batemwe misato	three witnesses
 tenye	ringworm	noun			aza na maladi ya tenye	he has ringworm
@@ -1767,6 +1778,7 @@ vanda	live	verb			tovandaka awa	we live here
 ver de terre	worm	noun			ver de terre,okende wapi?	worm, where are you going?
 veranda	verandah	noun			tokende na veranda	let's go to the verandah
 versyo	version	noun			versyo boni?	which version?
+vevage	widowhood	noun			vevage muke	a short widowhood
 video	video	noun			tala video	watch the video
 vile	hometown	noun			Nakei na vile na ngai	I'm going to my hometown
 viligile	point	noun			1 viligile 5 (1.5) eza moka na ndambo	1 point 5 (1.5) is one and a half.
@@ -1849,7 +1861,7 @@ zomi na mibale	twelve	adjective		the number 12	milangi zomi na mibale	twelve bot
 zomi na minei	fourteen	adjective		the number 14	milangi zomi na minei	fourteen bottles
 zomi na misato	thirteen	adjective		the number 13	milangi zomi na misato	thirteen bottles
 zomi na mitano	fifteen	adjective		the number 15	milangi zomi na mitano	fifteen bottles
-zomi na moko	eleven	adjective			milangi zomi na moko	eleven bottles
+zomi na moko	eleven	adjective		the number 11	milangi zomi na moko	eleven bottles
 zomi na motoba	sixteen	adjective		the number 16	milangi zomi na motoba	sixteen bottles
 zomi na mwambi	eighteen	adjective		the number 18	milangi zomi na mwambi	eighteen bottles
 zomi na nsambo	seventeen	adjective		the number 17	milangi zomi na nsambo	seventeen bottles

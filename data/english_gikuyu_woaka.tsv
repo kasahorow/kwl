@@ -124,8 +124,8 @@ gikumenyeka	distinguished	adjective			kiura gikumenyeka	a distinguished frog
 gikundi	group	noun			twambirie gikundi	let us found a group
 gikundi	grove	noun			gikundi kia miti	grove of spirits
 gikuyu	fish	noun			gikuyu gikarangi	fried fish
-Gĩkũyũ	Gikuyu	noun		the common written form of the Meru and Kikuyu language	niĩ nothome Gĩkũyũ	I can read Gikuyu
 gikuyu	fish	verb			twite tukagwatie gikuyu	let's go and fish
+Gĩkũyũ	Gikuyu	noun		the common written form of the Meru and Kikuyu language	niĩ nothome Gĩkũyũ	I can read Gikuyu
 gintu	thing	noun		a reference to an unnamed object	gintu, into	the thing; the things
 gintu gia kumamiria mutwe	pillow	noun			gintu gia kumamiria mutwe na gitanda	pillow and bed
 gitambaa	fabric	noun			ngurira gitambaa	buy fabric for me
@@ -156,7 +156,7 @@ gũcokia ngatho	thank	verb			gũcokeria baba wanyu ngatho	to thank your Father
 gũcokia ngatho	thanksgiving	noun			igongona rĩa gũcokia ngatho	thanksgiving service
 gukaatha	exultation	noun			ndwimbo cia gukaatha	songs of exultation
 gukara bwega	prosperity	noun			thiiri na gukara bwega	peace and prosperity
-gũkenania	amusing	adjective			Rũgano rwa gũkenania	amusing story
+gũkenania	funny	adjective			Rũgano rwa gũkenania	funny story
 gukeneerwa	congratulations	noun			gukeneerwa na kuthithia bwega	congratulations and well done
 gukenia	entertaining	adjective			ni i gukenia	it is entertaining
 gukia	daybreak	noun			gukia na muundu kuingira	daybreak and nightfall
@@ -243,7 +243,7 @@ ikia miruki	breathe	verb			ikia miruki aniini; nogoka	breathe a little; take a b
 ikira kiongo	memorize	verb			gwikira kiongo	to memorize
 ikumi	ten	adjective		the number 10	cuuba ikumi	ten bottles
 ikumi na ijiri	twelve	adjective		the number 12	cuuba ikumi na ijiri	twelve bottles
-ikumi na imwe	eleven	adjective			cuuba ikumi na imwe	eleven bottles
+ikumi na imwe	eleven	adjective		the number 11	cuuba ikumi na imwe	eleven bottles
 ikumi na inya	fourteen	adjective		the number 14	cuuba ikumi na inya	fourteen bottles
 ikumi na inyanya	eighteen	adjective		the number 18	cuuba ikumi na inyanya	eighteen bottles
 ikumi na ithano	fifteen	adjective		the number 15	cuuba ikumi na ithano	fifteen bottles
@@ -351,6 +351,7 @@ kajea	dove	noun			kajea gakeeru	white dove
 kaki	khakhi	noun			suruari ya kaki	khakhi shorts
 kameme	radio	noun			ingurira kameme	switch on the radio
 kamera	camera	noun			gicicio gia kamera	lens of a camera
+Kamerun	Cameroon	noun		A country in Africa	thiĩ Kamerun	go to Cameroon
 kamindo	cutlass	noun			neekeria kamindo	give me the cutlass
 Kamũgaa	September	noun				September has 30 days
 kana	or	conjunction			Kofi kana Ama	Kofi or Ama
@@ -382,16 +383,16 @@ kiao	empathy	noun			ari na kiao	she has such empathy
 kiao	leniency	noun			mwigirue kiao	show him leniency
 kiara	finger	noun			mbonia kiara giaku	show me your finger
 kiara gia kuguru	toe	noun			kiara gia kuguru na gikinya	toe and heel
-kiatho	event	noun			kiatho gikuambiriria	the event has started
 kiatho	event	noun			kiatho gikwambiria	the event has started
+kiatho	event	noun			kiatho gikuambiriria	the event has started
 kiatho	party	noun			mbitite kiatho	I am going to a party
 kibara	chest	noun			nchiuri cia kibara	chest hair
 kibodi	keyboard	noun			iinya k kiri kibodi	press "k" on the keyboard
 kibugu	zero	adjective		A number that indicates nothingness; 0	kuma kibugu mwanka kenda	From zero to nine
 kibugu	zero	adjective		A number that indicates nothingness; 0	kuuma kibugu mwanka kenda	From zero to nine
 kiegeri	broom	noun			kiegeri na kabati ga kwojera mati	broom and dustpan
-kiewa	award	noun			mue kiewa	give her an award
 kiewa	gift	noun			kiewa gikiega	a good gift
+kiewa	award	noun			mue kiewa	give her an award
 kigeranio	exam	noun			kigeranio gikiuthu	the exam is easy
 kigimbi	goosebumps	noun			ndina kigimbi	I have got goosebumps
 kigongoana	sacrifice	noun			rita kigongoana	offer a sacrifice
@@ -455,7 +456,7 @@ kuandanira	falsification	noun			kwaria urongo na kuandanira	lies and falsificati
 kuaririria	preface	noun			kuaririria iuku	book preface
 kuetheria	pretend	verb			ni ukuetheria	you are pretending
 kugaa	division	noun			ijiri kugaira imwe ni ijiri ; guku ni kugaa	2/1 = 2; this is division
-kugegania	amusing	adjective			rugono rwa kugegania	amusing story
+kugegania	funny	adjective			rugono rwa kugegania	funny story
 kũgegania	amazing	adjective			Rũgano rwa kũgegania	amazing story
 kugia	gain	verb			kethira ndi mwoyo, ni ninkugia gintu kionthe	if I have life, I have gained everything
 kugia matunda	bear fruit	verb			muti jukugia matunda	the tree has borne fruit
@@ -535,8 +536,8 @@ kuuwa	carry	verb			kuuwa ibuku	carry the book
 kwaria	talk	verb			kwaria mũno	to talk too much
 kwaria urongo	perjury	noun			kwaria urongo kotini	perjury in court
 kwenda	need	verb			kwenda mucii	to need family
-kwenda	desire	verb			inkwenda irigu	I desire a banana
 kwenda	want	verb			ngwenda mabuku mana	I want four books
+kwenda	desire	verb			inkwenda irigu	I desire a banana
 kwendeka	desirable	adjective			ni i kwendeka	it is desirable
 kwendia	hawk	verb			kwendia into	hawk things
 kwerenca	plead with ...	verb			ndakwerenca; itu	i plead with you; please
@@ -759,8 +760,8 @@ mutumiiria	priest	noun			mutumiiria ari na mataro	a priest has advice
 mutumiria	bishop	noun			ni mutumiria	she is a bishop
 mutumwa	messenger	noun			atumwa ibakinyire	the messengers arrived
 mutungi	barrel	noun			ujuria mutungi	fill up the barrel
-mutungi	bucket	noun			mutungi juturiki	the bucket leaks
 mutungi	pail	noun			mutungi na thabuni	pail and soap
+mutungi	bucket	noun			mutungi juturiki	the bucket leaks
 mutungi	jar	noun			mitungi mugwanja	seven jars
 muturiru	flute	noun			rwimbo rwa muturiru	flute music
 mutuu	flour	noun			mutuu jwa mpempe	corn flour
@@ -790,8 +791,8 @@ mwanki	fire	noun			gwatia mwanki	light the fire
 mwarĩ	daughter	noun		female child	mwarĩ wakwa	my daughter
 mwari	girl	noun			mwari umuraaja	tall girl
 mwari	lady	noun			mwari karimi	Lady Danso
-mwari	miss	noun			mwari na kaari kaniini	lady and young lady
 mwari	damsel	noun			mwari uju nathongi	this damsel is pretty
+mwari	miss	noun			mwari na kaari kaniini	lady and young lady
 mwario ng'ina	sister	noun			mwario ng'ina wakwa wenka	my only sister
 mwekuru	wife	noun			mwekuru wakwa na twana twakwa	my wife and my children
 mwekuru	missus	noun			mwekuru wa Clinton	Missus Clinton
@@ -870,6 +871,7 @@ nganira	befit	verb			ni bugukunganira	it befits you
 ngara	bruise	verb			waringa rwagi na muthuro wangara kironda giaku	you swat the fly in anger and you bruise your wound
 ngaranji	garage	noun			ngaranji ya ngari	car garage
 ngari	car	noun			itithia ngari	drive a car
+ngari		noun			ngari	
 ngari ya mwanki	train	noun			ngari ya mwanki injeru	new train
 ngatunyi	lion	noun			ngatunyi irijaga nyama	a lion eats flesh
 ngecere	bow-legged	adjective			muntu murume uri na ngecere	bow-legged man
@@ -1219,8 +1221,8 @@ urururu	pain	noun			urururu buri aja	the pain is here
 utethio	help	noun			muntu wonthe niendete utethio	everyone needs help
 utheri	mere	adjective			kiaa utheri	mere fool
 utheri	glory	noun			utheri bwa muntu	glory of humankind
-uthiu	face	noun			tega uthiu bwakwa	look at my face
 uthiu	forehead	noun			tega uthiu bwawe	look at her forehead
+uthiu	face	noun			tega uthiu bwakwa	look at my face
 uthongi	beauty	noun			Uthongi na wendo	beauty and love
 uthongi	fetish	noun			tauni iiji iri na uthongi	this town has a fetish
 uthuku	evil	noun			ni uthuku buriku buubu?	which evil is this?

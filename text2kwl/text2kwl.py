@@ -17,7 +17,7 @@ from grako.parsing import graken, Parser
 from grako.util import re, RE_FLAGS  # noqa
 
 
-__version__ = (2016, 2, 22, 3, 25, 41, 0)
+__version__ = (2016, 5, 16, 6, 14, 41, 0)
 
 __all__ = [
     'text2kwlParser',
@@ -240,6 +240,8 @@ class text2kwlParser(Parser):
             with self._option():
                 self._plural_()
             with self._option():
+                self._title_()
+            with self._option():
                 self._noun_()
             with self._option():
                 self._pronoun_()
@@ -310,6 +312,20 @@ class text2kwlParser(Parser):
         )
 
     @graken()
+    def _title_(self):
+        self._token('title')
+        self.ast['t'] = self.last_node
+        self._token('(')
+        self._entry_()
+        self.ast['v'] = self.last_node
+        self._token(')')
+
+        self.ast._define(
+            ['t', 'v'],
+            []
+        )
+
+    @graken()
     def _tuple_(self):
         with self._choice():
             with self._option():
@@ -330,6 +346,9 @@ class text2kwlParser(Parser):
             with self._option():
                 self._noun_()
                 self._noun_()
+            with self._option():
+                self._raw_()
+                self._raw_()
             self._error('no available options')
 
     @graken()
@@ -683,6 +702,9 @@ class text2kwlSemantics(object):
         return ast
 
     def plural(self, ast):
+        return ast
+
+    def title(self, ast):
         return ast
 
     def tuple(self, ast):

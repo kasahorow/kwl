@@ -1,20 +1,17 @@
 
 
-kwl2text = "<kwl" @:{ sentence ";" }* ["kwl>"] ;
+kwl2text = "<kwl" @:{ sentence ";" }* ["kwl>"];
 
-sentence =  command | question | statement | expression ; 
+sentence =  formatted | command | question | statement | expression ; 
 
+formatted = @:sentence_formatting "(" @:expression ")"; 
+sentence_formatting = "headline";
 statement = @:expression ".";
 command = @:expression "!";
 question = @:expression "?";
-(*
-expression = conjunction | clause | group ;
-*)
-expression = conjunction | conjunct ;
+expression = conjunction join conjunction | conjunction ;
 
-conjunction = conjunct join conjunct | "if" @:conjunct @:"then" @:conjunct ;
-
-conjunct = clause;
+conjunction = clause join clause | "if" @:clause @:"then" @:clause | clause;
 
 clause =  subject_verb_object | subject_verb | verb_object | group; 
 
@@ -36,15 +33,15 @@ triple_phrase = @:entry "(" @:tuple_kwl ")" ;
 tuple_kwl = @:entry "_" @:entry | @:entry "_" @:raw;
 
 (* Component: modifiers *)
-modifiers =  partofspeech | conjugations | prepositions | tenses | formatting ;
+modifiers =  partofspeech | conjugations | prepositions | tenses | "plural" | formatting;
+formatting = "defn" | "quote" | "sample" | "title" ;
 
-join = ":" | "," | "and" | "but" | "of" | "or" | "so" | "then" | "when" ;
+join = ":" | "," | "and" | "because" | "but" | "of" | "or" | "so" | "then" | "when" ;
 
-formatting = "defn" | "plural" | "quote" | "sample" | "title" ;
 
 conjugations = "f" | "i" | "je" | "m" | "tu" | "il" | "elle" | "nous" | "vous" | "ils" | "elles" ;
-prepositions = "at" | "for" | "from" | "in" | "of"| "on" | "to" ;
-tenses = "cmd" | "done_tdy" | "done_tmw" | "done_ydy" | "inf" | "not_tdy" | "not_tmw" | "not_ydy" | "now_tdy" | "now_tmw" | "now_ydy" | "tdy" | "tmw" | "ydy" ;
+prepositions = "at" | "for" | "from" | "in" | "of" | "like" | "on" | "to" ;
+tenses = "cmd" | "done_tdy" | "done_tmw" | "done_ydy" | "inf" | "may" | "not_tdy" | "not_tmw" | "not_ydy" | "now_tdy" | "now_tmw" | "now_ydy" | "tdy" | "tmw" | "ydy" ;
 
 
 adjective = t:"adj" ":" v:token ;
@@ -59,9 +56,9 @@ verb = t:"act" ":" v:token ;
 
 (* Component: entry *)
 entry = t:partofspeech ":" v:token ;
-partofspeech = "act" | "adj" | "adv" | "det" | "exc" | "kg" | "nom" | "pos" | "pre" | "pro" | "sci" ; 
+partofspeech = "act" | "adj" | "adv" | "det" | "exc" | "kg" | "nom"| "pos" | "pre" | "pro" | "sci" ; 
 
 
 (* Component: token *)
-token = /[a-zA-Z0-9#]*/ ;
+token = /[a-zA-Z0-9#\-]*/ ;
 

@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import grammar as models
 import os
 import sys
 
@@ -40,51 +39,54 @@ def get_word_suffix(word, suffixes=[]):
   return (key, suffix)
 
 
-def plural(language, noun, number=2, nclass=None):
+#def plural(language, noun, number=2, nclass=None):
+def plural(grammar, noun, number=2, nclass=None):
   """Return the plural form of this language. noun is a Unicode string."""
   prefix = ''
   suffix = ''
-  stem = noun
+  stem = noun.strip()
 
   if number == 1:
     return noun
 
-  if language == 'english':
-    pl = u'%ss' % noun
+  if grammar.language == 'english':
+    pl = u'%ss' % stem
     if pl[-4:] == 'tchs':  # so that 'loch' will still be lochs
       suffix = 'es'
     else:
       suffix = 's'
 
-  elif language == 'akan':
-    if ' ' in noun:  # possessive
-       data = noun.split(' ')
-       return data[0] + ' ' + plural(language, ' '.join(data[1:]), number) 
-    elif noun[0] in ('[', 'l', 'r', 'v',  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'): # likely to be a foreign word import: redio, Venezuwela, lɔre
+  elif grammar.language == 'akan':
+    if ' ' in stem:  # compound
+       data = stem.split(' ')
+       return plural(grammar, data[0], number) + ' ' + plural(grammar, ' '.join(data[1:]), number) 
+    elif stem[0] in ('[', 'l', 'r', 'v',  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'): # likely to be a foreign word import: redio, Venezuwela, lɔre
       pass  # Noun does not change form
-    elif noun[-1:] in ('l'):  # like bɔɔl
+    elif stem[-1:] in ('l'):  # like bɔɔl
       pass
-    elif noun[-2:] in (u'bɔ', 'da', u'kɔ', u'yɛ'):  # Activities      
+    elif stem[-2:] in (u'bɔ', 'da', u'kɔ', u'yɛ'):  # Activities      
       pass
-    elif noun[-3:] == 'nyi':
+    elif stem[-3:] == 'nyi':
       prefix = 'a'
+      stem = stem[:-3]
       suffix = 'fo'
-    elif noun[0] in (u'b', u'f', u'p'):
+    elif stem[0] in (u'b', u'f', u'p'):
       prefix = 'm'
-    elif noun[0] not in ('n', 'm'):
+    elif stem[0] not in ('n', 'm'):
       prefix = 'n'
  
-    stem = noun.lstrip(u'aeioɔu')
+    stem = stem.lstrip(u'aeioɔu')
     pl = u'%(prefix)s%(noun)s%(suffix)s' % { 'noun': noun.lstrip(u'aeioɔu'),
       'prefix': prefix, 'suffix': suffix}
-  elif language in models.data and 'plural' in models.data[language]:
+  elif 'plural' in grammar.data:
     try:
-      replace, prefix = get_word_prefix(noun, models.data[language]['plural']['prefix'])
+      replace, prefix = get_word_prefix(noun, grammar.data['plural']['prefix'])
       stem = noun[len(replace):]
     except (IndexError, KeyError),  e:
       pass
     try:
-      replace, suffix = get_word_suffix(noun, models.data[language]['plural']['suffix'])
+      replace, suffix = get_word_suffix(noun, grammar.data['plural']['suffix'])
+      stem = noun[:len(noun) - len(replace)]
     except (IndexError, KeyError),  e:
       pass
 

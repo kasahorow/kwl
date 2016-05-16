@@ -28,8 +28,8 @@ akalobo	bucket	noun			akalobo katonya	the bucket leaks
 akambe	knife	noun			akambe akawagale	sharpen a knife
 akambe	knife					sharpen a knife
 akamweenyomweeny	smile	verb			akamweenyomweeny katono	to smile a bit
-akamyu	rabbit	noun			akamyu akeru	a white rabbit
 akamyu	rabbit	noun			akamyu ak'enjeru	a white rabbit
+akamyu	rabbit	noun			akamyu akeru	a white rabbit
 Akani	Akan	noun		a language group originating from West Africa	yogera akani	I speak Akan
 akanyogoga	cool	adjective			ka beer akanyogoga	a cool beer
 akapale komunda	drawers	noun			oyambadde akapale komunda	are you wearing drawers?
@@ -46,8 +46,8 @@ amafuta	kerosene	noun			Ekyupa y'amafuta	bottle of kerosene
 amagezi	knowledge	noun			amagezi gonna agalimunsi	all knowledge in the world
 amagezi	wisdom	noun			amanyi ne amagezi	strength and wisdom
 amagoba	profit	noun			kola amagoba	make profit
-amaka	home	noun			amakaago	your home
 amaka	family	noun			amaka amaggya	new family
+amaka	home	noun			amakaago	your home
 amakumi abiri	twenty	adjective		The number 20	amacupa amakumi abiri	twenty bottles
 amakumi anya	forty	adjective		the number 40	cuupa amakumi anya	forty bottles
 amakumi asatu	thirty	adjective		the number 30	cuupa amakumi asatu	thirty bottles
@@ -72,7 +72,6 @@ amazzi	water	noun			nywa amazzi	you drink water
 amazzi g'akagga	springwater	noun			okunywa amazzi g'akagga	to drink springwater
 ambula	wear	verb			yambala engoye	wear clothes
 amenvu	banana	noun			enkima eyagala amenvu	a monkey likes bananas
-ani	who	pronoun			oyo ani?	who is he?
 apple	apple	noun			lya apple	eat the apple
 argoni	argon	science			argoni (Ar) elina protoni kumi na munaana	argon (Ar) has 18 protons
 asoobola	able	adjective			y'omukazi asoobola	an able woman
@@ -83,6 +82,7 @@ awo	there	adverb			ajja kugenda awo	she will go there
 awo	there	noun		that place	wano ne awo	here and there
 awo	then	adverb			awo ye neyebaka	then he slept
 ayi	ouch	exclamation			ayi! Kikosa	Ouch! It hurts
+ba	be	verb		used to indicate state of being. Has different forms depending on the subject person: I am, you are, she/he/it is, we are, they are	beera muntu wa kitiibwa	You are an important person
 baafu	basin	noun			baafu mwenda	nine basins
 baanka	bank	noun			ssente nza nge zili mu baanka	my money is at the bank
 baasi	bus	noun			baasi gy'ekoma	bus stop
@@ -104,7 +104,6 @@ bbiri	two	adjective			eccupa bbiri	There are two bottles on the wall
 bbula	scarcity	noun			ebbula ly'amazzi	scarcity of water
 bbululu	blue	adjective			olugoye lwa bbululu	blue dress
 bbumba	clay	noun			ekibeeramu ebimuli e ky'ebbumba	clay vase
-beera	be	verb		used to indicate state of being. Has different forms depending on the subject person: I am, you are, she/he/it is, we are, they are	beera muntu wa kitiibwa	You are an important person
 beera	live	verb			tubeera wano	we live here
 bendera	flag	noun			bendera eyakyenvu	yellow flag
 Benini	Benin	noun		A country in Africa	genda e Benini	go to Benin
@@ -122,8 +121,8 @@ bisi	wet	adjective			bulangiti embisi	wet blanket
 blog	blog	noun			blog y'emmere	food blog
 bo	them	pronoun			balage	show them
 bo	they	pronoun		used to indicate people, or things, previously mentioned	bo balya	they eat
-bonabona	suffering	noun			butitizzi zne oku bonabona	fear with suffering
 bonabona	suffer	verb			gwe olimu kubonabona	you are suffering
+bonabona	suffering	noun			butitizzi zne oku bonabona	fear with suffering
 boroni	boron	science			boroni (B) elina protoni taano	boron (B) has 5 protons
 breki	brake	noun			breki ya emmotoka	brake of a car
 bubaka	message	noun			obubaka bwebwatuka	when the message arrived
@@ -186,8 +185,8 @@ Chewa	Chewa	noun			olulimi lwa Chewa	Chewa language
 chokuleeti	chocolate	noun			chokuleeti kati afuuse wa layisi	the chocolate has become cheap
 ciggara	tobacco	noun			mukka gwa ciggara	smoke tobacco
 codi	code	noun			kuwandika codi	to write code
-commandi	command	verb			okuwa omujaasi commandi	to command a soldier
 commandi	command	noun			muwe commandi	give him a command
+commandi	command	verb			okuwa omujaasi commandi	to command a soldier
 Cote d'Ivoire	Cote d'Ivoire	noun		A country in Africa	genda e Cote d'Ivoire	go to Cote d'Ivoire
 crab	crab	noun			enva za crab	crab soup
 ddaala	ladder	noun			eddaala eggwanvu	long ladder
@@ -207,6 +206,8 @@ dereva	driver	noun			dereva asibye	the driver has braked
 dikshonari	dictionary	noun			dikshonari y'ebifanaanyi	picture dictionary
 doboozi	voice	noun			kendeza ko ku doboozi yo	soften your voice
 dole	doll	noun			dole yange	my doll
+e	her	possessive			nnyumba ye	her house
+e	his	possessive			nnyumba ye	his house
 e!	wow	exclamation			e! webale!	wow! thank you!
 ebaffu	sink	noun			amazi ga gye mubaffu	drain the sink
 ebbaluwa	letter	noun			wandika ebbaluwa	to write a letter
@@ -293,8 +294,8 @@ ekimera	plant	noun			ekimera ekimyufu	red plant
 ekimuli	flower	noun			ekimuli ekirungi	pretty flower
 ekimyanso	lightning	noun			ekimyanso ne kibuyaga	lightning and thunder
 ekinene	great	adjective			erinnya enene	a great name
-ekintu	something	noun			kukwata ekintu ne amanyi	to hold something firmly
 ekintu	thing	noun		a reference to an unnamed object	ekintu, ebintu	the thing; the things
+ekintu	something	noun			kukwata ekintu ne amanyi	to hold something firmly
 ekintu	something	pronoun			ndaga ekintu	show me something
 ekintu ekipya	entry	noun			ekintu ekipya mu kitabo	a new entry in the book
 ekinya	pit	noun			sima ekinya	dig a pit
@@ -334,8 +335,8 @@ ekitundu	area	math		a quantity that represents the size of a surface	ekitundu = 
 ekitundu	half	noun		one out of two equal divisions	emu ne ekitundu	one and half
 ekitundu	part	noun			ekitabo kirina ebitundu bisatu	the book has three parts
 ekivaamu	consequence	noun			ebikivuddemu	its consequences
-ekiwato	waist	noun			ekiwato kyo	your waist
 ekiwato	groin	noun			ekiwato kya omusajja	groin of a man
+ekiwato	waist	noun			ekiwato kyo	your waist
 ekiwojjolo	butterfly					a butterfly is beautiful
 ekiwojjolo	butterfly	noun			ekiwojjolo kirungi	a butterfly is beautiful
 ekiwonvu	valley	noun			ebisozi ne ebiwonvu	hills and valleys
@@ -564,15 +565,15 @@ Fula	Fula	noun			lulimi Fula	Fula language
 fuluta	snore	verb			nze nfuluta	I snore
 fumba	cook	verb			fumba omuccere mutini	cook a little rice
 fumbiro	kitchen	noun			ndi mufumbiro	I am in the kitchen
+funa	adopt	verb			okufuna omwana	to adopt a child
 funa	get	verb			funa ekitabo	get the book
 funa	achieve	verb			okufuna ekintu	to achieve something
-funa	adopt	verb			okufuna omwana	to adopt a child
 fundikira	adjust	verb			okufundikira olujji	to adjust the door
 fuuka	become	verb		to begin to be	ye yafuuka mugagga	she became rich
 fuuka	become	verb		to begin to be	ya fuuka mugaga	she became rich
 gabana	share	verb			mugabana emmere	share the food
-gabanya	divide	verb		separate into parts	gabanya omugati	divide the bread
 gabanya	split	verb			gabanya mu bbiri	split in two
+gabanya	divide	verb		separate into parts	gabanya omugati	divide the bread
 Gadangme	GaDangme	noun		Ga. A West African people; their language	Enjogera Gadangme	I speak GaDangme
 galaji	garage	noun			galaji ya emmotoka	car garage
 galamiza	lay	verb			ensolo zijja kugalamira awo	animals will lay there
@@ -600,6 +601,7 @@ goolo	goal	noun			teeba goolo	score a goal
 goonya	crocodile	noun			goonya eyagal'amazzi	a crocodile likes water
 gramu	gramme	noun			gramu kumi	ten grammes
 Guinea	Guinea	noun		A country in Africa	genda e Guinea	go to Guinea
+Guinea-Bissau	Guinea-Bissau	noun		A country in Africa	genda e Guinea-Bissau	go to Guinea-Bissau
 gula	buy	verb			okugula ekintu	to buy something
 gulaamu	gram	noun			gulaamu kumi	ten grams
 guwa	fall	verb		move downward	omuguwa gwagwa okuva ku kasolya k'enyumba	a rope fell from the roof of the house
@@ -636,8 +638,8 @@ kabina	rump	noun			laba akabina ke	look at his rump
 kabona	priest	noun			kabona awabula	a priest has advice
 kabondo	community	noun			kulyusa maka mapya mu kabondo	to integrate a new family into the community
 kabonero	sign	noun			akabonero k'esuubi	a sign of hope
-kabuyonjo	toilet roll	noun			gula kabuyonjo	to buy toilet roll
 kabuyonjo	toilet	noun			genda mukabuyonjo	go to the toilet
+kabuyonjo	toilet roll	noun			gula kabuyonjo	to buy toilet roll
 kade	old	adjective			entamu enkade	old pan
 kakobe	indigo	adjective			olugoye lwa kakobe	indigo cloth
 kakobe	violet	adjective			ekimuli kya kakobe	violet flowers
@@ -652,6 +654,7 @@ kalooli	vulture	noun			kalooli ye kinyonyi	a vulture is a bird
 kalu	empty	adjective			akalobo akakalu	empty bucket
 kalu	dry	adjective			ettaka ekkalu	dry land
 kamenyo	giant	noun			ba kamenyo bana	four giants
+Kamerun	Cameroon	noun		A country in Africa	genda e Kamerun	go to Cameroon
 kampani	company	noun			kampani entono	a small company
 kamulali	pepper	noun			kamulali ayokya	the pepper burns
 kamunye	hawk	noun			kamunye n'enkoko	a hawk and a chicken
@@ -679,14 +682,14 @@ keki	cake	noun			tugya kuliya e keki	we will eat the cake
 kendeeza	reduce	verb			kendeeza kintu ne ttaano	reduce it by five
 kenkey	kenkey	noun			kenkey ne mugoyo	kenkey and stew
 kente	kente	noun			lugoye lwa kente	kente cloth
-Kenya	Kenya	noun		A country in Africa	genda e kenya	go to Kenya
+Kenya	Kenya	noun		A country in Africa	genda e Kenya	go to Kenya
 kera	early	adverb			kera	come early
 ki	which	determiner			omwana ki?	which child?
 ki	it	pronoun		subject pronoun for non-humans	kigwa	it falls
 ki kati	hello	exclamation			ki kati ssebo	hello sir
 kibala	fruit	noun			kunoga ekibala	pluck fruit
-kibi	ugly	adjective			ekintu ekibi	it is ugly
 kibi	evil	noun			kibi ki kino?	which evil is this?
+kibi	ugly	adjective			ekintu ekibi	it is ugly
 kibuga	town	noun			genda mukibuga	go into town
 kibuga kinene	capital	noun			Accra y'ekibuga kinene ya Ghana	Accra is the capital of Ghana
 kibumba	liver	noun			embwa erina ekibumba	a dog has a liver
@@ -703,7 +706,6 @@ kiisa	leniency	noun			mulage kiisa	show him leniency
 kijiiko	spoon					sixteen spoons
 kika	version	noun			kika ki?	which version?
 kikere	frog					a frog likes water
-kiki	what	pronoun			kiki ekyo?	what is that?
 kikolwa	action	noun			ndaga ekikolwa	show me the action
 kikoola	leaf	noun			ekikoola ekyakilagala	green leaf
 kikoola	bud	noun			kikoola kya kimuli	flower bud
@@ -729,10 +731,10 @@ kinyeebwa	groundnut	noun			kasooli n'ebinyeebwa	corn and groundnuts
 kinyonyi	bird	noun			ekinyonyi kibuuka	a bird flies
 kipya	fresh	adjective			bikola bipya	fresh leaves
 kiragala	green	adjective			ekikoola kya kiragala	green leaf
+kiriza	allow	verb			kukiriza bo	allow them
 kiriza	agree	verb			gwe okiriza?	do you agree?
 kiriza	accept	verb			mukirize	accept her
 kiriza	believe	verb			kiririza mu Kofi	believe Kofi
-kiriza	allow	verb			kukiriza bo	allow them
 kisambi	hip	noun			bisambi byange	my hips
 kisanikira	lid	noun			ekisanikira kye kikopo	lid of a cup
 kisanirizo	comb	noun			kosesa ekisanirizo okusanirira enviiri	use a comb to comb your hair
@@ -785,9 +787,9 @@ kkumi na ssatu	thirteen	adjective		the number 13	amacupa kkumi na ssatu	thirteen
 kkumi na ttaano	fifteen	adjective		the number 15	amacupa kkumi na ttaano	fifteen bottles
 klorini	chlorine	science			klorini (Cl) erina protoni kumi na mussanvu	chlorine (Cl) has 17 protons
 kojja	uncle	noun			kojja Kofi	uncle Kofi
-kola	bake	verb			kola omugaati	bake bread
 kola	work	verb			kukola nyo	to work hard
 kola	do	verb		to make	alina kyakola	she is doing something
+kola	bake	verb			kola omugaati	bake bread
 kola	make	verb			kola emmere	make food
 kolanati	kolanut	noun			kulya kolanati	to chew a kolanut
 kolima	curse	verb			to'nkolimira	do not curse me
@@ -802,9 +804,9 @@ kookolo	cancer	noun			kookolo abuzewo	the cancer has disappeared
 kooltaa	coaltar	noun			kooltaa eyokya	hot coaltar
 kozesa	use	verb			ojja kuki kozesa bwentyo.	you will use it like that
 ku	to	preposition			kuva wano ku awo	from here to there
+kuba	beat	verb			kukuba omuntu	beat someone
 kuba	hit	verb			tonkuba	do not hit me
 kuba	draw	verb			kuba ekinyonyi	draw a bird
-kuba	beat	verb			kukuba omuntu	beat someone
 kuba enguzi	bribe	noun			ayagala kuba enguzi	he wants a bribe
 kuba mu	print	verb			okukuba mu emailo	print the email
 kubala	mathematics	noun			asomesa kubala	she teaches mathematics
@@ -877,6 +879,7 @@ kyambalo	robe	noun			kyambalo njeru	a white robe
 kyamuwendo	important	adjective			oli kyamuwendo	you are an important person
 kyanjawulo	distinguished	adjective			ekikere ekyanjawulo	a distinguished frog
 kyawagulu	maximum	adjective			omuwendu ogwa wagulu	maximum amount
+kye ki	what	pronoun			kye ki ekyo?	what is that?
 kyebawereza	delivery	noun			Kyebawereza kitusse	the delivery has arrived
 kyenda	ninety	adjective		the number 90	cuupa kyenda	ninety bottles
 kyennyanja	fish					fried fish
@@ -887,8 +890,8 @@ kyerere	empty	adjective			baketi e'nkyerere	empty bucket
 kyoya	feather	noun			ebyoya by'ekinyonyi	bird's feathers
 laangi	dye	noun			langi nzilugavu	black dye
 laba	see	verb			okulaba omuzimu	to see ghosts
-laba	find	verb			laba ekigambo	find the word
 laba	look	verb			laba omulenzi	look at the boy
+laba	find	verb			laba ekigambo	find the word
 laba	watch	verb			okulaba mupiira	to watch football
 labula	warn	verb			kulabula omuntu	warn someone
 ladio	radio	noun			teekako ladio	switch on the radio
@@ -1020,6 +1023,7 @@ mpisa mbi	vice	noun			mpisa mbi ne nneyisa nnungi	vice and virtue
 mpola	lend	verb			mpola nze ku kitabo kino	lend me this book
 mpola	slowly	adverb			enfudu etambula mpola	a tortoise walks slowly
 mpologoma	lion	noun			empologoma elya nnyama	a lion eats flesh
+mu	in	preposition			kili munda mu nyumba	it is in the house
 mu	her	pronoun			mulage	show her
 mu	him	pronoun			mulage	show him
 mu	among	preposition			mu bantu	among people
@@ -1068,8 +1072,8 @@ mukulembeze	leader	noun		someone who shows the way	ono ye mukulembeze waffe	this
 mukulu	adult	noun			muntu mukulu	he is an adult
 mukuttu	network	noun			ekitangaakwe gulila ky'omukuttu	the network light is on
 mukwano	friend	noun			mukwano gwange	my friend
-mukyaala	lady	noun			mukyaala Danso	Lady Danso
 mukyaala	wife	noun			mukyaala wange n'abaana	my wife and my children
+mukyaala	lady	noun			mukyaala Danso	Lady Danso
 mukyala	missus	noun			mukyala Clinton	Missus Clinton
 mukyala	wife	noun			mukyala wange ne abaana bange	my wife and my children
 mukyala	madam	noun			mukyala Mary	madam Mary
@@ -1089,7 +1093,6 @@ mumambuka	north	noun			genda mumambuka	go north
 mumiro	throat	noun			tereza nnimiro yo	clear your throat
 mumwa	lip					red lips
 munaana	eight	adjective		The number 8	amacupa munaana	Eight bottles
-munda	in	preposition			kili munda munnyumba	it is in the house
 munda	inside	adverb			genda munda	go inside
 munnamawulire	journalist	noun			tuli bannamawulire	we are journalists
 muntu	person	noun			omuntu ow'omugaso	important person
@@ -1132,8 +1135,8 @@ mutuuze	citizen	noun		a member of a country community	Ndi mutuuze	I am a citizen
 mutwe	head	noun			omutwe gwo omunene	your big head
 muvubi	fisherman	noun			musajja muvubi	he is a fisherman
 muwagizi	supporter	noun			Abawagizi kikumi	hundred supporters
-muwala	girl	noun			omuwala omuwanvu	tall girl
 muwala	girl					tall girl
+muwala	girl	noun			omuwala omuwanvu	tall girl
 muwala	daughter	noun		female child	muwala wange	my daughter
 muwe	give	verb			muwe amazzi	give the water to him
 muweereza	servant	noun			omuweereza wange	my servant
@@ -1262,15 +1265,15 @@ nyingi	many	adjective			emmotoka nyingi	many vehicles
 nyingo	joint	noun			golola enyingo zo	stretch your joints
 nyo	very	adverb			okoze bulungi nyo	you have done very well
 nyogovu	freezing	adjective		temperature	ekilo kinyogovu	night is freezing
-nyonta	thirst	noun			njala ne nyonta	hunger and thirst
 nyonta	thirst	noun			mpulira enyonta	I feel thirst (I am thirsty)
+nyonta	thirst	noun			njala ne nyonta	hunger and thirst
 nyonyi	plane	noun		aeroplane, airplane	linya enyonyi	board a plane
 nyonyola	explain	verb			okunyonyolera nze	to explain to me
 nywa	drink	verb			okunywa amazzi	to drink water
 nywegera	kiss	verb			nywegera omumwa	kiss my lips
 nze	me	pronoun			nze naawe	me and you
-nze	I	pronoun		used to indicate oneself	nze ndya	I eat
 nze	self	noun			nze, gwe	myself, yourself
+nze	I	pronoun		used to indicate oneself	nze ndya	I eat
 oba	or	conjunction			kofi oba ama	Kofi or Ama
 obubazi	carpentry	noun			amanyi obubazi	she knows carpentry
 obububudamo	refuge	noun			obubudamo bwa ffe	our refuge
@@ -1280,14 +1283,14 @@ obudde bukedde	daybreak	noun			obudde bukedde n'ekizikiza kiweddewo	daybreak and
 obufumbo	marriage	noun			obufumbo obulungi	good marriage
 obufunze	economy	noun			obufunze bwa Africa	the economy of Africa
 obugabi	generosity	noun			obugabibwo	your generosity
-obugaga	treasure	noun			obugaga bwamanyi	great treasure
 obugaga	wealth	noun			ffe tulina obugaga bungi	we have great wealth
+obugaga	treasure	noun			obugaga bwamanyi	great treasure
 obugagga	prosperity	noun			emirembe ne obugagga	peace and prosperity
 obugazi	width	noun			obuwanvu ne obugazi	height and width
 obugumiikiriza	patience	noun			okwagala n'obugumiikiriza	love and patience
 obujjemu	rebellion	noun			obujjemu butandise	the rebellion has started
-obukulembeze	administration	noun		the process of running an organization	obukulembeze bwe,bwa lete enkulakulana	her administration brought progress
 obukulembeze	government	noun			obukulembeze bwa Nkuruma	Nkrumah's government
+obukulembeze	administration	noun		the process of running an organization	obukulembeze bwe,bwa lete enkulakulana	her administration brought progress
 obukulembeze	administration	noun		the process of running an organization	obukulembeze bwe yalese enkyuka kyuka nungi	her administration brought progress
 obukuumi	protection	noun			mpa obukuumi	give me protection
 obukyayi	hatred	noun			obukyayi tebulina ddagala	hatred has no cure
@@ -1311,16 +1314,16 @@ obutemu	murder	noun			olugambo ne obutemu	gossip and murder
 obutonde	disposition	noun			obutonde	a person's disposition
 obuvumi	brave	adjective			omusajja omuvumu	brave man
 obuvumu	courage	noun			omuwala alina obuvumu	she has courage
-obuvumu	confidence	noun			nina obuvumu	I have confidence
 obuvumu	strength	noun			obuvumu ne amaanyi	strength and power
+obuvumu	confidence	noun			nina obuvumu	I have confidence
 obuwangwa	culture	noun			obuwangwa y'esomero lyange	the culture of my school
 obuwanvu	length	noun			obuwanvu, obugazi ne obuwanvu	height, width and length
 obuwanvu	height	noun			obuwanvu ne obugazi	height and width
 obuwombeefu	humility	noun			olaga obuwombeefu	you show humility
 obuwuunga	flour	noun			obuwuunga bwa kasooli	corn flour
 obuyambi	help	noun			buli omu yeetaaga obuyambi	everyone needs help
-obwakabaka	kingdom	noun			obwakabaka bwa Katonda	the kingdom of God
 obwakabaka	throne	noun			okutuula kuntebe y'obwakabaka	to sit on a throne
+obwakabaka	kingdom	noun			obwakabaka bwa Katonda	the kingdom of God
 obwavu	poverty	noun			obwavu ne obugagga	poverty or wealth
 obwenzi	adultery	noun			obwenzi ne okwawukana	adultery and divorce
 obwetwaze	independence	noun			olunaku lw'obwetwaze	independence day
@@ -1343,10 +1346,10 @@ okubwatuka	thunder	noun			omuyaga n'okubwatuka	storm with thunder
 okufaayo	bother	noun			okufaayo enyo	too much bother
 okufuba	effort	noun			okufuba okulungi	a good effort
 okufumbirwa	marry	verb			nfumbirwa	marry me
-okufuuwa	blow	verb			okufuuwa omukka	blow air
 okufuuwa	fart	noun			okufuuwa kwa omuwala oyo kuwunya nnyo	her fart smells badly
-okugata	union	noun			Okugata kwa Africa	African Union
+okufuuwa	blow	verb			okufuuwa omukka	blow air
 okugata	join	verb			ebigambo bye gata okukola akajulo	words join together to make sentences 
+okugata	union	noun			Okugata kwa Africa	African Union
 okugolooba	sunset	noun			okuva ku mambya okuta  okugolooba	from sunrise to sunset
 okugulu	leg					swollen leg
 okugulu	leg	noun			okugulu okuzimbye	swollen leg
@@ -1424,8 +1427,8 @@ olubuto	stomach	noun			olubuto olunene	big stomach
 olucholi	Luwo	noun		modern written form of the Acholi and Dholuo language	sobola okusoma olucholi	I can read Luwo
 olugambo	gossip	noun			olugambo silulungi	gossip is not good
 Oluganda	Luganda	noun			olulimi Oluganda	Luganda language
-olugendo	trip	noun			Engendo ttaano	five trips
 olugendo	journey	noun			olugendo oluwanvu	a long journey
+olugendo	trip	noun			Engendo ttaano	five trips
 olugero	story	noun			mbulira y'olugero	tell me a story
 olugero	parable	noun			engero za yezu	the parables of Jesus
 oluguudo	street	noun			oluguudo empya	new street
@@ -1487,8 +1490,8 @@ omulele	trumpet	noun			emilele musanvu	seven trumpets
 omulembe omupya	modern	adjective			olulimi oluli ku mulembe	modern language
 omulimi	farmer	noun			omukazi omulimi	she is a farmer
 omulimu	job	noun			n'etaaga omulimu	I need a job
-omuliro	charge	science			masanyalaze galina omuliro gwa positivu ne negativu	electricity has positive charge and negative charge
 omuliro	fire	noun			koleeza omuliro	light the fire
+omuliro	charge	science			masanyalaze galina omuliro gwa positivu ne negativu	electricity has positive charge and negative charge
 omulwadde	patient	noun			abalwadde bebaka wano	the patients sleep here
 omulwanyi	warrior	noun			omulwanyi ow'edda	warrior of antiquity
 omumwa	mouth	noun			omumwa gwange	my mouth
@@ -1545,8 +1548,8 @@ omwana	child	noun			omwana wa maama wange ye muto wange	my mother's child is my 
 omwana	baby	noun			Nina omwana.	I have a baby
 omwavu	poor	adjective			ensi omwavu	a poor country
 omwavu	indigent	noun			omwavu talina ky'alina	an indigent has nothing
-omwenge	wine	noun			tuli mu kunywa omwenge oguwoma	we are drinking sweet wine
 omwenge	liquor	noun			yiwa omwenge mutono	pour a little liquor
+omwenge	wine	noun			tuli mu kunywa omwenge oguwoma	we are drinking sweet wine
 omwezi	moon	noun			omwezi n'emunyeenye	moon and stars
 omwezi	month	noun			omwezi gumu	one month
 Omwezi gwekumi	October	noun			Omwezi gwekumi gulina enaku asatu mulumu	October has 31 days
@@ -1622,6 +1625,7 @@ silikoni	silicon	science			silikoni (Si) erina protoni kumi na nya	silicon (Si) 
 simula	wipe	verb			simula entebbe	to wipe the seat
 sindika	push	verb			sindika loole	to push the lorry
 sineema	cinema	noun			ngenda mu sineema	I am going to a cinema
+sinza	worship	verb			basinza katonda	they worship gods
 sirika	silence	noun			sirika, sirika!	silence, silence!
 sirina	nothing	noun			sirina wadde	I have nothing
 sisinkana	meet	verb			nsisinkana ewaka	meet me at home
@@ -1668,14 +1672,15 @@ tabula	mix	verb			okutabula nyanya ne kamulali	to mix tomatoes and pepper
 taka	land	noun			gula etaka	buy land
 taksi	taxi	noun			mpitira ku taksi	call me a taxi
 talina bumanyirivu	novice	noun			ye talina bumanyirivu	he is a novice
-tambula	stroll	noun			tambula ko katono	take a stroll
 tambula	travel	verb			ffe tutambula mu Africa	we are travelling to Africa
 tambula	walk	verb			okutambula mpola	to walk slowly
+tambula	stroll	noun			tambula ko katono	take a stroll
 tandika	begin	verb			tandika kulya	start eating
 tandika	start	verb			okutandika amangu	to start early
 tapu	tap	noun			gula wo tapu	open the tap
 tawelo	towel	noun			tawelo mbisi	wet towel
 tawulo	towel					wet towel
+teeba	score	verb			kuteeba goolo	to score a goal
 teeka	law	noun		rules by the government	eteeka ligamba....	the law says
 tegeka	arrange	verb			tegeka entebe	arrange the chairs
 tegeza	mean	verb			kasahorow litegeza nnimi nyingi	kasahorow means "many languages"
@@ -1688,6 +1693,7 @@ tereka	keep	verb			tereka balanci	keep the change
 tereka	save	verb			kitereke	save it
 terevizoni	television	noun			teekako terevizoni	switch on the television
 testamenti	testament	noun			testamenti empya	new testament
+tiimu	team	noun		a group that helps each other	tiimu yange	my team
 tiketti	ticket	noun			laba tiketti yange	look at my ticket
 timba	python	noun			timba guba musota	a python is a snake
 toffi	toffee	noun			nuuna toffi	lick a toffee
@@ -1728,8 +1734,8 @@ waatula	reveal	verb			okuwaatula amazima	reveal the truth
 wabula	advice	noun			kabona awabula	a priest has advice
 wadde	though	conjunction			ndaba wadde waliwo enzikiza	I see though it is dark
 waggulu	up	adverb			tunula waggulu	look up
-wagulu	above	preposition		on top of	wagulu w'enyumba	above the house
 wagulu	above	preposition		on top of	wagulu we'nyumba	above the house
+wagulu	above	preposition		on top of	wagulu w'enyumba	above the house
 waka	mate	verb			ensolo ziwaka	the animals are mating
 wangula	win	verb			okuwangula empaka	to win a competition
 wanika	raise	verb			wanika omukono gwo	raise your hand
@@ -1746,8 +1752,8 @@ webale	well done	exclamation			webale omulimu!	job well done!
 webale	thanks	exclamation			webale Mandela!	Thanks Mandela!
 webuzabuza	pretend	verb			Ggwe leka kwebuzabuza	you are pretending
 weeraba	goodbye	exclamation			gamba weeraba	say goodbye
-wegana	deny	verb			toyinza kwegana kitufu	you cannot deny the truth
 wegana	oppose	verb			ffe tujja kwegana ekibi	we will oppose evil
+wegana	deny	verb			toyinza kwegana kitufu	you cannot deny the truth
 wela	avoid	verb			okuwela ekibi	to avoid evil
 welabire	forget	verb			nnelabidde	I have forgotten
 wereza	deliver	verb		send to someone	mpereza sente	deliver money to me
@@ -1773,6 +1779,7 @@ wuuwi	ouch	exclamation			wuuwi kiruma	Ouch! It hurts
 wuzi	fabric	noun			ngulira ewuzi	buy fabric for me
 wuzzi	string	noun			wuzzi ne empiso	string and needle
 y'amasanyalaze	electric	adjective			etaala ey'amasanyalaze	electric light
+y'ani	who	pronoun			o y'ani?	who is he?
 ya bwe	their	possessive			nyumba ya bwe	their house
 ya ffe	our	possessive			nyumba ya ffe	our house
 yabikodyo	technical	adjective			mulimu ya bikodyo	technical work
@@ -1800,8 +1807,8 @@ yongera	extend	verb			yongera eno ebibatu byo	extend your palms
 yongeza	increase	verb			okubba kw'eyongera	burglary is increasing
 yonja	clean	verb			yonja amanyo go	clean your teeth
 yonjjo	clean	verb			yonjja amanyo go	clean your teeth
-yoza	wash	verb			yoza amacupa	to wash the bottles
 yoza	wash	verb			yoza engoye	wash clothes
+yoza	wash	verb			yoza amacupa	to wash the bottles
 yye	yes	exclamation			ngabe yye	I say yes
 zaabu	gold	science			zaabu (Au) erina protoni nsanvu mu mwenda	gold (Au) has 79 protons
 zaabu	gold	noun			akaloosa ne zaabu	fragrance and gold

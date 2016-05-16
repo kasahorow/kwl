@@ -21,15 +21,14 @@ def load_td(lang_f, lang_t, show_errors=True):
     count = count + 1
     data = line.strip().split('\t')
     try:  # key by entry, pos
-      if lang_f == 'english' and lang_t != 'englishs':
+      if lang_f == 'english' and lang_t != 'english':
         TD[get_td_key(data)] = data[0].decode('utf-8')
         TD[get_key([get_td_key(data), 'defn'])] = data[3].decode('utf-8')
         TD[get_key([get_td_key(data), 'sample'])] = data[5].decode('utf-8')
       else:
-        pass
-        #TD[get_td_key(data, True)] = data[1].decode('utf-8')
-        #TD[get_key([get_td_key(data, True), 'defn'])] = data[4].decode('utf-8')
-        #TD[get_key([get_td_key(data, True), 'sample'])] = data[5].decode('utf-8')
+        TD[get_td_key(data, True)] = data[1].decode('utf-8') if ' ' in data[2] else data[0]
+        TD[get_key([get_td_key(data, True), 'defn'])] = data[4].decode('utf-8')
+        TD[get_key([get_td_key(data, True), 'sample'])] = data[5].decode('utf-8')
     except Exception, e:
       if False and show_errors:
         sys.stderr.write('No data for %s on line %s of %s: %s\n' % (data[0], count, lang_tsv, e))
@@ -47,3 +46,28 @@ def get_td_key(tsv, use_kw_key=False):
 def get_key(fragments):
   key = '-'.join([x for x  in fragments])
   return key.replace('#', ' ')
+
+
+def load_grammar(language):
+  """Given a language, load in the grammar model."""
+  try:
+    module = __import__('data.sua_%s' % language)
+    model = getattr(module, 'sua_%s' % language)
+    setattr(model, 'language', language)
+  except Exception, e:
+    model = None
+    logging.warn('Grammar for %s failed to load with error: %s' % (language, e))
+
+  return model
+
+
+def get_voice_substitutions(language, voice):
+  g = load_grammar(language)
+  if g:
+    try:
+      return g.data['voices'][voice]
+    except Exception, e:
+      logging.warn('No voice substitutions for %s: %s' % (voice, e))
+
+  return []
+

@@ -81,8 +81,8 @@ asibiti	hospital	noun			tafi asibiti	go to a hospital
 asuba	dawn	noun			za mu bar nan da asuba	we will leave here at dawn
 atishawa	sneeze	verb			domin yin atishawa da ƙarfi	to sneeze loudly
 auna-fahimta	puzzle	noun			auna-fahimta da wasa ƙwaƙwalwa	puzzles and riddles
-aure	marriage	noun			kyakkyawan aure	good marriage
 aure	marry	verb			aure ni	marry me
+aure	marriage	noun			kyakkyawan aure	good marriage
 awa	hour	noun			awa goma	ten hours
 ayaba	banana	noun			biri yana son ayaba	a monkey likes bananas
 azumi	fast	verb			azumi da sallah	fast and pray
@@ -108,22 +108,22 @@ baƙi	black	adjective			baƙin yadi	black cloth
 bal	ball	noun			yi wasan bal	play ball
 balan balan	balloon	noun			balan balan guda biyu	two balloons
 balo	balloon	noun			balo guda biyu	two balloons
-ban dariya	amusing	adjective			labari mai ban dariya	amusing story
+ban dariya	funny	adjective			labari mai ban dariya	funny story
 ban mamaki	amazing	adjective			labari mai ban mamaki	amazing story
 banki	bank	noun			kuɗina su na banki	my money is at the bank
 bankwana	say goodbye	verb			mun yi minti goma muna bankwana	we take ten minutes to say goodbye
 barasa	beer	noun			muna shan barasa	we are drinking beer
 barasa	wine	noun			muna shan barasa mai zaƙi	we are drinking sweet wine
 barewa	deer	noun			zaki yana son naman barewa	a lion likes deer meat
-bargo	blanket	noun			jiƙaƙƙen bargo	wet blanket
 bargo	blanket	noun				wet blanket
+bargo	blanket	noun			jiƙaƙƙen bargo	wet blanket
 bari	let	verb			bari mu sami ƙungiya	let us found a group
 bashi	debt	noun			yana da bashi mai yawa	he has many debts
 bashi	loan	noun			ina son bashi	I need a loan
 batir	battery	noun			sabon batir	a new battery
 batu	issue	noun			sabon batu	new issue
-baya	back	noun		rear or reverse surface of a thing	bayan ƙofa	the back of the door
 baya	behind	preposition			koma baya	go behind
+baya	back	noun		rear or reverse surface of a thing	bayan ƙofa	the back of the door
 bayan gida	backyard	noun			bayan gida ya yi ciyawa	the backyard is overgrown
 bayan-ɗaki	toilet	noun			tafi bayan-ɗaki	go to the toilet
 bayani	table	noun				chair and table
@@ -193,8 +193,8 @@ coci	church	noun			tafi coci	go to church
 cokali	spoon	noun				sixteen spoons
 cokali mai yatsu	fork	noun				fork and knife
 curi	ball	noun				play ball
-cuta	disease	noun			warkar da cuta	heal disease
 cuta	sickness	noun			wace cuta ka ke da ita?	what sickness have you?
+cuta	disease	noun			warkar da cuta	heal disease
 da	and	conjunction			Kofi da Ama	Kofi and Ama
 da kansu	themselves	pronoun			suna lura da kansu sosai	they look after themselves well
 da kyau	well done	exclamation			aiki ya yi kyau!	job well done!
@@ -304,8 +304,8 @@ fatalwa	ghost	noun			na ga fatalwa	I see a ghost
 fensiri	pencil	noun			fensiri da alƙalami	pencil and pen
 fi	surpass	verb			Ubangiji ya fi mutum	God surpasses man
 fikafiki	wing	noun			kurciya ta na da fikafiki	a dove has wings
-filfilo	butterfly	noun			filfilo yana da kyau	a butterfly is beautiful
 filfilo	butterfly	noun				a butterfly is beautiful
+filfilo	butterfly	noun			filfilo yana da kyau	a butterfly is beautiful
 filo	pillow	noun			filo da gado	pillow and bed
 fim	film	noun			shirya fim	cast of a film
 firinta	printer	noun			firintar littafi	book printer
@@ -328,8 +328,8 @@ gabas	east	noun			tafi gabas	go east
 gaɓar teku	beach	noun			rairayin gaɓar teku	beach sand
 GaDangme	GaDangme	noun		Ga. A West African people; their language	Na iya magana da GaDangame	I speak GaDangme
 gadi	guard	verb			gadin gida	guard the house
-gado	bed	noun			bacci a kan gado	sleep on the bed
 gado	bed	noun			yi bacci a gado	sleep on the bed
+gado	bed	noun			bacci a kan gado	sleep on the bed
 gado	inheritance	noun			ka nemi gadonka	claim your inheritance
 gajere	short	adjective			gajeren mutum	short man
 gajimare	cloud	noun				a white cloud
@@ -427,8 +427,8 @@ har yanzu	still	adverb			har yanzu yana yi	still doing
 haraji	levy	noun			biya haraji	pay a levy
 harshe	blazing	adjective			harshen wuta	blazing fire
 harshe	tongue	noun			harshen kare	dog's tongue
-haske	bright	adjective			ɗaki mai haske	bright room
 haske	light	noun			hasken samaniya	light of the sky
+haske	bright	adjective			ɗaki mai haske	bright room
 haske	shine	verb			rana tana haske	sun is shining
 hatimi	stamp	verb			Babban Mutum, buga min hatimi	Big Man, please stamp it for me
 hauren giwa	ivory	noun			abin wuya na hauren giwa	ivory necklace
@@ -508,6 +508,14 @@ juya	stir	verb			juya fura	stir the porridge
 juyayi	grief	noun			juyayi yana kashe ni	grief is killing me
 juyayi	grieve	verb			raina yana juyayi	my soul grieves
 ka	car	noun				drive a car
+ka dafa		verb				
+ka feraye		verb				
+ka gaishe da		verb				
+ka hadiyi		verb				
+ka iya 		verb				
+ka kalli		verb				
+ka tamabayi		verb				
+ka tsallaka		verb				
 kaabon	carbon	science			kaabon (C) na da proton 6	carbon (C) has 6 protons
 kabeji	cabbage	noun		a leafy vegetable	miyar kabeji	cabbage stew
 kada	alligator	noun			kada yana da jela	an alligator has a tail
@@ -529,11 +537,13 @@ kalsiom	calcium	science			kalsiom (Ca) na da proton 20	calcium (Ca) has 20 proto
 kaluluwa	goosebumps	noun			ina da kaluluwa	I have got goosebumps
 kama	resemble	verb		to look like	ka yi kama da ɗan uwanka	you resemble your sibling
 kamar	such as this	exclamation			mutum kamar wannan!	a person such as this!
+Kameru	Cameroon	noun		A country in Africa	jeka Kameru	go to Cameroon
 kan	on	preposition			yi bacci a kan teburi	sleep on the table
 kanya	sheabutter	noun			ƙanshin kanya	the fragrance of sheabutter
 karanci	humility	noun			ka nuna karamci	you show humility
 karas	carrot	noun			karas huɗu	four carrots
 karatu	reading	noun			maimaita karatun	repeat the reading
+kare		noun				
 kare	dog	noun			kare yana haushi	a dog barks
 karin kumallo	breakfast	noun			zai ci karin kumallo	he will eat breakfast
 kariya	protection	noun			bani kariya	give me protection
@@ -554,8 +564,8 @@ kawai	just	adverb			kawai duba	just see!
 kawai	just	preposition			kawai lokacin da ya je can	just as he got there
 kawo	deliver	verb		send to someone	kawo min kuɗi	deliver money to me
 kawu	uncle	noun			kawu Kofi	uncle Kofi
-kaya	clothes	noun			sayi kaya	buy clothes
 kaya	dress	noun			shuɗayen kaya	blue dress
+kaya	clothes	noun			sayi kaya	buy clothes
 kaya	cloth	noun			saka kaya	wear cloth
 kayan sawa	attire	noun			kayan sawarka yana da kyau	your attire is beautiful
 kayayyaki	clothes	noun				buy clothes
@@ -620,6 +630,7 @@ kusurwa-huɗu	rectangle	noun			kusurwa-huɗu yana da kusurwa huɗu	a rectangle h
 kutlas	cutlass	noun			bani kutlas	give me the cutlass
 kuzari	strength	noun			kuzari da iko	strength and power
 kwabo	coin	noun			kwabo huɗu	four coins
+kwabo		noun				
 kwalaba	bottle	noun				five bottles
 kwale-kwale	canoe	noun			kwale-kwale da abin tuƙi	canoe and paddle
 kwale-kwale	boat	noun			jan kwale-kwale	red boat
@@ -729,8 +740,8 @@ mage	cat	noun			mage tana da jela	a cat has a tail
 mahaifa	womb	noun			mahaifar mace	female's womb
 mahaifiya	mother	noun			ɗan mahaifiyata ɗan uwa na ne	my mother's child is my sibling
 mahalicci	creator	noun			mahalicci ubangiji	creator god
-mahawara	squabbles	noun			mahawara da zagi	squabbles and insults
 mahawara	argue	verb			yi mahawara da shi	argue with him
+mahawara	squabbles	noun			mahawara da zagi	squabbles and insults
 mahawarori	argument	noun			mahawarori masu yawa	many arguments
 mai	of	preposition		expresses possession	yare mai Afirka	language of Africa
 mai amfani	user	noun			masu amfani nawa?	how many users?
@@ -761,13 +772,13 @@ makyarkyata	tremble	verb		quiver	laɓɓanasa suna makyarkyata	his lips are tremb
 maƙiyi	enemy	noun			maƙiya za su gaji	enemies will tire
 malafa	hat	noun			yana sanye da malafa	he is wearing a hat
 Malagasi	Malagasy	noun		a language of Madagascar	yaren Malagasi	Malagasy language
-malalaci	lazy	adjective			malalacin mutum	lazy man
 malalaci	sluggard	noun			malalaci ya yi bacci	the sluggard is asleep
+malalaci	lazy	adjective			malalacin mutum	lazy man
 malam	sir	noun			na gode maka malam	I thank you sir
 malama	madam	noun			malama Mariama	madam Mary
 malami	teacher	noun			ni malami ne	I am a teacher
-mamaki	wonder	noun			mamaki da soyayya	wonder and love
 mamaki	surprise	noun			babban mamaki	great surprise
+mamaki	wonder	noun			mamaki da soyayya	wonder and love
 man girki	vegetable oil	noun			yi amfani da man girki domin soya kifi	use vegetable oil to fry fish
 man-gelo	palm kernel oil	noun		oil from the seeds of the palm-nut tree	man-gelo ya dace da gashi	palm kernel oil is good for hair
 mangwaro	mango	noun			mangwaro ya nuna	the mango has ripened
@@ -820,8 +831,8 @@ murna	congratulations	noun			murna da kuma san-barka	congratulations and well do
 murya	voice	noun			ka tausasa muryarka	soften your voice
 musulmi	muslim	noun			Kirista da Musulmi	a Christian and a Muslim
 Musulunci	Islam	noun			Kiristanci da Musulunci	Christianity and Islam
-mutum	man	noun			dogon mutum	a tall man
 mutum	person	noun			babban mutum	important person
+mutum	man	noun			dogon mutum	a tall man
 mutum tara	nine persons	noun			mutum tara suna zuwa	nine persons are coming
 mutum ɗaya	one person	noun			mutum ɗaya suna zuwa	one person is coming
 mutuwa	die	verb			domin mutuwa da wuri a wasan	to die young in the play
@@ -916,8 +927,8 @@ sa albarka	anoint	verb			ta shafawa kaina mai domin sa albarka	she anointed my h
 saba'in	seventy	adjective		the number 70	kwalabe saba'in	seventy bottles
 sabo da	because	conjunction			sabo da ina sonki	because I like you
 sabo-	new	adjective			sabon iyali	new family
-sabulu	soap	noun			bokiti da sabulu	pail and soap
 sabulu	soap	noun				pail and soap
+sabulu	soap	noun			bokiti da sabulu	pail and soap
 sacewa	steal	verb			sacewa da lalatawa	steal and destroy
 sadaukarwa	sacrifice	noun			bayarda sadaukarwa	offer a sacrifice
 saduwa	link	noun			saduwar intanet	Internet link
@@ -1008,8 +1019,8 @@ sodium	sodium	science			sodium (Na) ya na da proton 11	sodium (Na) has 11 proton
 soja	soldier	noun			sojoji su na fareti	the soldiers are marching
 soke	cancel	verb			soke taro	cancel the meeting
 son-kai	selfishness	noun		want-to-be-the-only-one-who-gets	son-kai ba shi da kyau	selfishness is not good
-sosai	very desirable	adjective			ya dace sosai	it is very desirable
 sosai	well	adverb			ka yi shi sosai	do it well
+sosai	very desirable	adjective			ya dace sosai	it is very desirable
 sosai	clearly	adverb			kana ganinsa sosai	you see it clearly
 sosai	too much	adverb			ya yi zagi sosai	he insults too much
 soyayya	love	noun			soyayya da zaman lafiya	love and peace
@@ -1245,3 +1256,4 @@ zuciya	spirit	noun			yana da ƙarfin zuciya	he has a strong spirit
 zuciya	heart	noun			kyakkyawar zuciya	good heart
 zurfi	volume	math		a quantity that represents the size of a container	zurfi(cube) = tsawo x faɗi x tsawo	volume(cube) = length x width x height
 zuwa	to	preposition			daga nan zuwa can	from here to there
+zuwa ban ɗaki		verb			domin zuwa ban ɗaki a ko wane mako	

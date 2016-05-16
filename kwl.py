@@ -1,7 +1,6 @@
 # coding: utf-8
 """A standalone KWL interpretor."""
 
-from kwl2text import grammar as m
 from kwl2text import kwl2text
 from kwl2text.generator import Generator
 import kwl2text.semantics as semantics
@@ -11,6 +10,7 @@ import logging
 import re
 import sys
 import text2kwl.parse_text as t2k
+import voice as v
 
 def get_lc(language):
   return k.get_kasa_from_language(language)
@@ -35,10 +35,16 @@ def parse_kwl(kwl):
   return ast
 
 
-def localize(kwl, language, lexicon={}):
+def localize(kwl, language, lexicon={}, voice=None):
   """Convert <kwl> code into language."""
   lexicon = lexicon if len(lexicon) else data.load_td('english', language)
-  tg = Generator(get_lc(language), language, m, ast=parse_kwl(kwl), lexicon=lexicon)
+  grammar_model = data.load_grammar(language)
+
+  if voice and 'subs' in grammar_model.data:
+    grammar_model.data['subs'] += data.get_voice_substitutions(language, voice)
+
+  tg = Generator(get_lc(language), language, grammar_model,
+                 ast=parse_kwl(kwl), lexicon=lexicon)
   kwl_l10n = tg.generate()
   return kwl_l10n
 

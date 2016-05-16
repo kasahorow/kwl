@@ -17,7 +17,7 @@ from grako.parsing import graken, Parser
 from grako.util import re, RE_FLAGS  # noqa
 
 
-__version__ = (2016, 2, 22, 3, 25, 39, 0)
+__version__ = (2016, 5, 16, 6, 14, 39, 0)
 
 __all__ = [
     'kwl2textParser',
@@ -61,6 +61,8 @@ class kwl2textParser(Parser):
     def _sentence_(self):
         with self._choice():
             with self._option():
+                self._formatted_()
+            with self._option():
                 self._command_()
             with self._option():
                 self._question_()
@@ -69,6 +71,19 @@ class kwl2textParser(Parser):
             with self._option():
                 self._expression_()
             self._error('no available options')
+
+    @graken()
+    def _formatted_(self):
+        self._sentence_formatting_()
+        self.ast['@'] = self.last_node
+        self._token('(')
+        self._expression_()
+        self.ast['@'] = self.last_node
+        self._token(')')
+
+    @graken()
+    def _sentence_formatting_(self):
+        self._token('headline')
 
     @graken()
     def _statement_(self):
@@ -93,30 +108,30 @@ class kwl2textParser(Parser):
         with self._choice():
             with self._option():
                 self._conjunction_()
+                self._join_()
+                self._conjunction_()
             with self._option():
-                self._conjunct_()
+                self._conjunction_()
             self._error('no available options')
 
     @graken()
     def _conjunction_(self):
         with self._choice():
             with self._option():
-                self._conjunct_()
+                self._clause_()
                 self._join_()
-                self._conjunct_()
+                self._clause_()
             with self._option():
                 self._token('if')
-                self._conjunct_()
+                self._clause_()
                 self.ast['@'] = self.last_node
                 self._token('then')
                 self.ast['@'] = self.last_node
-                self._conjunct_()
+                self._clause_()
                 self.ast['@'] = self.last_node
+            with self._option():
+                self._clause_()
             self._error('no available options')
-
-    @graken()
-    def _conjunct_(self):
-        self._clause_()
 
     @graken()
     def _clause_(self):
@@ -333,8 +348,23 @@ class kwl2textParser(Parser):
             with self._option():
                 self._tenses_()
             with self._option():
+                self._token('plural')
+            with self._option():
                 self._formatting_()
-            self._error('no available options')
+            self._error('expecting one of: plural')
+
+    @graken()
+    def _formatting_(self):
+        with self._choice():
+            with self._option():
+                self._token('defn')
+            with self._option():
+                self._token('quote')
+            with self._option():
+                self._token('sample')
+            with self._option():
+                self._token('title')
+            self._error('expecting one of: defn quote sample title')
 
     @graken()
     def _join_(self):
@@ -345,6 +375,8 @@ class kwl2textParser(Parser):
                 self._token(',')
             with self._option():
                 self._token('and')
+            with self._option():
+                self._token('because')
             with self._option():
                 self._token('but')
             with self._option():
@@ -357,22 +389,7 @@ class kwl2textParser(Parser):
                 self._token('then')
             with self._option():
                 self._token('when')
-            self._error('expecting one of: , : and but of or so then when')
-
-    @graken()
-    def _formatting_(self):
-        with self._choice():
-            with self._option():
-                self._token('defn')
-            with self._option():
-                self._token('plural')
-            with self._option():
-                self._token('quote')
-            with self._option():
-                self._token('sample')
-            with self._option():
-                self._token('title')
-            self._error('expecting one of: defn plural quote sample title')
+            self._error('expecting one of: , : and because but of or so then when')
 
     @graken()
     def _conjugations_(self):
@@ -415,10 +432,12 @@ class kwl2textParser(Parser):
             with self._option():
                 self._token('of')
             with self._option():
+                self._token('like')
+            with self._option():
                 self._token('on')
             with self._option():
                 self._token('to')
-            self._error('expecting one of: at for from in of on to')
+            self._error('expecting one of: at for from in like of on to')
 
     @graken()
     def _tenses_(self):
@@ -433,6 +452,8 @@ class kwl2textParser(Parser):
                 self._token('done_ydy')
             with self._option():
                 self._token('inf')
+            with self._option():
+                self._token('may')
             with self._option():
                 self._token('not_tdy')
             with self._option():
@@ -451,7 +472,7 @@ class kwl2textParser(Parser):
                 self._token('tmw')
             with self._option():
                 self._token('ydy')
-            self._error('expecting one of: cmd done_tdy done_tmw done_ydy inf not_tdy not_tmw not_ydy now_tdy now_tmw now_ydy tdy tmw ydy')
+            self._error('expecting one of: cmd done_tdy done_tmw done_ydy inf may not_tdy not_tmw not_ydy now_tdy now_tmw now_ydy tdy tmw ydy')
 
     @graken()
     def _adjective_(self):
@@ -608,7 +629,7 @@ class kwl2textParser(Parser):
 
     @graken()
     def _token_(self):
-        self._pattern(r'[a-zA-Z0-9#]*')
+        self._pattern(r'[a-zA-Z0-9#\-]*')
 
 
 class kwl2textSemantics(object):
@@ -616,6 +637,12 @@ class kwl2textSemantics(object):
         return ast
 
     def sentence(self, ast):
+        return ast
+
+    def formatted(self, ast):
+        return ast
+
+    def sentence_formatting(self, ast):
         return ast
 
     def statement(self, ast):
@@ -631,9 +658,6 @@ class kwl2textSemantics(object):
         return ast
 
     def conjunction(self, ast):
-        return ast
-
-    def conjunct(self, ast):
         return ast
 
     def clause(self, ast):
@@ -675,10 +699,10 @@ class kwl2textSemantics(object):
     def modifiers(self, ast):
         return ast
 
-    def join(self, ast):
+    def formatting(self, ast):
         return ast
 
-    def formatting(self, ast):
+    def join(self, ast):
         return ast
 
     def conjugations(self, ast):

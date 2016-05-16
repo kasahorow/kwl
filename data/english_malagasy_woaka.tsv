@@ -215,8 +215,8 @@ fanadinoana	forgetfulness	noun			ny fanadinoany	her forgetfulness
 fanafody	medicine	noun			fanafody mangidy	bitter medicine
 fanahiana	worry	noun			fanahiana maro	many worries
 fanahy	soul	noun			mifaly ny fanahiko	my soul exults
-fanaintainana	pain	noun			etony fanaintainana	the pain is here
 fanaintainana	suffering	noun			tahotra sy fanaintainana	fear with suffering
+fanaintainana	pain	noun			etony fanaintainana	the pain is here
 fanajana	respect	noun			mampiseho fanajana	show respect
 fanalahidy	lock	noun			fanalahidy dimy	five locks
 fanalahidy	key	noun			varavarana sy fanalahidy	door and key
@@ -404,8 +404,8 @@ hatsarana	beauty	noun			hatsarana sy fitiavana	beauty and love
 Hausa	Hausa	noun			Fiteny Hausa	Hausa language
 havam-bady	inlaw	noun			ny havam-badintsika	our inlaws
 havana	relative	noun			havana izy	he is a relative
-havoana	valley	noun			havoana sy lohasaha	hills and valleys
 havoana	hill	noun			tampon'ny havoana	hill top
+havoana	valley	noun			havoana sy lohasaha	hills and valleys
 hazo	tree	noun			mamboly hazo	plant a tree
 hazofisaka	plank	noun			hazofisaka sy fantsika	plank and nail
 helika	armpit	noun			helika maimbo	smelly armpit
@@ -444,13 +444,14 @@ imasom-bahoaka	public	noun			tsy azonao lazaina imasom-bahoaka ny teny hoe "lala
 injeniera	engineer	noun			manamboatra fitaovana ny injeniera	an engineer makes tools
 inona	what	pronoun			inona izany?	what is that?
 io	it	pronoun		object pronoun used to refer to an impersonal thing	vonoinareo io	you (pl) kill it!
-iraika ambin'ny folo	eleven	adjective			tavoahangy iraika ambin'ny folo	eleven bottles
+iraika ambin'ny folo	eleven	adjective		the number 11	tavoahangy iraika ambin'ny folo	eleven bottles
 iray	one	adjective			misy tavoahangy iray mijoro eo  antampon'ilay trano	There is one bottle standing on top of the house
 isa	number	noun			isa 5	number 5
 isika	we	pronoun		used to indicate oneself and others	mihinana isika	we eat
 ivelany	abroad	noun			mandeha any ivelany izy	she goes abroad
 ivoara	ivory	noun			rojo ivoara	ivory necklace
 iza	who	pronoun			iza izy?	who is he?
+izahay		pronoun			mihinana izahay	
 izaho	me	pronoun			izaho sy ianao	me and you
 izy	she	pronoun		used to indicate one female person previously mentioned	misakafo izy	she eats
 izy	he	pronoun		used to indicate one male person previously mentioned	mihinana izy	he eats
@@ -466,6 +467,7 @@ kafe	coffee	noun			misotro kafe izy	she drinks coffee
 kakao	cocoa	noun			hazo kakao	cocoa tree
 kalalao	cockroach	noun		also known as a roach (American English)	nahita kalalao aho	I see a cockroach
 kalsioma	calcium	science			misy protona 20 ny Kalsioma (Ca)	calcium (Ca) has 20 protons
+Kamerun	Cameroon	noun		A country in Africa	mandehana any Kamerun	go to Cameroon
 kankana	worm	noun			ho aiza ianao ry kankana	worm, where are you going?
 kaontinanta	continent	noun			kaontinanta Afrikana	African continent
 kaopy	cup	noun			kaopy fisotroana dite	tea cup
@@ -741,8 +743,8 @@ mitsoka	blow	verb			mitsoka rivotra	blow air
 mivarotra	sell	verb			mivarotra trano	to sell houses
 miverina	return	verb			miverina any an-trano	to return home
 miverina	return	verb			miverina ao an-trano	to return home
-mividy	purchase	verb			mividy zavatra vitsivitsy	purchase a few things
 mividy	buy	verb			mividy zavatra	to buy something
+mividy	purchase	verb			mividy zavatra vitsivitsy	purchase a few things
 mividy	purchase	verb			mividy zavatra vitsivitsy aho	purchase a few things
 mizara	divide	verb		separate into parts	mizara mofo	divide the bread
 mizara	share	verb			zarao ny sakafo	share the food
@@ -787,8 +789,8 @@ mpihaino	listener	noun			miarahaba ny mpihaino	hello listeners
 mpijery	spectator	noun			mpijery	the spectators
 mpiray tampo	sibling	noun			ny zanaky ny reniko di ampiray tampo amiko	my mother's child is my sibling
 mpisolovava	lawyer	noun			mpisolovava efatra	four lawyers
-mpitarika	chef	noun			mpitarika tsara	a good chef
 mpitarika	chief	noun			mpitarika izy	she is a chief
+mpitarika	chef	noun			mpitarika tsara	a good chef
 mpitarika	leader	noun		someone who shows the way	izy no mpitarika anay	this is our leader
 mpitendry mozika	musician	noun			ny mpitendry mozika	the musicians
 mpitondra entana	porter	noun			mibata baoritra ny mpitondra entana	the porter carries a box
@@ -880,8 +882,8 @@ ranomaso	teardrop	noun			ranomaso kely	a few teardrops
 ranomaso	tear	noun			feno ranomaso ny masoko	my eyes filled with tears
 rantsa-tanana	finger	noun			asehoy ahy ny rantsa-tananao	show me your finger
 rantsan-tongotra	toe	noun			rantsan-tongotra sy voditongotra	toe and heel
-ratsy	evil	noun			ratsy inona ity?	which evil is this?
 ratsy	bad	adjective			alika ratsy	bad dog
+ratsy	evil	noun			ratsy inona ity?	which evil is this?
 ratsy	ugly	adjective			ratsy izany	it is ugly
 ravin-damba	fabric	noun			ividiano ravin-damba aho	buy fabric for me
 ravinkazo	leaf	noun			ravinkazo maitso	green leaf
@@ -1175,8 +1177,8 @@ zanakavavin'ny mpiraitampo	niece	noun			zanakavavin'ny mpiraitampo amiko	my niec
 zato	hundred	adjective		the number 100	tavoahangy zato	hundred bottles
 zavamaniry	plant	noun			zavamaniry mena	red plant
 zavatra	something	pronoun			ampisehoy zavatra aho	show me something
-zavatra	something	noun			mitazona zavatra mafy	to hold something firmly
 zavatra	thing	noun		a reference to an unnamed object	ny zavatra; ireo zavatra	the thing; the things
+zavatra	something	noun			mitazona zavatra mafy	to hold something firmly
 zavona	mist	noun			zavona maraina	morning mist
 zaza	toddler	noun			ho aiza ianao ry zaza	toddler, where are you going?
 zazakely	baby	noun			manana zazakely aho	I have a baby

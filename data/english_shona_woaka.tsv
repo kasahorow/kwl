@@ -5,10 +5,14 @@ Africa	Africa	noun			shanyira Africa	visit Africa
 aini	iron	science			aini (Fe) ane guminepiri tanhatu atomu	iron (Fe) has 26 protons
 akakosha	important	adjective			uri munhu akakosha	you are an important person
 Akan	Akan	noun		a language group originating from West Africa	ndinotaura Akan	I speak Akan
+ake	her	possessive			imba yake iye	her house
+ake	his	possessive			imba yake iye	his house
+ake	its	possessive		singular possessive pronoun for neuter gender objects	imba yake iye	its house
 amai	mother	noun			mwana wamai vangu munin'ina wangu	my mother's child is my sibling
 amburera	umbrella	noun			gara pasi pe amburera	sit under the umbrella
 ane	have	verb			anemari	she has money
 ane mbiri	famous	adjective			munhu ane mbiri	famous person
+ani	who	pronoun			ndi ani a?	who is he?
 apo	while	conjunction			aitamba apo mudhara ayiimba	he danced while the old man was singing
 apo	there	noun		that place	pano ne apo	here and there
 aruminium	aluminium	science			aruminium (Al) ane gumi netanhatu atomu	aluminium (Al) has 13 protons
@@ -305,8 +309,8 @@ gata	gutter	noun			mugata munemvura	there is water in the gutter
 gavhuna	governor	noun			ndiye gavhuna	she is the governor
 Gbe	Gbe	noun			mutauro we Gbe	Gbe language
 geza	bath	verb			ku geza mangwanani ega ega	to bath each morning
-geza	wash	verb			kugeza mabhodyera	to wash the bottles
 geza	wash	verb			geza hembe	wash clothes
+geza	wash	verb			kugeza mabhodyera	to wash the bottles
 geza	clean	verb			geza mazino ako	clean your teeth
 Ghana	Ghana	noun		a country in Africa	vanhu vekuGhana vanonzi maGhanaian	people from Ghana are called Ghanaians
 girini	green	adjective			shizha re girini	green leaf
@@ -342,7 +346,7 @@ guma	stop	verb			guma kubvatura musindo	stop making noise
 gumbeze	blanket	noun			gumbeze nyoro	wet blanket
 gumbo	leg	noun			gumbo rakazvimba	swollen leg
 gumi	ten	adjective		the number 10	Mabhodyera gumi	ten bottles
-gumi neimwe	eleven	adjective			mabhodyera gumi nerimwe	eleven bottles
+gumi neimwe	eleven	adjective		the number 11	mabhodyera gumi nerimwe	eleven bottles
 gumi neina	fourteen	adjective		the number 14	mabhodyera gumi nemana	fourteen bottles
 gumi nembiri	twelve	adjective		the number 12	mabhodyera gumi nemaviri	twelve bottles
 gumi nenhanhatu	sixteen	adjective		the number 16	mabhodyera gumi nemanhanhatu	sixteen bottles
@@ -435,8 +439,8 @@ ifa	die	verb			kufa uchiri mudiki mumutambo	to die young in the play
 igasva	empty	adjective			bhagidhi gasva	empty bucket
 Igibo	Igbo	noun			mutauro we Igibo	Igbo language
 ijiniya	engineer	noun			ijiniya anogadzira mbesa	an engineer makes tools
-imba	house	noun			imba	the house
 imba	home	noun			imba yako	your home
+imba	house	noun			imba	the house
 imba	sing	verb			imba rwiyo runotapira	to sing a sweet song
 imbwa	dog	noun			imbwa inohukura	a dog barks
 imi	yous	pronoun		Also written as "you". second person plural subject. Used to indicate people being addressed.	imi munoidya	yous eat
@@ -493,6 +497,7 @@ kamba	tortoise	noun			kamba i nofamba muchinono	a tortoise walks slowly
 kamba	company	noun			kamba diki	a small company
 kambaira	crawl	verb			mwana ari kukambaira	the child is crawling
 kamera	camera	noun			maziso ekamera	lens of a camera
+Kamerun	Cameroon	noun		A country in Africa	enda ku Kamerun	go to Cameroon
 kana	or	conjunction			Kofi kana Ama	Kofi or Ama
 kana	if	conjunction			kana munhu achi kuda	if someone loves you
 kana ... ndicha	if ... then	conjunction			kana A ndicha B	if A then B
@@ -810,8 +815,8 @@ musikavanhu	creator	noun			musikavanhu Mwari	creator god
 musindo	noise	noun			guma kubvatura musindo	stop making noise
 muslim	muslim	noun			mukristu ne mumuslim	a Christian and a Muslim
 musodzi	tear	noun			maziso angu akazara ne misodzi	my eyes filled with tears
-musoro	title	noun			"Motsi" i musoro	"Mighty One" is a title
 musoro	heading	noun			musoro yemabhuku	book headings
+musoro	title	noun			"Motsi" i musoro	"Mighty One" is a title
 musoro	head	noun			musoro muhombe	your big head
 musvi	lime	noun			ndimu musvi	lime juice
 musvo	coin	noun			misvo yemari mina	four coins
@@ -852,8 +857,8 @@ muzvina bhizimisi	proprietor	noun			uyu muzvina bhizimisi	she is a proprietor
 mvura	water	noun			iwe u nomwa mvura	you drink water
 mvuu	hippopotamus	noun		also called a hippo	mvuu ine dumbu hombe	a hippopotamus has a big stomach
 mwaka yakaoma	dry season	noun			mwaka yakaoma yasvika	the dry season has arrived
-mwana	child	noun			mwana wamai vangu munin'ina wangu	my mother's child is my sibling
 mwana	baby	noun			ndine mwana	I have a baby
+mwana	child	noun			mwana wamai vangu munin'ina wangu	my mother's child is my sibling
 mwana wabhudhi	niece	noun			mwana waabhudhi vangu	my nieces
 mwanana	toddler	noun			mwanana, iwe u rikuenda kupi?	toddler, where are you going?
 mwanasikana	daughter	noun		female child	mwanasikana wangu	my daughter
@@ -1138,8 +1143,8 @@ sumo	announcement	noun			verenga sumo	read the announcement
 sunga	neck	noun			sunga ochinjika pa huro hwake	the tie hangs on his neck
 sunga	tie	noun		a necktie	sunga ochinjika pa huro hwake	the tie hangs on his neck
 sura	fart	noun			musuri wake inonuwa	her fart smells badly
-suwa	miss	verb			nda suwa kumba	I miss home
 suwa	sad	adjective			chiso chaka suwa	a sad face
+suwa	miss	verb			nda suwa kumba	I miss home
 sviba	dark	adjective			husiku husviba	dark night
 svika	arrive	verb			kana wa svika, undi fonere	when you arrive, call me
 sviro	mate	verb			mhuka dziri kusviro	the animals are mating
@@ -1297,7 +1302,6 @@ yakaoma	dry	adjective			nyika yakaoma	dry land
 yakashata	bad	adjective			imbwa yakashata	bad dog
 yakasimba	strong	adjective			mudzimai akasimba	a strong woman
 yakazara	full	adjective			bhaghidhi rakazara	full bucket
-yake	her	possessive			imba yake iye	her house
 yako	your	possessive		2nd person singular possessive pronoun	imba yako	your house
 yambira	advice	noun			mupuristi ane yambira	a priest has advice
 yangu	my	possessive			imba yangu	my house

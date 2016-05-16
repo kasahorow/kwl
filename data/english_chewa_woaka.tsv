@@ -151,8 +151,8 @@ chilape	riddle	noun			magemu ndi zilape	puzzles and riddles
 chilengedwe	creation	noun			chilengedwe chonse	all creation
 chilengezo	announcement	noun			werengani chilengezo	read the announcement
 chilichonse	each	adjective			chinthu chilichonse	each thing
-chilichonse	everything	pronoun			chilichonse chikuyenda bwino	everything has gone well
 chilichonse	everything	pronoun			chilichonse chayenda bwino	everything has gone well
+chilichonse	everything	pronoun			chilichonse chikuyenda bwino	everything has gone well
 chilimbikitso	encouragement	noun			chilimbikitso ndi chimwemwe	encouragement and joy
 chilimwe	dry season	noun			chilimwe chafika	the dry season has arrived
 Chilingala	Lingala	noun			Ndimayankhula Chilingala	I speak Lingala
@@ -244,8 +244,8 @@ chizolowezi	habit	noun			chizolowezi choipa	bad habit
 chizolowezi	vice	noun			chizolowezi ndi khalidwe	vice and virtue
 chochitika	event	noun			chochitika chayamba	the event has started
 chofunika kwambiri	priority	noun			kodi chofunika kwambiri kwa inu n'chiyani?	what is your priority?
-choipa	ugly	adjective			ndi choipa	it is ugly
 choipa	evil	noun			kodi ndi choipa chiti ichi?	which evil is this?
+choipa	ugly	adjective			ndi choipa	it is ugly
 choko	chalk	noun			choko choyera	white chalk
 chokoleti	chocolate	noun			chokoleti chatsika mtengo	the chocolate has become cheap
 cholembera	pen	noun			inki ili mucholembera	ink in a pen
@@ -352,8 +352,8 @@ fuula	loud	adjective			sailini yofuula	loud siren
 fuula	shout	verb			kufuula kupempha thandizo	to shout for help
 galamu	gramme	noun			magalamu khumi	ten grammes
 galasi	mirror	noun			galasi lalikulu	big mirror
-galimoto	van	noun			kwerani galimoto	board a van
 galimoto	car	noun			yendetsa galimoto	drive a car
+galimoto	van	noun			kwerani galimoto	board a van
 galimoto	vehicle	noun			galimoto latsopano	a new vehicle
 galoni	gallon	noun			galoni ya madzi	a gallon of water
 galu	dog	noun			galu amawuwa	a dog barks
@@ -361,13 +361,13 @@ ganiza	think	verb			ndikuganiza kuti ...	I think that ...
 ganizo	idea	noun			Inde ndili ndi ganizo	I have an idea
 garaja	garage	noun			garaja ya magalimoto	car garage
 gavanala	governor	noun			iyeyo ndi gavanala	she is the governor
-gawa	divide	verb		separate into parts	gawani buledi	divide the bread
 gawa	share	verb			gawani chakudya	share the food
+gawa	divide	verb		separate into parts	gawani buledi	divide the bread
 gawanika	split	verb			gawanika pawiri	split in two
 gawo	share	noun			gawo langa lili kuti?	where is my share?
 gawo	version	noun			gawo liti?	which version?
-gawo	category	noun			magawo asanu	five categories
 gawo	part	noun			bukhu lili ndi magawo atatu	the book has three parts
+gawo	category	noun			magawo asanu	five categories
 gemu	puzzle	noun			magemu ndi zilape	puzzles and riddles
 gemu	game	noun			kusewera gemu	play a game
 Ghana	Ghana	noun		a country in Africa	anthu a ku Ghana amatchedwa Maghana	people from Ghana are called Ghanaians
@@ -390,8 +390,8 @@ gula/gulitsa	cost	noun			mtengo = gula/gulitsa + phindu	price = cost + profit
 gulitsa	sell	verb			kugulitsa nyumba	to sell houses
 gulu	group	noun			tiyeni tiyambitse gulu	let us found a group
 gulugufe	butterfly	noun			gulugufe ndi wokongola	a butterfly is beautiful
-gwira	touch	verb			kugwira tsitsi lake	to touch her hair
 gwira	hold	verb		grasp or grip	kugwira chinachake mwamphamvu	to hold something firmly
+gwira	touch	verb			kugwira tsitsi lake	to touch her hair
 gwira	catch	verb			gwira mpira	catch the ball
 gwiritsa ntchito	use	verb			inu mudzachigwiritsa ntchito choncho	you will use it like that
 gwirizana	unite	verb			Africa adzagwirizana	Africa will unite
@@ -469,6 +469,7 @@ kalulu	rabbit	noun			kalulu woyera	a white rabbit
 kamba	tortoise	noun			kamba amayenda pang'onopang'ono	a tortoise walks slowly
 kambuku	leopard	noun			kambuku ali ndi mchira	a leopard has a tail
 kamera	camera	noun			malenzi a kamera	lens of a camera
+Kamerun	Cameroon	noun		A country in Africa	pitani ku Kamerun	go to Cameroon
 kampando	stool	noun			khalani pa kampando	sit on the stool
 kampani	company	noun			kampani yaing'ono	a small company
 kamwa	mouth	noun			kamwa yanga	my mouth
@@ -499,8 +500,8 @@ khala	live	verb			timakhala kuno	we live here
 khala	sit	verb			kukhala pano	to sit here
 khalidwe	disposition	noun			khalidwe la munthu	a person's disposition
 khalidwe	manner	noun			khalidwe lake ndi losangalatsa	his manner is amusing
-khalidwe	behaviour	noun			khalidwe loyenera	normal behaviour
 khalidwe	virtue	noun			umunthu ndi khalidwe	vice and virtue
+khalidwe	behaviour	noun			khalidwe loyenera	normal behaviour
 khama	effort	noun			khama labwino	a good effort
 khamu	crowd	noun			khamu laphokoso	noisy crowd
 khansa	cancer	noun			khansa ija yatha	the cancer has disappeared
@@ -661,8 +662,8 @@ Lamlungu	Sunday	noun			Kwasi ndi Akosua ndi ana a Lamlungu	Kwasi and Akosua are 
 lamphepo	windy	adjective			tsiku lamphepo	a windy day
 lamula	command	verb			kulamula msilikali	to command a soldier
 lamulo	command	noun			m'patseni iye lamulo	give him a command
-lamulo	law	noun		rules by the government	lamulo limati	the law says
 lamulo	rule	noun			amatsatira malamulo	she follows the rules
+lamulo	law	noun		rules by the government	lamulo limati	the law says
 landira ufulu	independence	noun			tsiku lolandira ufulu	independence day
 langiza	advise	verb			Samia amalangiza Olu	Samia advises Olu
 langiza	discipline	verb			langizani mwana wanu	discipline your child
@@ -802,8 +803,8 @@ mavu	wasp	noun			mavu ambiri	many wasps
 mavuto	hardship	noun			mavuto aakulu	great hardship
 mavuto	trouble	noun			mavuto ndi ululu	trouble and pain
 mawa	tomorrow	adverb			abwera mawa	she will arrive tomorrow
-mawu	voice	noun			lankhulani ndi mawu abwino	soften your voice
 mawu	sound	noun			mawu ofuula	loud sound
+mawu	voice	noun			lankhulani ndi mawu abwino	soften your voice
 mawu	word	noun			ndikudziwa mawu zana limodzi	I know 100 words
 mawu achinsinsi	password	noun			sinthani mawu achinsinsi	change password
 mawu oyamba	preface	noun			mawu oyamba a bukhu	book preface
@@ -916,8 +917,8 @@ mphaka	cat	noun			mphaka ali ndi mchira	a cat has a tail
 mphamba	hawk	noun			mphamba ndi nkhuku	a hawk and a chicken
 mphambano	junction	noun			ife tafika pa mphambano	we have reached a junction
 mphamvu	power	noun			nyonga ndi mphamvu	strength and power
-mphamvu	energy	science			mungasinthe chinthu kuti chitulutse mphamvu	you can change mass into energy
 mphamvu	strength	noun			mphamvu ndi nyonga	strength and power
+mphamvu	energy	science			mungasinthe chinthu kuti chitulutse mphamvu	you can change mass into energy
 mphasa	mat	noun			yalani mphasa	spread out a mat
 mphatso	gift	noun			mphatso yabwino	a good gift
 mphawi	indigent	noun			mphawi alibe chilichonse	an indigent has nothing
@@ -931,8 +932,8 @@ mphungu	vulture	noun			mphungu ndi mbalame	a vulture is a bird
 mphuno	nose	noun			khutu ndi mphuno	ear and nose
 mphunzitsi	teacher	noun			ndine mphunzitsi	I am a teacher
 mphunzitsi	coach	noun			mphunzitsi wa timu ya mpira wamiyendo	a football team coach
-mpikisano	competition	noun			mpikisano wa mpira wamiyendo	football competition
 mpikisano	race	noun			thamangani pa mpikisano	run a race
+mpikisano	competition	noun			mpikisano wa mpira wamiyendo	football competition
 mpira	ball	noun			sewerani mpira	play ball
 mpira wamiyendo	soccer	noun			mpikisano wa mpira wamiyendo	football competition
 mpunga	rice	noun			mpunga ndi nyemba	rice and beans
@@ -986,8 +987,8 @@ muli bwanji	how are you	phrase			muli bwanji?	how are you?
 mulungu	god	noun			mulungu wodalirika	dependable god
 munsi	pestle	noun			munsi ndi mtondo	pestle and mortar
 munthu	human	noun			ndife anthu	we are humans
-munthu	man	noun			munthu wamtali	a tall man
 munthu	person	noun			munthu wofunika	important person
+munthu	man	noun			munthu wamtali	a tall man
 musana	before	preposition			mudye musanagone	eat before (you) sleep
 mutu	head	noun			mutu wanu waukuluwo	your big head
 mutu	title	noun			"Wamphamvu" ndi mutu	"Mighty One" is a title
@@ -1125,8 +1126,8 @@ ntchito	job	noun			Ndikufuna ntchito	I need a job
 nthabwala	joke	noun			tanenani nthabwala	tell me a joke
 nthambi	branch	noun		a representative location of an organization	tili ndi nthambi ku Takoradi	we have branches in Takoradi
 nthano	fable	noun			m'modzi sakhulupirira nthano	one does not believe fables
-nthawi	duration	noun			nthawi ya makumi anayi ndi zinayi	forty-hour duration
 nthawi	time	noun			nthawi yatha	the time is up
+nthawi	duration	noun			nthawi ya makumi anayi ndi zinayi	forty-hour duration
 nthawi ina	later	adverb			iwo adzadya pa nthawi ina	they will eat later 
 nthawi zonse	always	adverb			iye amakhala kuno nthawi zonse	he is always here
 nthawi zonse	permanent	adjective			ntchito yanthawi zonse	a permanent job
@@ -1178,8 +1179,8 @@ orenji	orange	noun			maorenji atatu	three oranges
 otentha	hot	adjective			madzi otentha	hot water
 ovuta	difficult	adjective			mayeso ndi ovuta	the exam is difficult
 pa	at	preposition			ukumane ndi ine pa nyumba	meet me at home
-pagulu	among	preposition			pagulu la anthu	among people
 pagulu	public	noun			musatchule mawu akuti 'nanyongo' pagulu	you don't say 'vagina' in public
+pagulu	among	preposition			pagulu la anthu	among people
 pakati	centre	noun			khalani pakati	be in the centre
 pambana	win	verb			kupambana pa mpikisano	to win a competition
 pamene	while	conjunction			iye anavina pamene munthu wachikulire anali kuimba	he danced while the old man was singing
@@ -1238,8 +1239,8 @@ pitirizani	continue	verb			pitirizani kugwira ntchito	continue the work
 piza	pizza	noun			piza musanu	five pizzas
 pokhapokha	unless	conjunction			iye abwera pokhapokha mvula itagwa	she will come unless it rains
 polowera	entry	noun			polowera patsopano m'buku	a new entry in the book
-posachedwa	soon	adverb			iye abwera posachedwa	she is coming soon
 posachedwa	soon	adverb			iye akubwera posachedwa	she is coming soon
+posachedwa	soon	adverb			iye abwera posachedwa	she is coming soon
 positi ofesi	post office	noun			ndi kupita ku positi ofesi	I am going to the post office
 potaziyamu	potassium	science			potaziyamu (K) ali ndi mapulotoni 19	potassium (K) has 19 protons
 pothawira	refuge	noun			pothawira pathu	our refuge
@@ -1374,8 +1375,8 @@ tsiku	day	noun			tsiku lafika	the day has arrived
 tsiku lobadwa	birthday	noun			lero ndi tsiku langa lobadwa	today is my birthday
 tsimikiza	determination	noun			tichita zimenezo motsimikiza	we will do it with determination
 tsitsi	hair	noun			tsitsi la pachifuwa	chest hair
-tsogolera	lead	verb			kutitsogolera	lead us
 tsogolera	govern	verb			tsogolera Ghana	govern Ghana
+tsogolera	lead	verb			kutitsogolera	lead us
 tsogolera	guide	verb			kutsogolera anthu	to guide people
 tsogolo	future	noun			ndikuona kuti zinthu ziyenda bwino m'tsogolo	I see luxury in your future
 tsuka	clean	verb			tsukani mano anu	clean your teeth

@@ -28,15 +28,16 @@ subject_verb = subject:n_p verb:action ;
 verb_object = verb:action object:n_p | verb:action object:preposition_p;
 
 preposition_p = preposition n_p  ;
-n_p = tuple | plural | noun | pronoun | adjective;
+n_p = tuple | plural | title | noun | pronoun | adjective;
 
 function = word | "{" @:word "}" ;
 word = t:function "(" v:args ")" | t:function ":" v:token ;
 args = singleton "," singleton | singleton | () ;
 
 plural = t:"plural" "(" v:noun ")" ;
+title = t:"title" "(" v:entry ")" ;
 
-tuple = determiner noun | adjective noun | possessive noun | raw noun | noun raw | noun noun; (* text2kwl *)
+tuple = determiner noun | adjective noun | possessive noun | raw noun | noun raw | noun noun | raw raw; (* text2kwl *)
 
 
 singleton =  entry | action;

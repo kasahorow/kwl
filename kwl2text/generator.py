@@ -2,7 +2,7 @@
 
 import libconjugate as lib
 import l10n
-import substitutions as s
+import logging
 
 class Token:
   def __init__(self, fragment, l10n, pos):
@@ -41,6 +41,7 @@ class Generator:
       'act': self.verb_fn,
       'act_adv': self.act_p_adv_p_fn,
       'adj': self.adjective_fn,
+      'adj_adj_nom': self.adj_nom_fn,
       'adj_nom': self.adj_nom_fn,
       'adj_nom_nom': self.adj_nom_fn,
       'adj_nom_plural': self.adj_nom_fn,
@@ -61,15 +62,18 @@ class Generator:
       'elles': self.conjugate_elles_fn,
       'exc': self.exclamation_fn,
       'f': self.conjugate_elle_fn,
-      'kg': self.environment_fn,
+      'headline': self.title_fn,
       'i': self.conjugate_it_fn,
       'il': self.conjugate_il_fn,
       'ils': self.conjugate_ils_fn,
       'in': self.in_p_fn,
       'inf': self.infinitive_fn,
       'je': self.conjugate_je_fn,
+      'kg': self.environment_fn,
+      'like': self.like_fn,
       'third': self.object_fn,
       'm': self.conjugate_il_fn,
+      'may': self.tense_may_fn,
       'n_p': self.n_p_fn,
       'nom': self.nom_fn,
       'nom_nom': self.n_p_fn,
@@ -107,25 +111,22 @@ class Generator:
       'ydy': self.yesterday_fn,
     }
 
-  def getOp(self, key):
-    ops = self.getOps()
-    try:
-      op = ops[key]
-    except KeyError:
-      op = ops['default']
-    return op
+  def capfirst_fn(self, surface):
+   return surface[0].upper() + surface[1:]
 
   def generate(self):
     """Generate the sentence for human consumption."""
     surface = self.getHumanFromAST(self.ast)  # Process the AST
     surface = self.single_spacing(surface)
-    surface = self.make_substitutions(surface)
+    surface = self.make_substitutions(' ' + surface)  #  make interior text, e,g, " a animal" => " an animal"
     surface = self.format_sentence(surface, self.stype)
+    surface = self.make_substitutions(surface, 'punctuation')  # e.g. replace in Amarinya
+    surface = self.single_spacing(surface)
     return surface.strip()
 
-  def make_substitutions(self, surface):
-    if self.language in s.SUBS:
-      for k,v in list(s.SUBS[self.language]) + [(' , ', ', '), (' : ', '')]:
+  def make_substitutions(self, surface, key='subs'):
+    if self.grammar.data.has_key(key):
+      for k,v in list(self.grammar.data[key]) + [(' , ', ', '), (' : ', ': ')]:
         surface = find_and_replace(k, v, surface)
     return surface.strip()
 
@@ -137,9 +138,14 @@ class Generator:
       self.verb = self.verb.replace('~', self.object)
       self.object = ''
 
-
     human = self.reorder_triple((self.subject, self.verb, self.object), self.stype)
     surface = ' '.join([x if x else '' for x in human])
+
+    # Reset subject, verb, and object
+    self.setSubject('')
+    self.setObject('')
+    self.setVerb('')
+    
     return surface
   
   def format_sentence(self, surface, stype):
@@ -196,7 +202,7 @@ class Generator:
 
   def alliterate(self, surface):
     try:
-      prefix = self.grammar.data[self.language]['alliterate']['prefix'][surface[0:1]]
+      prefix = self.grammar.data['alliterate']['prefix'][surface[0:1]]
     except Exception, e:
       prefix = ' '
     return prefix
@@ -210,11 +216,12 @@ class Generator:
     return human
 
   def command_fn(self, surface):
-    return u'%s!' % self.title_fn(surface)
+    return u'%s!' % self.capfirst_fn(surface)
 
   def conjugate(self, surface, person, tense):
     self.person = person
-    v = lib.VerbGenerator(self.language)
+    #v = lib.VerbGenerator(self.language)
+    v = lib.VerbGenerator(self.grammar)
     try:
       cjn = v.getConjugation(surface, person, tense).replace('VERB', surface)
     except ValueError, e:
@@ -261,13 +268,13 @@ class Generator:
     self.person = self.grammar.ELLES
     return surface
 
-  def default_fn(self, surface):
+  def default_fn(self, surface, pos=None):
     parts = surface.split('<kwb>')
     parts_len = len(parts)
     if parts_len == 3:
       human = self.subject_verb_object_fn(surface)
     elif parts_len == 2:
-      new_parts = self.reorder_tuple(parts, self.operators[2])
+      new_parts = self.reorder_tuple(parts, pos)
       human = ' '.join(new_parts)
     else:
       human = ' '.join(surface.split('<kwb>'))
@@ -370,10 +377,11 @@ class Generator:
     return self.conjugate(surface, self.person, self.tense)
 
   def plural_fn(self, surface):
-    return l10n.plural(self.language, surface, 10)
+    #return l10n.plural(self.language, surface)
+    return l10n.plural(self.grammar, surface)
 
   def question_fn(self, surface):
-    return u'%s? ' % self.title_fn(surface)
+    return u'%s? ' % self.capfirst_fn(surface)
 
   def quote_fn(self, surface):
     return u'"%s"' % surface
@@ -388,7 +396,7 @@ class Generator:
       return ''
 
   def statement_fn(self, surface):
-    return u'%s.' % self.title_fn(surface)
+    return u'%s.' % self.capfirst_fn(surface)
 
   def story_fn(self, surface):
     phrases = surface.split('<kwb>')
@@ -414,9 +422,6 @@ class Generator:
   
   def subject_verb_fn(self, surface):
     sentence = surface.split('<kwb>')
-    #self.setSubject(sentence[0])
-    #self.setObject('')
-    #self.setVerb(sentence[1])
     return self.generate_sentence()
 
   def subject_verb_object_fn(self, surface):
@@ -427,10 +432,13 @@ class Generator:
     self.setVerb(sentence[1])
     return self.generate_sentence()
 
-    
+  def tense_may_fn(self, surface):
+    self.tense = 'may'
+    return self.conjugate(surface, self.person, self.tense)
+ 
   def title_fn(self, surface):
     if len(surface) > 1:
-      return surface[0].upper() + surface[1:]
+      return surface.title()
     else:
       return surface
 
@@ -511,7 +519,6 @@ class Generator:
     else:
       singular = self.translate(self.get_key([adjective, 'adjective']))
       if number == 1:
-      
         try:
           human = '%s' % int(adjective)
 
@@ -542,7 +549,6 @@ class Generator:
     human = prep
     if self.language != 'english':
       human = self.translate(self.get_key([prep, 'preposition']))
-    self.addToken(Token(prep, human, 'preposition'))
     return human
 
   def verb_fn(self, verb, person=1, number=1, nclass='positive', tense='present'):
@@ -579,7 +585,10 @@ class Generator:
     self.setSubject(subject)
     return subject
     
-  
+  def like_fn(self, surface):
+    """Represent like(X). """
+    new_surface = u'%s<kwb>%s' % (self.preposition_fn('like'), surface)
+    return self.tuple_fn(new_surface, "in_p")
 
   def of_fn(self, surface):
     """Join two noun phrases with the preposition 'of'. """
@@ -621,13 +630,13 @@ class Generator:
     "Reorder this word pair into a human readable format for this language."
     human = []
     try:
-      order = self.grammar.data[self.language]['order'][self.stype][ptype]
+      order = self.grammar.data['order'][self.stype][ptype]
     except (KeyError, TypeError), e:
       #logging.warn('%s order not set for %s: using default value' % (self.language, ptype))
       try:
-        order = self.grammar.data[self.language]['order'][ptype]
+        order = self.grammar.data['order'][ptype]
       except KeyError, e:
-        order = self.grammar.data[self.language]['order']['default']
+        order = self.grammar.data['order']['default']
 
     if '...' in pair[0]:
       human = [pair[0].replace('...', pair[1]), '']
@@ -649,10 +658,10 @@ class Generator:
         ptype = 'who_object_question'  # use a different triple order
 
     try:
-      order = self.grammar.data[self.language]['order_triple'][ptype]
+      order = self.grammar.data['order_triple'][ptype]
     except KeyError, e:
       #logging.warn('%s "order_triple" not set for %s: using default value' % (self.language, ptype))
-      order = self.grammar.data[self.language]['order_triple']['default']
+      order = self.grammar.data['order_triple']['default']
 
     for pos in order:
       human.append(triple[pos])
@@ -679,32 +688,6 @@ class Generator:
       subject = self.single_spacing(human)
     self.setSubject(subject)
     return subject
-
-  def getSentenceOrder(self):
-    ORDERS = {
-      'clause': {
-        'default': ['subject', 'verb', 'object'],
-        'somali': ['subject', 'object', 'verb'],
-      },
-      'statement': {
-        'default': ['subject', 'verb', 'object'],
-        'malagasy': ['verb', 'object', 'subject'],
-        'tigrinya': ['subject', 'object', 'verb'],
-      },
-      'command': {
-        'default': ['verb', 'object'],
-        'french': ['verb', 'subject', 'object'],
-      },
-      'question': {
-        'default': ['subject', 'verb', 'object'],
-      },
-    }
-
-    if self.language in ORDERS[stype]:
-      order = ORDERS[stype][self.language]
-    else:
-      order = ORDERS[stype]['default']
-    return order
 
   def getSentenceTypes(self):
     return ['command', 'question', 'statement']
@@ -832,7 +815,7 @@ class Generator:
         try:
           _l10n = operators[ast['t']](self.getHumanFromAST(ast['v']))
         except KeyError:
-          _l10n = operators['default'](self.getHumanFromAST(ast['v']))
+          _l10n = operators['default'](self.getHumanFromAST(ast['v']), ast['t'])
     elif type([]) == type(ast):  # AST is a list of values
       human = []
       for x in ast:
@@ -843,9 +826,9 @@ class Generator:
           human.append(self.date_t(x['v']))
         else:
           try:
-            human.append(self.getOp(x['t'])(self.getHumanFromAST(x['v'])))
+            human.append(operators[x['t']](self.getHumanFromAST(x['v'])))
           except KeyError:
-            human.append(operators['default'](self.getHumanFromAST(x['v'])))
+            human.append(operators['default'](self.getHumanFromAST(x['v']), x['t']))
           parts = x['t']
  
       _l10n = '<kwb>'.join(human)  # Use a special delimiter so can split into components again

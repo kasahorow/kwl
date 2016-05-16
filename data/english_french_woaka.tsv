@@ -41,6 +41,7 @@ agréable	nice	adjective			rendre agréable	make it nice
 agression	aggression	noun			trop de l'agression	too much aggression
 agriculteur	farmer	noun			elle est un agriculteur	she is a farmer
 ah	ah	exclamation			ah oui!	ah yes!
+ai		verb conj	avoir (j'ai)			
 aide	help	noun			tout le monde a besoin d'aide	everyone needs help
 aider	help	verb			tu aides tout le monde	you are helping everyone
 aie	ouch	exclamation			Aïe! Ça fait mal	Ouch! It hurts
@@ -72,7 +73,7 @@ américium	americium	science			américium (Am) a 95 protons	americium (Am) has 9
 Amharique	Amharic	noun			l'Amharique et Oromo	Amharic and Oromo
 ami	friend	noun			mon ami	my friend
 amour	love	noun			l'amour et la paix	love and peace
-amusant	amusing	adjective			histoire amusante	amusing story
+amusant	funny	adjective			histoire amusante	funny story
 ananas	pineapple	noun			jus d'ananas	pineapple juice
 ancêtre	ancestor	noun			mes ancêtres	my ancestors
 ancre	anchor	noun			ancre d'un navire	anchor of a ship
@@ -225,8 +226,8 @@ bombe	bomb	noun			la bombe a explosé	the bomb exploded
 bon	good	adjective			un bon cadeau	a good gift
 bon après-midi	good afternoon	exclamation			bon après-midi Esi	good afternoon Esi
 bonheur	happiness	noun			le bonheur est arrivé	happiness has arrived
-bonjour	hello	exclamation			bonjour monsieur	hello sir
 bonjour	good morning	exclamation			Bonjour Kofi	good morning Kofi
+bonjour	hello	exclamation			bonjour monsieur	hello sir
 bonne soirée	good evening	exclamation			bonne soirée Kofi	good evening Kofi
 bonté	goodness	noun			bonté et de miséricorde	goodness and mercy
 bore	boron	science			bore (B) a 5 protons	boron (B) has 5 protons
@@ -278,13 +279,14 @@ californium	californium	science			californium (Cf) a 98 protons	californium (Cf)
 calme	quiet	adjective			être calme	be quiet
 cambriolage	burglary	noun			cambriolage augmente	burglary is increasing
 caméléon	chameleon	noun			Je vois le caméléon	I see the chameleon
+Cameroun	Cameroon	noun		A country in Africa	va au Cameroun	go to Cameroon
 camion	lorry	noun			arrêt du camion	lorry stop
 camp	camp	noun			aller au camp	go to the camp
 cancer	cancer	noun			le cancer a disparu	the cancer has disappeared
 caniveau	gutter	noun			il ya de l'eau dans le caniveau	there is water in the gutter
 canne à sucre	sugarcane	noun			à mâcher la canne à sucre	to chew sugarcane
 canoë	canoe	noun			une randonnée en canoë	canoe and paddle
-canon	canon	noun			tirer le canon	shoot the canon
+canon	cannon	noun			tirer le canon	shoot the cannon
 capable	capable	adjective			une femme capable	a capable woman
 capitaine	captain	noun			elle est un capitaine	she is a captain
 capitale	capital	noun			Accra est la capitale du Ghana	Accra is the capital of Ghana
@@ -310,8 +312,10 @@ cerf	deer	noun			un lion aime la viande de cerf	a lion likes deer meat
 cérium	cerium	science			cérium (Ce) a 58 protons	cerium (Ce) has 58 protons
 certificat	certificate	noun			lorsque vous avez terminé l'école, vous obtenez un certificat	when you complete school you get a certificate
 cerveau	brain	noun			mon cerveau	my brain
+ces		determiner	pluriel de 'ce'			
 ces	these	pronoun			ces gens sont venus	these people came
 césium	caesium	science			césium (Cs) a 55 protons	caesium (Cs) has 55 protons
+cette		determiner	feminin de 'ce'			
 cette chose	that thing	pronoun			cette chose est ce que je suis	that thing is what I got
 cette personne	that person	pronoun			cette personne a dit qu'il	that person said it
 chaîne	string	noun			chaîne et l'aiguille	string and needle
@@ -518,8 +522,8 @@ défaite	defeat	noun			victoire et la défaite	victory and defeat
 dégoûtant	disgusting	adjective			l'endroit est dégoûtant	the place is disgusting
 demain	tomorrow	adverb			elle arrivera demain	she will arrive tomorrow
 demande	demand	noun			offre et la demande	demand and supply
-demander	ask	verb			demander à Kofi	to ask Kofi
 demander	request	verb			à demander de la nourriture	to request food
+demander	ask	verb			demander à Kofi	to ask Kofi
 dent	tooth	noun			dent blanche	white tooth
 dentifrice	toothpaste	noun			brosse à dents et dentifrice	toothbrush and toothpaste
 déranger	bother	verb			Vous m'ennuyez	you are bothering me
@@ -658,6 +662,7 @@ entreprise	company	noun			une petite entreprise	a small company
 entrer	enter	verb			entrer dans la salle	enter into the room
 envoyer	send	verb			envoyez-moi	send me
 éponge	sponge	noun			mon éponge	my sponge
+équipe	team	noun		a group that helps each other	mon équipe	my team
 erbium	erbium	science			erbium (Er) a 68 protons	erbium (Er) has 68 protons
 erreur	mistake	noun			tout le monde fait des erreurs	everyone makes mistakes
 Erythrée	Eritrea	noun			aller à l'Erythrée	go to Eritrea
@@ -772,8 +777,8 @@ folle	foolish	adjective			une histoire folle	a foolish story
 fondation	foundation	noun			fondation de la maison	foundation of the house
 football	soccer	noun			compétition de football	football competition
 force	strength	noun			force et de puissance	strength and power
-force	force	noun			il l'a pris par la force	he took it by force
 force	force	verb			vous me forcez	you are forcing me
+force	force	noun			il l'a pris par la force	he took it by force
 forme	shape	noun			la forme de la maison	the shape of the house
 fort	strong	adjective			une forte femme	a strong woman
 forteresse	fortress	noun			Dieu est ma forteresse	God is my fortress
@@ -822,6 +827,7 @@ générosité	generosity	noun			votre générosité	your generosity
 génial	awesome	adjective			Dieu génial	awesome God
 genou	knee	noun			mes genoux	my knees
 genou	knee	noun			mes genoux	my knees
+gens	people	noun			quelques gens	some people
 gérer	manage	verb			de gérer quelqu'un	to manage someone
 germanium	germanium	science			germanium (Ge) a 32 protons	germanium (Ge) has 32 protons
 gestionnaire	manager	noun			un bon gestionnaire	a good manager
@@ -844,8 +850,8 @@ graine	seed	noun			trois graines d'orange	three orange seeds
 graisse	grease	noun			la graisse dans une poêle	grease in a pan
 gramme	gram	noun			dix grammes	ten grams
 gramme	gramme	noun			dix grammes	ten grammes
-grand	large	adjective		very big	un grand tigre	a large tiger
 grand	great	adjective			un grand nom	a great name
+grand	large	adjective		very big	un grand tigre	a large tiger
 grand	big	adjective			le Grand Adae	Big Adae
 grand-mère	grandmother	noun			ma grand-mère	my grandmother
 grand-père	grandfather	noun			mon grand père	my grandfather
@@ -899,8 +905,8 @@ histoire	history	noun			apprendre l'histoire	learn history
 hmph	hmph	exclamation			Je dis, hmph!	I say, hmph!
 holmium	holmium	science			holmium (Ho) a 67 protons	holmium (Ho) has 67 protons
 homard	lobster	noun			Je mange du homard	I eat lobster
-homme	man	noun			un grand homme	a tall man
 homme	male	noun			Mandela est un homme	Mandela is male
+homme	man	noun			un grand homme	a tall man
 honneur	honour	noun			l'honneur et l'amour	honour and love
 honte	disgrace	noun			honte et le déshonneur	shame and disgrace
 honte	shame	noun			honte et le déshonneur	shame and disgrace
@@ -916,8 +922,8 @@ huit personnes	eight persons	noun			huit personnes sont à venir	eight persons a
 huître	oyster	noun			Je mange des huîtres	I eat oysters
 humain	human	noun			nous sommes des êtres humains	we are humans
 humilité	humility	noun			tu montres humilité	you show humility
-hydrogène	hydrogen	noun			Voiture d'hydrogène	hydrogen car
 hydrogène	hydrogen	science			hydrogène (H) a 1 proton	hydrogen (H) has 1 proton
+hydrogène	hydrogen	noun			Voiture d'hydrogène	hydrogen car
 hyène	hyena	noun			deux hyènes	two hyenas
 hypocrisie	hypocrisy	noun			hypocrisie et les mensonges	hypocrisy and lies
 ici	here	noun		this place or this position	partir d'ici	go from here
@@ -1020,8 +1026,8 @@ kilomètre	kilometer	noun			dix kilomètres	ten kilometers
 kilomètre	kilometre	noun			dix kilomètres	ten kilometres
 krypton	krypton	science			krypton (Kr) a 36 protons	krypton (Kr) has 36 protons
 l'humanité	humankind	noun			nous sommes l'humanité	we are humankind
-là	there	noun		that place	ça et là	here and there
 la	the	determiner			la maison	the house
+là	there	noun		that place	ça et là	here and there
 la chair de poule	goosebumps	noun			J'ai eu la chair de poule	I have got goosebumps
 la chose	the thing	pronoun			la chose qu'elle fait	the thing she does
 la compassion	compassion	noun			elle a de la compassion	she has compassion
@@ -1046,8 +1052,8 @@ lanthane	lanthanum	science			lanthane (La) a 57 protons	lanthanum (La) has 57 pr
 lapin	rabbit	noun			un lapin blanc	a white rabbit
 large	wide	adjective			large route	wide road
 largeur	width	noun			hauteur et la largeur	height and width
-larme	teardrop	noun			quelques larmes	a few teardrops
 larme	tear	noun			mes yeux se remplirent de larmes	my eyes filled with tears
+larme	teardrop	noun			quelques larmes	a few teardrops
 latrine	latrine	noun			où est la latrine?	where is the latrine?
 laver	wash	verb			laver les vêtements	wash clothes
 lawrencium	lawrencium	science			lawrencium (Lr) a 103 protons	lawrencium (Lr) has 103 protons
@@ -1067,8 +1073,8 @@ leur	their	possessive			leur maison	their house
 leur	them	pronoun	pronom d'objet pluriel		leur montrer	show them
 lèvres	lip	noun			lèvres rouges	red lips
 lézard	lizard	noun			un lézard mange de l'herbe	a lizard eats grass
-liberté	freedom	noun			la liberté et la justice	freedom and justice
 liberté	liberty	noun			nous avons la liberté	we have liberty
+liberté	freedom	noun			la liberté et la justice	freedom and justice
 lien	link	noun			Lien internet	Internet link
 ligne	line	noun			le ballon a franchi la ligne	the ball has crossed the line
 Lingala	Lingala	noun			Je parle le lingala	I speak Lingala
@@ -1082,8 +1088,8 @@ lithium	lithium	science			lithium (Li) a 3 protons	lithium (Li) has 3 protons
 litige	litigation	noun			il aime les litiges	he likes litigation
 Livermorium	livermorium	science			Livermorium (Lv) a 116 protons	livermorium (Lv) has 116 protons
 livraison	delivery	noun			la livraison est arrivé	the delivery has arrived
-livre	book	noun			ce livre	this book
 livre	book	noun				this book
+livre	book	noun			ce livre	this book
 loge	lodge	noun			rester à la loge pendant un certain temps	stay at the lodging for a while
 logo	logo	noun			logo de l'église	church logo
 loi	law	noun		rules by the government	la loi dit 	the law says
@@ -1111,8 +1117,8 @@ magazine	magazine	noun			un nouveau magazine	a new magazine
 magnésium	magnesium	science			magnésium (Mg) a 12 protons	magnesium (Mg) has 12 protons
 Mai	May	noun			Mai a 31 jours	May has 31 days
 main	hand	noun			levez la main	lift up your hand
-maintenant	now	conjunction			Et maintenant?	so what now?
 maintenant	now	adverb			aller maintenant	go now
+maintenant	now	conjunction			Et maintenant?	so what now?
 maïs	corn	noun			maïs et de l'arachide	corn and groundnuts
 mais	but	conjunction			Je l'aime, mais	I like it, but
 maison	house	noun			la maison	the house
@@ -1162,8 +1168,8 @@ menace	threat	noun			arrêter les menaces	stop the threats
 mendelevium	mendelevium	science			mendelevium (Md) a 101 protons	mendelevium (Md) has 101 protons
 mensonge	lie	noun			c'est un mensonge	it is a lie
 mensonge	lie	noun			mensonges et la discorde	lies and discord
-menteur	liar	noun			elle est un menteur	she is a liar
 menteur	liar	noun			trois menteurs	three liars
+menteur	liar	noun			elle est un menteur	she is a liar
 menton	chin	noun			tenir le menton	hold your chin
 menuiserie	carpentry	noun			elle sait menuiserie	she knows carpentry
 mépris	contempt	noun			arrêter le mépris	stop the contempt
@@ -1209,8 +1215,8 @@ monde	world	noun			enfants du monde	children of the world
 moniteur	monitor	noun			moniteur de fréquence cardiaque	heart monitor
 Monsieur	sir	noun			Je vous remercie monsieur	I thank you sir
 montagne	mountain	noun			sommet de la montagne	mountain peak
-morceau	lump	noun			un morceau de l'or	a lump of gold
 morceau	morsel	noun			deux morceaux	two morsels
+morceau	lump	noun			un morceau de l'or	a lump of gold
 mordant	pungently	adverb			sentir mordant	smell pungently
 mordre	bite	verb			le chien peut mordre	the dog can bite
 mort	dead	adjective			un arbre mort	a dead tree
@@ -1290,12 +1296,12 @@ okro	okro	noun			soupe okro	okro soup
 ombre	shade	noun			Je suis assis à l'ombre	I am sitting under the shade
 oncle	uncle	noun			oncle Kofi	uncle Kofi
 ongles	nail	noun			planche et ongles	plank and nail
-onze	eleven	adjective			onze bouteilles	eleven bottles
+onze	eleven	adjective		the number 11	onze bouteilles	eleven bottles
 opposer	oppose	verb			nous opposer au mal	we will oppose evil
 oppression	oppression	noun			cette oppression!	such oppression!
 opprimer	oppress	verb			vous me opprimer	you are oppressing me
-or	gold	noun			parfum et de l'or	fragrance and gold
 or	gold	science			or (Au) a 79 protons	gold (Au) has 79 protons
+or	gold	noun			parfum et de l'or	fragrance and gold
 orange	orange	noun			orange douce	three oranges
 orange	orange	noun			trois oranges	three oranges
 orange	orange	adjective			porter le bonnet orange	wear the orange cap
@@ -1500,6 +1506,7 @@ prêt	loan	noun			J'ai besoin d'un prêt	I need a loan
 prêter	lend	verb			me prêter ce livre	lend me this book
 prêter	loan	verb			me prêter de l'argent	loan me money
 prêtre	priest	noun			un prêtre a des conseils	a priest has advice
+prévoir	plan	verb			une tête ne prévoit pas	one head does not plan
 prier	pray	verb			de prier pour mes ennemis	to pray for my enemies
 prière	prayer	noun			la prière est bonne	prayer is good
 priorité	priority	noun			quelle est votre priorité?	what is your priority?
@@ -1804,7 +1811,7 @@ succès	success	noun			succès et de bonheur	success and happiness
 sucre	sugar	noun			sucre et l'eau	
 sud	south	noun			aller vers le sud	go south
 suie	soot	noun			suie noire	black soot
-suis	am	verb conj	être (je suis)	first person form of the simple present of 'be'		
+suis	am	verb je tdy	être (je suis)	first person form of the simple present of 'be'		
 suivre	follow	verb			suis moi	follow me
 supporter	stand	verb			à se lever lentement	to stand slowly
 sur	on	preposition			dormir sur la table	sleep on the table
@@ -1879,8 +1886,8 @@ tomber	fall	verb		move downward	une corde est tombé du toit de la maison	a rope
 tonnerre	thunder	noun			tempête avec tonnerre	storm with thunder
 tortue	tortoise	noun			une tortue marche lentement	a tortoise walks slowly
 torture	torture	noun			la torture est un mal	torture is evil
-tôt	early	adjective			tôt le matin	early morning
 tôt	early	adverb			venir tôt	come early
+tôt	early	adjective			tôt le matin	early morning
 total	total	adjective			le montant total	the total amount
 totalement	totally	adverb			il est totalement brûlé	it is totally burnt
 toucher	touch	verb			de toucher ses cheveux	to touch her hair

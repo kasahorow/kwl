@@ -6,7 +6,7 @@
 """
 
 def get_kasahorow():
-  return sorted(['ak', 'am', 'de', 'ee', 'en', 'es', 'ff', 'fr', 'ge', 'ha', 'ig', 'ki', 'lg', 'ln', 'lw', 'mg', 'ny', 'om', 'rw', 'sn', 'so', 'sw', 'ti', 'tz', 'wo', 'yo', 'zu'])
+  return sorted(['ak', 'am', 'de', 'ee', 'en', 'es', 'ff', 'fr', 'ge', 'ha', 'ig', 'ki', 'lg', 'ln', 'lw', 'mg', 'ny', 'om', 'pt', 'rw', 'sn', 'so', 'sw', 'ss', 'ti', 'tz', 'wo', 'xh', 'yo', 'zu'])
 
 def get_kasa_from_language(language):
   kasa = language
@@ -20,7 +20,7 @@ def get_kasa_from_language(language):
     'fula': 'ff',
     'gadangme': 'ge',
     'gbe': 'ee',
-    'german': 'de',
+    'deutsch': 'de',
     'hausa': 'ha',
     'igbo': 'ig',
     'gikuyu': 'ki',
@@ -29,17 +29,20 @@ def get_kasa_from_language(language):
     'luganda': 'lg',
     'luwo': 'lw',
     'malagasy': 'mg',
-    'oromo': 'om',
+    'oromoo': 'om',
+    'portuguesa': 'pt',
     'shona': 'sn',
     'sinhala': 'si',
-    'somali': 'so',
-    'spanish': 'es',
+    'soomaali': 'so',
+    'swati': 'ss',
+    'espanyol': 'es',
     'swahili': 'sw',
     'tamazight': 'tz',
     'tigrinya': 'ti',
     'twi': 'ak-twi',
     'ururimi': 'rw',
     'wolof': 'wo',
+    'xhosa': 'xh',
     'yoruba': 'yo',
     'zulu': 'zu',
   }

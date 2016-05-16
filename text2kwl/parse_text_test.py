@@ -16,6 +16,7 @@ class ParserTest(unittest.TestCase):
       'good-adjective': '',
       'in-preposition': '',
       'I-pronoun': '',
+      'walk-verb': '',
       'my-possessive': '',
       'peace-noun': '',
       'perfect-adjective': '',
@@ -36,9 +37,18 @@ class ParserTest(unittest.TestCase):
     self.assertEquals('plural(nom:child)', p.tag_pos('children', self.td, '-'))
     self.assertEquals('tdy(je(act:be))', p.tag_pos('am', self.td, '-'))
 
-  def testTextToKWL(self):
+  def testText2Raw(self):
     self.assertEqual('', p.text_to_kwl('', self.td))
     self.assertEqual('raw(UnknownWord)', p.text_to_kwl('UnknownWord', self.td))
+    self.assertEqual('raw(Unknown Word)', p.text_to_kwl('Unknown Word', self.td))
+
+  def testText2Title(self):
+    self.assertEqual('title(det:the)', p.text_to_kwl('The', self.td))
+
+  def testInteger2Adj(self):
+    self.assertEqual('adj:150', p.text_to_kwl('150', self.td))
+
+  def testText2DetNom(self):
     self.assertEqual('det:the_nom:dog', p.text_to_kwl('the dog', self.td))
     self.assertEqual('adj:white_nom:dog', p.text_to_kwl('white dog', self.td))
     self.assertEqual('act:eat nom:food', p.text_to_kwl('eat food', self.td))

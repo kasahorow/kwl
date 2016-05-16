@@ -39,9 +39,15 @@ class Semantics:
     # act:eat nom:food
     return '%s %s %s' % (ast['subject'], ast['verb'], ast['object'])
 
+  def title(self, ast):
+    return '%s(%s)' % (ast['t'], ast['v'].lower())
+
   def tuple(self, ast):
     # adj:good_nom:dog
-    return '_'.join([ast[0], ast[1]])
+    if 'raw(' in ast[0] and 'raw(' in ast[1]:
+      return ast[0].replace(')', '') + ast[1].replace('raw(', ' ')
+    else:
+      return '_'.join([ast[0], ast[1]])
 
   def triple(self, ast):
     # det:the(adj:good_nom:dog)

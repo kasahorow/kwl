@@ -3,12 +3,13 @@ _	the	determiner				the house
 ababyeyi	parents	noun			ababyeyi be	his parents
 abakinnye	cast	noun			abakinnye sinema	cast of a film
 abarwanyi	warriors	noun			abarwanyi baraje	the warriors are coming
+acyo	its	possessive		singular possessive pronoun for neuter gender objects	inzu yacyo	its house
 Afurika	Africa	noun			gusura Afurika	visit Africa
 agasimba	insect	noun		an animal with 6 legs	inyenzi ni agasimba	a cockroach is an insect
 agati	stick	noun			vuna agati	break the stick
 aha	here	noun		this place or this position	genda uhereye aha	go from here
-ahantu	place	noun			ahagana he?	which place?
 ahantu	place	noun			ahantu hahe?	which place?
+ahantu	place	noun			ahagana he?	which place?
 ahazaza	future	noun			ndabona ahazaza hawe huzuye kudamarara	I see luxury in your future
 aho	there	noun		that place	hano na aho	here and there
 akaboko	arm	noun			zamura akaboko	lift up your arm
@@ -72,7 +73,7 @@ bwana	sir	noun			ndagushimiye bwana	I thank you sir
 byara	birth	verb			kubyara impanga	to birth twins
 byina	dance	verb			kubyina n'ibyishimo	to dance with joy
 byuka	rise	verb			kubyuka mu gitondo saa kumi n'ebyiri	to rise at six in the morning
-cumi n'abiri	eleven	adjective			amacupa cumi n'abiri	eleven bottles
+cumi n'abiri	eleven	adjective		the number 11	amacupa cumi n'abiri	eleven bottles
 cumi n'icyenda	nineteen	adjective		the number 19	amacupa cumi n'icyenda	nineteen bottles
 cumi n'umunani	eighteen	adjective		the number 18	amacupa cumi n'umunani	eighteen bottles
 cumi na gatandatu	sixteen	adjective		the number 16	amacupa cumi n'atandatu	sixteen bottles
@@ -85,10 +86,10 @@ cy'intege nke	weak	adjective			mfite intege nke	I am weak
 cya ubugoryi	folly	noun			ibyo ni ubugoryi	it is just folly
 cyabo	their	possessive			inzu yabo	their house
 cyacu	our	possessive			inzu yacu	our house
-cyacyo	its	pronoun		singular possessive pronoun for neuter gender objects	inzu yacyo	its house
 cyangwa	or	conjunction			Kofi cyangwa Ama	Kofi or Ama
 cyanjye	my	possessive			inzu yanye	my house
 cyawe	your	possessive		2nd person singular possessive pronoun	inzu yawe	your house
+cye	her	possessive			inzu ye	her house
 cye	his	possessive			inzu ye	his house
 cyijimye	dark	adjective			ijoro ryijimye	dark night
 cyiza	good	adjective			impano nziza	a good gift
@@ -236,8 +237,8 @@ igicuba	jar	noun			igicuba birindwi	seven jars
 igicucu	shade	noun			nicaye mu gicucu	I am sitting under the shade
 igifu	stomach	noun			igifu kinini	big stomach
 Igihawusa	Hausa	noun			ururimi rw'Igihawusa	Hausa language
-igihe	time	noun			igihe kirarangiye	the time is up
 igihe	moment	noun			igihe kirageze	the moment is up
+igihe	time	noun			igihe kirarangiye	the time is up
 igihe cy'izuba	dry season	noun			igihe cy'izuba cyaje	the dry season has arrived
 igihemu	deception	noun			igihemu no kunyuranya	deception and discord
 igihimbano	falsification	noun			ibinyoma na ibihimbano	lies and falsifications
@@ -318,8 +319,8 @@ Ikimalagasi	Malagasy	noun		a language of Madagascar	Ikimalagasi	Malagasy languag
 ikimenyetso	symbol	noun			ikimenyetso cya ububasha	symbol of power
 ikimenyetso	sign	noun			ikimenyetso cya ikizere	a sign of hope
 ikimera	plant	noun			ikimera gitukura	red plant
-ikimwaro	disgrace	noun			igisebo no ikimwaro	shame and disgrace
 ikimwaro	shame	noun			ikimwaro na igisebo	shame and disgrace
+ikimwaro	disgrace	noun			igisebo no ikimwaro	shame and disgrace
 ikintu	thing	noun		a reference to an unnamed object	ikintu; ibintu	the thing; the things
 ikintu	something	noun			gufata ikintu ukomeje	to hold something firmly
 ikintu	something	pronoun			nyereka ikintu	show me something
@@ -420,8 +421,8 @@ inguzanyo	loan	noun			nkeneye inguzanyo	I need a loan
 ingwe	leopard	noun			ingwe igira umurizo	a leopard has a tail
 injangwe	cat	noun			injangwe igira umurizo	a cat has a tail
 injeniyeri	engineer	noun			injeniyeri akora ibikoresho	an engineer makes tools
-inka	cow	noun			inyama za inka	cow meat; beef
 inka	cow	noun			inyama z'inka	cow meat; beef
+inka	cow	noun			inyama za inka	cow meat; beef
 inkongoro	vulture	noun			inkongoro ni inyoni	a vulture is a bird
 inkoni	staff	noun			inkoni ya umwami	the king's staff
 inkono	pot	noun			inkono ya icyuma	metal pot
@@ -465,8 +466,8 @@ inzira	way	noun			inzira	the way
 inzoga	beer	noun			turanywa inzoga	we are drinking beer
 inzoga	beer	noun			turimo kunywa inzoga	we are drinking beer
 inzogera	bell	noun			inzogera yo ku ishuri	school bell
-inzoka	snake	noun			inzoka nta maguru igira	a snake has no legs
 inzoka	snake	noun			inzoka ntigira amaguru	a snake has no legs
+inzoka	snake	noun			inzoka nta maguru igira	a snake has no legs
 inzovu	elephant	noun			inzovu ni nini cyane	an elephant is very big
 inzu	house	noun			inzu	the house
 ipaji	page	noun			rambura kuri paji makumyabiri na kabiri	open page twenty-two
@@ -548,6 +549,7 @@ Kamena	June	noun			Kamena igira iminsi 30	June has 30 days
 kamera	camera	noun			ikirahure cya kamera	lens of a camera
 kamere	disposition	noun			kamere y'umuntu	a person's disposition
 kamere	character	noun			kamere ye	her character
+Kamerun	Cameroon	noun		A country in Africa	kujya muri Kamerun	go to Cameroon
 kaminuza	university	noun			Kaminuza ya Legon	Legon University
 Kanama	August	noun			Kanama igira iminsi 31	August has 31 days
 kane	four	adjective		The number 4	hari amacupa ane ari ku rukuta	There are four bottles on the wall
@@ -752,8 +754,8 @@ ububabare	pain	noun			ububabare buri hano	the pain is here
 ububasha	power	noun			ingufu na ububasha	strength and power
 ububyutse	revival	noun			ububyutse bwaje mu mugi	revival has come to town 
 ubufasha	help	noun			buri wese akenera ubufasha	everyone needs help
-ubugari	width	noun			ubuhagarike n'ubugari	height and width
 ubugari	porridge	noun			ubugari bwa uburo	millet porridge
+ubugari	width	noun			ubuhagarike n'ubugari	height and width
 ubugenge	physics	noun		the study of the laws of the universe	tu rimo kwiga ubugenge	we are learning physics
 ubuhagarike	height	noun			ubuhagarike n'ubugari	height and width
 ubuhanga	wisdom	noun			imbaraga na ubuhanga	strength and wisdom
@@ -779,6 +781,7 @@ uburo	millet	noun			ubugali bwa uburo	millet porridge
 uburoko	jail	noun			kujya mu buroko	go to jail
 uburoso bw'amenyo	toothbrush	noun			uburoso bw'amenyo na umuti w'amenyo	toothbrush and toothpaste
 uburumbuke	prosperity	noun			amahoro n'uburumbuke	peace and prosperity
+Uburundi	Burundi	noun		A country in Africa	kujya muri Uburundi	go to Burundi
 ubururu	blue	adjective			ikanzu y'ubururu	blue dress
 uburwayi	sickness	noun			ufite burwayi ki?	what sickness have you?
 ubusa	nothing	noun			mfite ubusa	I have nothing
@@ -835,8 +838,8 @@ ukurikirana	spectator	noun			abakurikirana	the spectators
 ukuzuka	resurrection	noun			ukuzuka kwa Kirisitu	the resurrection of Christ
 ukwaha	armpit	noun			ukwaha kunuka	smelly armpit
 Ukwakira	October	noun			Ukwakira kugira iminsi 31	October has 31 days
-ukwezi	month	noun			ukwezi kumwe	one month
 ukwezi	moon	noun			ukwezi n'inyenyeri	moon and stars
+ukwezi	month	noun			ukwezi kumwe	one month
 ukwihangana	patience	noun			urukundo no kwihangana	love and patience
 ukwiyemeza	determination	noun			tuzabikora nitwiyemeza	we will do it with determination
 ukwiyoroshya	humility	noun			urangwa no kwiyoroshya	you show humility
@@ -896,9 +899,9 @@ umuneke	banana	noun			inguge zikunda imineke	a monkey likes bananas
 umunezero	exultation	noun			indirimbo z'umunezero	songs of exultation
 umunota	minute	noun			iminota itanu	five minutes
 umunsi	day	noun			umunsi wageze	the day has arrived
-umuntu	human	noun			turi abantu	we are humans
-umuntu	someone	pronoun			hari umuntu uje	someone is coming
 umuntu	person	noun			umuntu ukomeye	important person
+umuntu	someone	pronoun			hari umuntu uje	someone is coming
+umuntu	human	noun			turi abantu	we are humans
 umunwa	mouth	noun			umunwa wanjye	my mouth
 umunyabinyoma	liar	noun			ni umunyabinyoma	she is a liar
 umunyafurika	African	noun			ndi umunyafurika	I am an African
@@ -956,8 +959,8 @@ umutingito	earthquake	noun			ni umutingito	it is an earthquake
 umutoza	coach	noun			umutoza w'ikipe y'umupira w'amaguru	a football team coach
 umutuku	red	adjective			iminwa y'umutuku	red lips
 umutuzo	comfort	noun			mpa umutuzo	give me comfort
-umutwe	title	noun			"Mighty One" ni umutwe	"Mighty One" is a title
 umutwe	heading	noun			imitwe ya igitabo	book headings
+umutwe	title	noun			"Mighty One" ni umutwe	"Mighty One" is a title
 umutwe	head	noun			umutwe wawe munini	your big head
 umutwe	headache	noun			umuti wa umutwe	headache medicine
 umuvandimwe	sibling	noun			umwana wa mama ni umuvandimwe wanjye	my mother's child is my sibling
@@ -1044,9 +1047,9 @@ verisiyo	version	noun			verisiyo yihe?	which version?
 videwo	video	noun			reba videwo	watch the video
 volime	volume	noun			ongera volime	turn up the volume
 vubavuba	quickly	adverb			uragenda vubavuba	you walk quickly
-vuga	say	verb			mvuze yego	I say yes
 vuga	speak	verb			kuvuga ukuri	to speak the truth
 vuga	talk	verb			kuvuga menshi	to talk too much
+vuga	say	verb			mvuze yego	I say yes
 vuga	tell	verb			aravuga inkuru	he is telling the story
 we	he	pronoun		used to indicate one male person previously mentioned	we ararya	he eats
 we	she	pronoun		used to indicate one female person previously mentioned	we ararya	she eats
