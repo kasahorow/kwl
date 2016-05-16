@@ -30,7 +30,7 @@ You can transform simple English into KWL representation, and then convert the K
 
 
 # Supported kasahorow languages
-This means that you can get functional representations into these languages. **You still need a native speaker to confirm correctness!**
+This means that you can get functional representations suitable for *children's comprehension* into these languages. **You still need a native speaker to confirm correctness!**
 
 * akan
 * chewa
@@ -38,12 +38,28 @@ This means that you can get functional representations into these languages. **Y
 * gbe
 * gikuyu
 * hausa
+* igbo
 * lingala
 * luganda
 * luwo
+* oromoo
+* shona
+* swahili
+* yoruba
 * zulu
 
-## How to add a new language
-This is simple to do (but not well documented yet). However, there are 2 main steps:
-- add a dictionary of the language in the data/ directory
-- set up grammar rules for the language in the kwl2text/models.py, kwl2text/l10n.py and kwl2text/libconjugate.py files
+## How to add a new language **foo**
+This is simple to do. There are 2 main steps:
+- add a dictionary of the **foo** in the data/ directory: data/english_foo_woaka.tsv
+- set up grammar rules for **foo** the data/ directory: data/sua_foo.py
+
+### Testing language **foo**
+There are 2 main testing steps:
+- Run python kwl_coverage.py foo to see what tests you need to add in the next step
+- Run python kwl_tests.py foo by adding **foo** into the KWL_TESTS dictionary.
+
+# Known issues
+- No support for noun-adjective alliteration (relevant for Bantu languages such as Shona, Swahili, Ururimi)
+- No support for vowel-harmony (relevant for Kwa languages such as Akan)
+- Partial support for pluralization
+- Partial support for stemming
