@@ -24,5 +24,5 @@ setup(name='kwl',
       packages=find_packages(),
       package_data={'data': ['data/*tsv']},
       include_package_data=True,
-      install_requires=['grako>=3.6.7'],
+      install_requires=['grako==3.6.8'],
      )
