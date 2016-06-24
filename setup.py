@@ -12,7 +12,7 @@ def read(fname):
 
 setup(name='kwl',
       license='BSD',
-      version='0.2016.5.0',
+      version='0.2016.6.0',
       description='Utilities for KWL: kasahorow Writer\'s Language',
       long_description=read('README.md'),
       keywords='translation kasahorow',
