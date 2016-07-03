@@ -25,7 +25,7 @@ You can transform simple English into KWL representation, and then convert the K
 
 * python -m kwl 'det:the_nom:dog' akan
 * python -m kwl 'det:the_nom:dog' english
-* python -m kwl 'det:the_nom:dog' oromo
+* python -m kwl 'det:the_nom:dog' oromoo
 * python -m kwl 'det:the_nom:dog' swahili
 
 
